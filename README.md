@@ -1,13 +1,15 @@
-# WoW Forever Shadow Priest Guide
+# WoW Forever Alliance Leveling Guide
 
-Interactive Alliance leveling guide for Human and Night Elf Shadow Priests, with zone routes, dungeon quest checklists, progress tracking and an update prompt.
+Interactive Alliance leveling guide for every official World of Warcraft: Forever race and class combination.
 
-## Open the guide
-Download this repository and open `index.html` in your browser. No installation or server is required.
+## Features
 
-Progress stays in the browser. Use Export progress / Import progress to move it between browsers or locations. Personal progress is not included in this repository.
+- Human, Dwarf, Gnome, Night Elf, and High Order Skyborne starting routes
+- Race-aware class selector covering Druid, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, and Warrior where eligible
+- Class-specific leveling, gear, dungeon-role, and PvP guidance
+- Full required dungeon itinerary with quest checklists and class-quest verification reminders
+- Browser-saved progress, notes, JSON backup/restore, and a prompt generator for future researched updates
 
-## Content status
-Includes 34 dungeon run sections and 141 quest/chain entries. Returning-dungeon quests use clearly labeled Classic baselines; unverified Forever quests have editable placeholders. Consult the linked sources and launch client for changes.
+Open **index.html** directly or use the GitHub Pages site. Progress is stored in that browser and does not sync through GitHub.
 
-This private repository stores the site; it does not publish a hosted website.
+Returning-dungeon quests use labeled Classic baselines where Forever data is not verified. Check linked sources and the launch client for changes.
