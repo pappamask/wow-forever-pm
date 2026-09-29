@@ -5070,10 +5070,6 @@
     }
   },
   "oneClearQuestPolicy": {
-    "treaty": {
-      "type": "conditional",
-      "note": "Attempt during the level-15 clear only if the tablet quest is available. If it is level-gated, mark it blocked and omit it; no Hall return is scheduled."
-    },
     "gnomeregan-q7": {
       "type": "once",
       "note": "Repeatable machine quest: complete at most one turn-in during the clear and ignore repeat copies."
@@ -5153,6 +5149,10 @@
     "ubrs-q6": {
       "type": "exclude",
       "note": "Drakefire Amulet progression normally sends you back through BRD. Omitted from the one-clear route unless the entire chain is already prepared before the single UBRS clear."
+    },
+    "q-treaty": {
+      "type": "conditional",
+      "note": "Attempt during the level-15 clear only if available; if level-gated, mark blocked and do not return."
     }
   }
 }
