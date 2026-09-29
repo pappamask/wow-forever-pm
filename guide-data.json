@@ -1,0 +1,2953 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "28 Sep 2026",
+  "races": {
+    "human": "Human",
+    "dwarf": "Dwarf",
+    "gnome": "Gnome",
+    "nightelf": "Night Elf",
+    "skyborne": "High Order Skyborne"
+  },
+  "raceClasses": {
+    "human": [
+      "hunter",
+      "mage",
+      "paladin",
+      "priest",
+      "rogue",
+      "warlock",
+      "warrior"
+    ],
+    "dwarf": [
+      "hunter",
+      "paladin",
+      "priest",
+      "rogue",
+      "shaman",
+      "warrior"
+    ],
+    "gnome": [
+      "mage",
+      "priest",
+      "rogue",
+      "warlock",
+      "warrior"
+    ],
+    "nightelf": [
+      "druid",
+      "hunter",
+      "priest",
+      "rogue",
+      "warrior"
+    ],
+    "skyborne": [
+      "druid",
+      "hunter",
+      "mage",
+      "rogue",
+      "warrior"
+    ]
+  },
+  "classGuides": {
+    "druid": {
+      "name": "Druid",
+      "path": "Feral-style solo leveling, with forms and utility checked at launch",
+      "roles": "DPS · tank or heal when equipped and comfortable",
+      "early": "Use efficient caster pulls until forms change your rhythm. Complete form quests promptly and carry water for caster-heavy levels.",
+      "mid": "Let travel and combat forms reduce downtime. Use stealth to bypass low-value fights and keep a healing set if you volunteer to heal.",
+      "late": "Choose a clear solo form/talent plan, but keep roots, heals, dispels and battle resurrection accessible. Verify Forever talent milestones.",
+      "pull": [
+        "Open at range when it improves positioning.",
+        "Shift into the form suited to the fight and spend resources before they cap.",
+        "Use roots or travel tools to reset unsafe pulls.",
+        "Heal between fights in the cheaper form when practical."
+      ],
+      "gear": "Prioritize the stats and weapon-as-stat-stick value used by your chosen form; keep Intellect/healing pieces separately.",
+      "dungeon": "DPS by default. Tank or heal only with an appropriate set and a group that knows your spec.",
+      "pvp": "Use forms to break movement effects where supported, preserve mana for shifting, and exploit racial movement tools."
+    },
+    "hunter": {
+      "name": "Hunter",
+      "path": "Pet-supported ranged leveling",
+      "roles": "Ranged DPS",
+      "early": "Reach pet training and tame a practical companion. Keep ammunition, food and ranged weapon skill current.",
+      "mid": "Let the pet establish threat before full damage. Practice safe pulls, pet control and line-of-sight rather than relying on accidental multi-pulls.",
+      "late": "Maintain pet skills and happiness, carry ammunition and use traps or utility to control dangerous adds. Verify Forever talent and dead-zone changes.",
+      "pull": [
+        "Send the pet and allow threat to build.",
+        "Apply only effects that will last long enough to pay off.",
+        "Maintain ranged distance and use melee tools only when forced.",
+        "Mend, feed and reposition the pet before the next dangerous pull."
+      ],
+      "gear": "Ranged weapon damage is a major priority; compare Agility, attack power, critical chance and enough Stamina for PvP.",
+      "dungeon": "Ranged DPS. Control pet movement and growl, avoid body pulls, and confirm traps or kiting with the tank.",
+      "pvp": "Track opponents, protect ranged distance and save movement control for players who reach you."
+    },
+    "mage": {
+      "name": "Mage",
+      "path": "Frost/control-oriented solo leveling unless launch tuning favors another tree",
+      "roles": "Ranged DPS · crowd control",
+      "early": "Use a mana-efficient bolt-and-wand rhythm. Conjure food and water, train utility and avoid ambitious AoE before you can control it.",
+      "mid": "Frost control supports safe solo pulls; AoE only where respawns, terrain and PvP pressure allow it. Teleports can cut dungeon travel sharply.",
+      "late": "Balance damage with mana per kill. Keep polymorph, decurse, interrupts and escape tools accessible in groups.",
+      "pull": [
+        "Open at maximum useful range.",
+        "Slow or control the target before it reaches you.",
+        "Use a wand or cheap finish when another full cast wastes mana.",
+        "Reset with control and movement instead of standing in melee."
+      ],
+      "gear": "Spell damage, Intellect and enough Stamina are useful; Spirit and wand quality matter more early than late.",
+      "dungeon": "Ranged DPS with Polymorph, interrupts, decurse and water. Never break agreed crowd control.",
+      "pvp": "Keep escape tools available, avoid casting from predictable open ground, and use anti-control racials at meaningful moments."
+    },
+    "paladin": {
+      "name": "Paladin",
+      "path": "Retribution-style solo leveling with strong support utility",
+      "roles": "DPS · heal, or tank if Forever talents and gear support it",
+      "early": "Keep a strong weapon and use seals and judgements efficiently. Healing reduces food downtime, but excessive spell use increases drinking.",
+      "mid": "Plan blessings and auras for the activity. Carry an Intellect and healing set if you want faster dungeon groups.",
+      "late": "Verify Forever’s tanking tools and talent changes before promising a role. Use cleanses, blessings and emergency protection proactively.",
+      "pull": [
+        "Choose the correct seal and blessing before combat.",
+        "Judge when the target will live long enough to justify the mana.",
+        "Maintain weapon swings and avoid clipping them with unnecessary movement.",
+        "Heal before resources become an emergency."
+      ],
+      "gear": "Weapon damage drives solo pace; Strength, critical chance and Stamina support damage, while Intellect and healing gear enable healing.",
+      "dungeon": "DPS by default; healing is often viable with a set. Tank only after confirming your toolkit and telling the group.",
+      "pvp": "Save defensive immunities and stun for decisive moments; cleanse allies and avoid exhausting mana on low-value damage."
+    },
+    "priest": {
+      "name": "Priest",
+      "path": "Shadow-oriented solo leveling",
+      "roles": "Ranged DPS · healer when comfortable",
+      "early": "Obtain an affordable wand. Apply Shadow Word: Pain only when it will tick enough, and use wand finishes to preserve mana.",
+      "mid": "Use Mind Flay and Shadow tools when they improve kills per drink. Spirit Tap and wand or talent values must be checked against current Forever ranks.",
+      "late": "Review the launch tree around Shadowform. Keep heals, dispels, Shackle and defensive abilities accessible even while leveling Shadow.",
+      "pull": [
+        "Open at range and apply Pain when the target will survive enough ticks.",
+        "Spend only enough mana to reach a safe wand-finishing range.",
+        "Preserve fear for clear ground or an emergency.",
+        "Secure your own killing blow when Spirit Tap requires it, then recover while moving."
+      ],
+      "gear": "Prioritize a strong wand early, then useful spell damage, Intellect, Spirit and enough Stamina. Keep healing pieces.",
+      "dungeon": "Shadow DPS first; heal occasionally with water and an appropriate set. Do not rely on Spirit Tap for group-healing mana.",
+      "pvp": "Keep mana for shield, fear and emergency healing. Racial tools change how you answer control."
+    },
+    "rogue": {
+      "name": "Rogue",
+      "path": "Weapon-focused solo leveling with stealth and control",
+      "roles": "Melee DPS · crowd control",
+      "early": "Keep both weapons current and train weapon skills. Use stealth to choose fights; do not turn every bypassed enemy into lost time.",
+      "mid": "Maintain poisons and consumable reagents. Open with the control or damage tool suited to the target, and use interrupts aggressively.",
+      "late": "Weapon upgrades and hit reliability matter. Keep Sap, Kick, stuns, vanish and threat control ready for dungeons and PvP.",
+      "pull": [
+        "Approach in stealth when the opener saves time or risk.",
+        "Build and spend combo points before the target dies with unused resources.",
+        "Interrupt dangerous casts.",
+        "Vanish or sprint early enough to reset a losing pull."
+      ],
+      "gear": "Main-hand damage and speed interaction matter; compare Agility, attack power, hit or critical chance and Stamina.",
+      "dungeon": "Melee DPS with Sap, Kick and stuns. Let the tank establish threat and avoid cleave zones.",
+      "pvp": "Pick favorable openings, track escape cooldowns and use racial anti-control tools to preserve initiative."
+    },
+    "shaman": {
+      "name": "Shaman",
+      "path": "Enhancement-style solo leveling with caster and healer flexibility",
+      "roles": "Melee or ranged DPS · healer; tanking depends on Forever support",
+      "early": "Complete totem and class quests as offered, especially for the new Dwarf combination. Keep weapon skills and mana recovery supplies current.",
+      "mid": "Choose totems for the actual fight rather than dropping every option. Enhancement can reduce drinking; keep an Intellect and healing set.",
+      "late": "Verify Forever talent, weapon and tanking changes before committing. Purge, interrupts, cleansing and emergency healing remain valuable.",
+      "pull": [
+        "Place only totems that repay their mana and travel time.",
+        "Open at range when it improves positioning, then use the chosen weapon or spell plan.",
+        "Interrupt or purge high-value enemy effects.",
+        "Recover totems and mana before relocating where current mechanics allow."
+      ],
+      "gear": "Weapon damage supports Enhancement; Intellect, spell or healing power and mana support caster or healing roles. Keep role sets distinct.",
+      "dungeon": "State your role clearly. Heal with a set; DPS with controlled totem placement. Tank only if current Forever tools and the group support it.",
+      "pvp": "Use Stoneform against physical debuffs, protect mana for shocks and heals, and do not leave useful totems behind your retreat line."
+    },
+    "warlock": {
+      "name": "Warlock",
+      "path": "Affliction/demon-supported solo leveling",
+      "roles": "Ranged DPS · utility",
+      "early": "Complete demon quests, keep a wand current and use Life Tap only when your health buffer is safe. Carry enough Soul Shards without filling every bag.",
+      "mid": "Let damage-over-time effects and the pet work while you move. Drain or wand finishes can reduce downtime; manage threat between pet and caster.",
+      "late": "Choose a demon for the situation and preserve banish, fear, curses and healthstone utility. Verify Forever talent and shard changes.",
+      "pull": [
+        "Send the demon and establish control.",
+        "Apply effects that will complete enough of their duration.",
+        "Convert health and mana only when the next incoming damage is safe.",
+        "Drain, wand or move toward the next pull as the target finishes."
+      ],
+      "gear": "Spell damage, Intellect and Stamina support damage and Life Tap; a strong early wand still saves mana.",
+      "dungeon": "Ranged DPS with summons, healthstones, banish and situation-specific curses. Fear only with a safe path.",
+      "pvp": "Maintain pet control, create space before fearing, and protect enough health to use Life Tap safely."
+    },
+    "warrior": {
+      "name": "Warrior",
+      "path": "Arms and weapon-focused solo leveling",
+      "roles": "Melee DPS · tank",
+      "early": "A weapon upgrade can matter more than several armor pieces. Carry food, train weapon skills and use ranged pulls to separate enemies.",
+      "mid": "Pool rage across safe pulls when possible. Learn stance and interrupt tools; keep a shield and one-hander if you may tank.",
+      "late": "Plan around strong weapon milestones and verify Forever talent changes. Use defensive cooldowns before low health makes them irrelevant.",
+      "pull": [
+        "Use a ranged pull when it prevents adds.",
+        "Build rage and spend it on abilities that shorten the fight without starving the next one.",
+        "Interrupt dangerous casts and disarm suitable enemies.",
+        "Bandage or eat before the next risky pull."
+      ],
+      "gear": "Weapon damage is the first solo priority; Strength, Agility or critical chance and Stamina follow. Keep a shield and tank pieces.",
+      "dungeon": "DPS or tank. If tanking, mark targets, use line-of-sight and set the pace around healer mana.",
+      "pvp": "Keep an escape or control response for roots and kiting; racials can change how you reconnect."
+    }
+  },
+  "classTraining": {
+    "druid": {
+      "4": [
+        "Moonfire",
+        "Rejuvenation"
+      ],
+      "8": [
+        "Entangling Roots"
+      ],
+      "10": [
+        "Bear Form",
+        "Growl",
+        "Teleport: Moonglade"
+      ],
+      "14": [
+        "Cure Poison",
+        "Bash"
+      ],
+      "16": [
+        "Aquatic Form",
+        "Swipe"
+      ],
+      "20": [
+        "Cat Form",
+        "Prowl",
+        "Claw",
+        "Rip",
+        "Rebirth",
+        "Starfire"
+      ],
+      "24": [
+        "Remove Curse",
+        "Rake",
+        "Tiger's Fury"
+      ],
+      "26": [
+        "Abolish Poison"
+      ],
+      "30": [
+        "Travel Form",
+        "Tranquility"
+      ],
+      "32": [
+        "Ferocious Bite"
+      ],
+      "36": [
+        "Frenzied Regeneration"
+      ],
+      "40": [
+        "Dire Bear Form",
+        "Innervate",
+        "Hurricane"
+      ],
+      "44": [
+        "Barkskin"
+      ]
+    },
+    "hunter": {
+      "4": [
+        "Aspect of the Monkey",
+        "Serpent Sting"
+      ],
+      "6": [
+        "Hunter's Mark",
+        "Arcane Shot"
+      ],
+      "8": [
+        "Concussive Shot",
+        "Raptor Strike"
+      ],
+      "10": [
+        "Tame Beast",
+        "Call Pet",
+        "Revive Pet",
+        "Feed Pet",
+        "Dismiss Pet"
+      ],
+      "12": [
+        "Mend Pet",
+        "Wing Clip"
+      ],
+      "14": [
+        "Scare Beast",
+        "Eagle Eye"
+      ],
+      "16": [
+        "Mongoose Bite",
+        "Immolation Trap"
+      ],
+      "18": [
+        "Multi-Shot",
+        "Track Undead"
+      ],
+      "20": [
+        "Aspect of the Cheetah",
+        "Disengage",
+        "Freezing Trap"
+      ],
+      "24": [
+        "Track Hidden"
+      ],
+      "26": [
+        "Rapid Fire"
+      ],
+      "30": [
+        "Feign Death"
+      ],
+      "32": [
+        "Flare"
+      ],
+      "36": [
+        "Viper Sting"
+      ],
+      "40": [
+        "Volley"
+      ],
+      "50": [
+        "Tranquilizing Shot"
+      ]
+    },
+    "mage": {
+      "4": [
+        "Frostbolt",
+        "Conjure Water"
+      ],
+      "6": [
+        "Fire Blast",
+        "Conjure Food"
+      ],
+      "8": [
+        "Polymorph"
+      ],
+      "10": [
+        "Frost Nova"
+      ],
+      "12": [
+        "Dampen Magic"
+      ],
+      "14": [
+        "Arcane Explosion"
+      ],
+      "16": [
+        "Flamestrike"
+      ],
+      "18": [
+        "Remove Lesser Curse"
+      ],
+      "20": [
+        "Blink",
+        "Evocation",
+        "Blizzard",
+        "Teleport: Stormwind",
+        "Teleport: Ironforge"
+      ],
+      "22": [
+        "Counterspell"
+      ],
+      "24": [
+        "Conjure Mana Agate"
+      ],
+      "28": [
+        "Mana Shield"
+      ],
+      "30": [
+        "Ice Armor",
+        "Teleport: Darnassus"
+      ],
+      "35": [
+        "Conjure Mana Jade"
+      ],
+      "40": [
+        "Portal: Stormwind",
+        "Portal: Ironforge"
+      ],
+      "50": [
+        "Conjure Mana Citrine"
+      ],
+      "60": [
+        "Conjure Mana Ruby"
+      ]
+    },
+    "paladin": {
+      "4": [
+        "Blessing of Might",
+        "Judgement"
+      ],
+      "6": [
+        "Divine Protection",
+        "Holy Light"
+      ],
+      "8": [
+        "Hammer of Justice",
+        "Purify"
+      ],
+      "10": [
+        "Lay on Hands",
+        "Devotion Aura",
+        "Blessing of Protection",
+        "Redemption"
+      ],
+      "14": [
+        "Blessing of Wisdom"
+      ],
+      "16": [
+        "Righteous Fury"
+      ],
+      "18": [
+        "Blessing of Freedom"
+      ],
+      "20": [
+        "Consecration",
+        "Exorcism",
+        "Sense Undead"
+      ],
+      "22": [
+        "Seal of Justice"
+      ],
+      "30": [
+        "Divine Intervention"
+      ],
+      "34": [
+        "Divine Shield"
+      ],
+      "40": [
+        "Summon Warhorse"
+      ],
+      "42": [
+        "Cleanse"
+      ],
+      "60": [
+        "Summon Charger"
+      ]
+    },
+    "priest": {
+      "4": [
+        "Shadow Word: Pain",
+        "Lesser Heal"
+      ],
+      "6": [
+        "Power Word: Fortitude"
+      ],
+      "8": [
+        "Renew",
+        "Fade"
+      ],
+      "10": [
+        "Resurrection",
+        "Mind Blast"
+      ],
+      "12": [
+        "Power Word: Shield"
+      ],
+      "14": [
+        "Psychic Scream"
+      ],
+      "16": [
+        "Heal"
+      ],
+      "18": [
+        "Dispel Magic"
+      ],
+      "20": [
+        "Flash Heal",
+        "Shackle Undead",
+        "Holy Fire"
+      ],
+      "22": [
+        "Mind Vision"
+      ],
+      "24": [
+        "Mana Burn"
+      ],
+      "30": [
+        "Mind Control",
+        "Prayer of Healing"
+      ],
+      "32": [
+        "Abolish Disease"
+      ],
+      "40": [
+        "Greater Heal"
+      ],
+      "48": [
+        "Prayer of Fortitude"
+      ],
+      "56": [
+        "Prayer of Shadow Protection"
+      ]
+    },
+    "rogue": {
+      "4": [
+        "Backstab",
+        "Pick Pocket"
+      ],
+      "6": [
+        "Gouge"
+      ],
+      "8": [
+        "Evasion"
+      ],
+      "10": [
+        "Sap",
+        "Slice and Dice",
+        "Stealth"
+      ],
+      "12": [
+        "Kick"
+      ],
+      "14": [
+        "Expose Armor"
+      ],
+      "16": [
+        "Pick Lock"
+      ],
+      "18": [
+        "Ambush"
+      ],
+      "20": [
+        "Poisons",
+        "Rupture",
+        "Dismantle Trap"
+      ],
+      "22": [
+        "Vanish"
+      ],
+      "24": [
+        "Distract"
+      ],
+      "30": [
+        "Cheap Shot"
+      ],
+      "34": [
+        "Blind"
+      ],
+      "40": [
+        "Safe Fall"
+      ],
+      "50": [
+        "Detect Traps"
+      ]
+    },
+    "shaman": {
+      "4": [
+        "Earth Shock",
+        "Rockbiter Weapon"
+      ],
+      "6": [
+        "Earthbind Totem"
+      ],
+      "8": [
+        "Lightning Shield"
+      ],
+      "10": [
+        "Flametongue Weapon",
+        "Searing Totem"
+      ],
+      "12": [
+        "Healing Stream Totem"
+      ],
+      "14": [
+        "Stoneskin Totem"
+      ],
+      "16": [
+        "Purge"
+      ],
+      "18": [
+        "Tremor Totem"
+      ],
+      "20": [
+        "Ghost Wolf",
+        "Lesser Healing Wave",
+        "Water Breathing"
+      ],
+      "22": [
+        "Frost Shock"
+      ],
+      "24": [
+        "Water Walking"
+      ],
+      "26": [
+        "Far Sight"
+      ],
+      "30": [
+        "Astral Recall",
+        "Windfury Weapon"
+      ],
+      "32": [
+        "Chain Lightning"
+      ],
+      "34": [
+        "Grounding Totem"
+      ],
+      "36": [
+        "Windfury Totem"
+      ],
+      "40": [
+        "Chain Heal"
+      ],
+      "50": [
+        "Tranquil Air Totem"
+      ]
+    },
+    "warlock": {
+      "4": [
+        "Corruption",
+        "Curse of Weakness"
+      ],
+      "6": [
+        "Life Tap",
+        "Shadow Bolt"
+      ],
+      "8": [
+        "Fear"
+      ],
+      "10": [
+        "Create Healthstone",
+        "Summon Voidwalker"
+      ],
+      "12": [
+        "Health Funnel"
+      ],
+      "14": [
+        "Drain Life"
+      ],
+      "16": [
+        "Unending Breath"
+      ],
+      "18": [
+        "Searing Pain"
+      ],
+      "20": [
+        "Ritual of Summoning",
+        "Create Soulstone",
+        "Rain of Fire"
+      ],
+      "22": [
+        "Eye of Kilrogg"
+      ],
+      "24": [
+        "Drain Mana"
+      ],
+      "26": [
+        "Detect Invisibility"
+      ],
+      "30": [
+        "Enslave Demon",
+        "Hellfire"
+      ],
+      "40": [
+        "Summon Felsteed"
+      ],
+      "50": [
+        "Inferno"
+      ],
+      "60": [
+        "Ritual of Doom"
+      ]
+    },
+    "warrior": {
+      "4": [
+        "Rend",
+        "Charge"
+      ],
+      "6": [
+        "Thunder Clap"
+      ],
+      "8": [
+        "Hamstring"
+      ],
+      "10": [
+        "Defensive Stance",
+        "Bloodrage",
+        "Taunt",
+        "Sunder Armor"
+      ],
+      "12": [
+        "Overpower",
+        "Shield Bash"
+      ],
+      "14": [
+        "Revenge",
+        "Demoralizing Shout"
+      ],
+      "16": [
+        "Shield Block",
+        "Mocking Blow"
+      ],
+      "18": [
+        "Disarm"
+      ],
+      "20": [
+        "Victory Rush",
+        "Cleave",
+        "Slam",
+        "Retaliation"
+      ],
+      "22": [
+        "Intimidating Shout"
+      ],
+      "24": [
+        "Execute"
+      ],
+      "28": [
+        "Shield Wall"
+      ],
+      "30": [
+        "Berserker Stance",
+        "Intercept"
+      ],
+      "32": [
+        "Berserker Rage"
+      ],
+      "36": [
+        "Whirlwind"
+      ],
+      "38": [
+        "Pummel"
+      ],
+      "50": [
+        "Recklessness"
+      ]
+    }
+  },
+  "skillAcquisition": {
+    "Bear Form": "Class quest",
+    "Teleport: Moonglade": "Class quest",
+    "Aquatic Form": "Class quest",
+    "Tame Beast": "Class quest",
+    "Call Pet": "Class quest",
+    "Revive Pet": "Class quest",
+    "Feed Pet": "Class quest",
+    "Dismiss Pet": "Class quest",
+    "Tranquilizing Shot": "Boss drop",
+    "Redemption": "Class quest",
+    "Consecration": "Talent or ruleset-dependent",
+    "Summon Charger": "Class quest",
+    "Poisons": "Class quest",
+    "Dismantle Trap": "Class quest",
+    "Summon Voidwalker": "Class quest",
+    "Summon Felsteed": "Class quest",
+    "Inferno": "Class quest",
+    "Ritual of Doom": "Class quest",
+    "Defensive Stance": "Class quest",
+    "Berserker Stance": "Class quest",
+    "Earthbind Totem": "Requires Earth Totem quest",
+    "Searing Totem": "Requires Fire Totem quest",
+    "Healing Stream Totem": "Requires Water Totem quest",
+    "Grounding Totem": "Requires Air Totem quest"
+  },
+  "npcs": [
+    "Earthseer Farsen",
+    "Durgen Dirgehammer",
+    "Magni Bronzebeard",
+    "King Magni",
+    "Magni",
+    "Thom Filch",
+    "Afadra Dunwall",
+    "Ghostly Attendant",
+    "Captain Truman",
+    "Lady Dena Kennedy",
+    "Gryan Stoutmantle",
+    "Scout Riell",
+    "Edwin VanCleef",
+    "Bazil Thredd",
+    "Dextren Ward",
+    "Targorr the Dread",
+    "Kam Deepfury",
+    "Guard Berton",
+    "Argent Guard Thaelrid",
+    "Gershala Nightwhisper",
+    "Charlga Razorflank",
+    "Charlga",
+    "High Tinker Mekkatorque",
+    "Mekgineer Thermaplugg",
+    "Thermaplugg",
+    "Archmage Tervosh",
+    "Brother Anton",
+    "Raleigh the Devout",
+    "Arcanist Doan",
+    "Doan",
+    "Herod",
+    "Scarlet Commander Mograine",
+    "High Inquisitor Whitemane",
+    "Mograine",
+    "Whitemane",
+    "Amnennar the Coldbringer",
+    "Amnennar",
+    "Archaedas",
+    "Princess Theradras",
+    "Celebras the Redeemed",
+    "Yeh’kinya",
+    "Yeh'kinya",
+    "Chief Engineer Bilgewhizzle",
+    "Tran’rek",
+    "Wizzle Brassbolts",
+    "Trenton Lighthammer",
+    "Marvon Rivetseeker",
+    "Tabetha",
+    "Gregan Brewspewer",
+    "Muigin",
+    "Larion",
+    "Morphaz",
+    "Atal’ai Exile",
+    "Brohann Caskbelly",
+    "Emperor Dagran Thaurissan",
+    "Marshal Windsor",
+    "Marshal Maxwell",
+    "General Drakkisath",
+    "Drakkisath",
+    "Baron Rivendare",
+    "Balnazzar",
+    "Ras Frostwhisper",
+    "Eva Sarkhoff",
+    "Duke Nicholas Zverenhoff",
+    "Tirion Fordring",
+    "Betina Bigglezink",
+    "Leonid Barthalomew",
+    "Lorekeeper Lydros",
+    "Stomper Kreeg",
+    "Knot Thimblejack",
+    "Pusillin",
+    "Alzzin the Wildshaper",
+    "King Gordok",
+    "Kromcrush",
+    "Overlord Wyrmthalak",
+    "Vaelan",
+    "Awbee",
+    "Belnistrasz",
+    "Cavindra",
+    "Centaur Pariah",
+    "Falfindel Waywarder",
+    "Keeper Marandis",
+    "Ghak Healtouch",
+    "Kernobee",
+    "Ozzie Togglevolt",
+    "Shoni the Shilent",
+    "Klockmort Spannerspan",
+    "Prospector Ironband",
+    "Prospector Ironboot",
+    "Prospector Stormpike",
+    "Warden Thelwater",
+    "Motley Garmason",
+    "Ragnar Thunderbrew",
+    "Theldurin the Lost",
+    "Rigglefuzz",
+    "Yuka Screwspigot",
+    "Kibler",
+    "Haleh",
+    "Mayara Brightwing",
+    "Helendis Riverhorn",
+    "Lothos Riftwaker",
+    "Jalinda Sprig",
+    "Oralius",
+    "Ragged John",
+    "Bijou",
+    "Warosh",
+    "Weldon Barov",
+    "Artist Renfray",
+    "Magistrate Marduke",
+    "Caretaker Alen",
+    "Dawnwatcher Shaedlass",
+    "Advisor Belgrum",
+    "Franclorn Forgewright",
+    "Mistress Nagmara",
+    "Kharan Mighthammer",
+    "Archbishop Benedictus",
+    "Cyrus Therepentous",
+    "Mebok Mizzyrix",
+    "Willix the Importer",
+    "Ghamoo-ra",
+    "Kelris",
+    "Aku’mai",
+    "Aku'mai",
+    "Argent Guard Manados",
+    "Aurius",
+    "Baelog",
+    "Baron Aquanis",
+    "Councilman Millstipe",
+    "Duke Hydraxis",
+    "Egan",
+    "Eranikus",
+    "Gerrig Bonegrip",
+    "Gnogaine",
+    "Jammal’an the Prophet",
+    "Jammal'an the Prophet",
+    "Jandice Barov",
+    "Librarian Mae Paledust",
+    "Maxwort Uberglint",
+    "Myriam Moonsinger",
+    "Nikova Raskol",
+    "Ogtinc",
+    "Pip Quickwit",
+    "Pyromancer Loregrain",
+    "General Angerforge",
+    "Golem Lord Argelmach",
+    "Moira Bronzebeard",
+    "Rabine Saturna",
+    "Scholar Runethorn",
+    "Shen'dralar Ancient",
+    "Shen’dralar Ancient",
+    "Smokey LaRue",
+    "Talendria",
+    "Talvash del Kissel",
+    "Tinkmaster Overspark",
+    "Willow",
+    "Zaetar",
+    "Halycon",
+    "The Beast",
+    "Rattlegore",
+    "Kirtonos the Herald",
+    "Darkmaster Gandling",
+    "Lord Alexei Barov",
+    "Instructor Malicia",
+    "Doctor Theolen Krastinov",
+    "Vectus",
+    "Marduk Blackpool",
+    "Princess Moira Bronzebeard",
+    "Ambassador Flamelash",
+    "Fineous Darkvire",
+    "Bael’Gar",
+    "Bael'Gar",
+    "Plugger Spazzring",
+    "Phalanx",
+    "Hurley Blackbreath",
+    "Ribbly Screwspigot",
+    "Lord Incendius",
+    "Warder Stilgiss",
+    "Verek",
+    "Lord Roccor",
+    "High Interrogator Gerstahn"
+  ],
+  "directLinks": {
+    "Old Ironforge Incursion": "https://www.wowhead.com/forever/quest=96393/old-ironforge-incursion"
+  },
+  "stages": [
+    {
+      "id": "human-start",
+      "race": "human",
+      "range": [
+        1,
+        6
+      ],
+      "zone": "Northshire",
+      "title": "Northshire: a compact first loop",
+      "hub": "Northshire Abbey",
+      "goal": "Finish the starting pocket before moving to Goldshire.",
+      "steps": [
+        "Collect nearby Abbey quests together; finish objectives in the same direction before returning.",
+        "Group for crowded named targets when credit can be shared. Avoid waiting through several respawns alone.",
+        "Loot vendor items, sell on a turn-in trip and train useful available spells.",
+        "Leave for Goldshire when the local quest pocket is exhausted, around level 6."
+      ],
+      "priest": "Begin with your available direct damage. Heal between pulls and avoid spending mana on damage that will land after the target is effectively dead.",
+      "pvp": "Stay on the compact route. Launch congestion is the main reason to group here.",
+      "exit": "Move to Elwynn at roughly 6; do not chase every distant objective.",
+      "alt": "If one objective is overcrowded, do another nearby quest and loop back."
+    },
+    {
+      "id": "elf-start",
+      "race": "nightelf",
+      "range": [
+        1,
+        6
+      ],
+      "zone": "Shadowglen",
+      "title": "Shadowglen: establish your rhythm",
+      "hub": "Aldrassil",
+      "goal": "Reach Dolanaar with supplies and your core spells trained.",
+      "steps": [
+        "Collect the nearby starting quests and combine overlapping objectives.",
+        "Join a small group for crowded cave or named-enemy objectives; agree on the exit.",
+        "Sell and train during turn-in trips instead of returning after each quest.",
+        "Move to Dolanaar around level 6 once the starter pocket is complete."
+      ],
+      "priest": "Practice ranged pulls and mana-efficient finishes. Keep emergency healing on a comfortable key.",
+      "pvp": "Avoid getting trapped deep in a crowded cave while competing for tags.",
+      "exit": "Continue through Teldrassil, but leave the island early enough for Hall at 15.",
+      "alt": "Skip a stalled spawn temporarily; finish an outdoor loop."
+    },
+    {
+      "id": "human-elwynn",
+      "race": "human",
+      "range": [
+        6,
+        11
+      ],
+      "zone": "Elwynn Forest",
+      "title": "Elwynn: prepare the Ironforge transfer",
+      "hub": "Goldshire → Stormwind",
+      "goal": "Reach 10–11 with current class training and a useful weapon, then travel north instead of settling into Westfall.",
+      "steps": [
+        "Work from Goldshire in one direction at a time; combine farm, road and nearby kill objectives.",
+        "Group for Hogger or similarly difficult objectives if a group is already available.",
+        "Visit your class trainer, sell, restock class resources and check for a useful weapon upgrade.",
+        "Travel to Stormwind, learn its flight path, then take the Deeprun Tram to Ironforge.",
+        "Arrive near level 11–12 and begin the Dun Morogh dungeon preparation."
+      ],
+      "priest": "A good early wand can reduce drinking. Keep money for spells; do not overpay for minor armor upgrades.",
+      "pvp": "Avoid detouring into higher-level zones for one reward before the fixed dungeon milestone.",
+      "exit": "Be in the Ironforge area before 14, ideally 11–12.",
+      "alt": "Use easy Dun Morogh or Loch Modan objectives after transferring if you need experience."
+    },
+    {
+      "id": "elf-teldrassil",
+      "race": "nightelf",
+      "range": [
+        6,
+        11
+      ],
+      "zone": "Teldrassil",
+      "title": "Teldrassil: leave room for the journey",
+      "hub": "Dolanaar → Darnassus",
+      "goal": "Transfer to Ironforge around 11–12; do not stay in Darkshore until 20.",
+      "steps": [
+        "Complete efficient Dolanaar-centered loops; avoid a long cleanup tour of the island.",
+        "Visit Darnassus for training and supplies, and collect the relevant flight path.",
+        "Head through Rut’theran to the mainland. Confirm the launch boat destination before boarding.",
+        "If the boat goes to Stormwind, use the tram to Ironforge. If using Menethil, the Wetlands–Loch Modan road is dangerous at this level: travel with help.",
+        "Collect flight paths on the chosen route and start Dun Morogh preparation before level 14."
+      ],
+      "priest": "Carry water and a usable wand before leaving. Train available survival tools before the long transfer.",
+      "pvp": "Do not use a high-level overland shortcut without help. Boat routes must be verified in the launch client.",
+      "exit": "Reach Ironforge around 12–13 so preparation fits before the level-15 run.",
+      "alt": "Prefer the safe boat/tram route if available; ask for an escort when the route requires Wetlands."
+    },
+    {
+      "id": "dwarf-start",
+      "race": "dwarf",
+      "range": [
+        1,
+        6
+      ],
+      "zone": "Coldridge Valley",
+      "title": "Coldridge: clear the starting pocket",
+      "hub": "Anvilmar",
+      "goal": "Finish the compact starter quests and reach greater Dun Morogh efficiently.",
+      "steps": [
+        "Collect Anvilmar quests in batches and finish overlapping objectives together.",
+        "Train class abilities and sell during turn-ins instead of making extra trips.",
+        "Group for crowded named targets when shared credit makes it faster.",
+        "Leave the valley around level 6 with supplies and free bag space."
+      ],
+      "priest": "",
+      "pvp": "Launch congestion matters more than enemy players in the protected starter pocket.",
+      "exit": "Move toward Kharanos around level 6.",
+      "alt": "Rotate to another nearby objective when a spawn is saturated."
+    },
+    {
+      "id": "dwarf-dunmorogh",
+      "race": "dwarf",
+      "range": [
+        6,
+        11
+      ],
+      "zone": "Dun Morogh",
+      "title": "Dun Morogh: level toward the Hall preparation",
+      "hub": "Kharanos → Ironforge",
+      "goal": "Use local loops and arrive in Ironforge with time for the Hall chain.",
+      "steps": [
+        "Work Kharanos quests by area and avoid long single-objective crossings.",
+        "Visit the class trainer and keep your primary weapon, ranged weapon or spell ranks current.",
+        "Collect the Ironforge flight path and set up bags, repairs and supplies.",
+        "Finish productive eastern Dun Morogh quests until roughly level 11.",
+        "Begin the Hall preparation route early rather than clearing every remaining quest."
+      ],
+      "priest": "",
+      "pvp": "Stay near roads when moving between camps and Ironforge.",
+      "exit": "Begin the shared Hall preparation around 11–12.",
+      "alt": "Use suitable Loch Modan quests only if local objectives are blocked."
+    },
+    {
+      "id": "gnome-start",
+      "race": "gnome",
+      "range": [
+        1,
+        6
+      ],
+      "zone": "Coldridge Valley",
+      "title": "Coldridge: begin the Gnome route",
+      "hub": "Anvilmar",
+      "goal": "Complete the starter pocket, train, and move into Dun Morogh.",
+      "steps": [
+        "Batch nearby starter quests before each return to Anvilmar.",
+        "Sell vendor loot and train during the same visit.",
+        "Group for crowded caves and named enemies rather than waiting alone.",
+        "Leave around level 6 with enough space for the Dun Morogh loops."
+      ],
+      "priest": "",
+      "pvp": "Avoid getting pinned inside a crowded cave; keep an exit path.",
+      "exit": "Move toward Kharanos around level 6.",
+      "alt": "Switch objectives when launch traffic stalls progress."
+    },
+    {
+      "id": "gnome-dunmorogh",
+      "race": "gnome",
+      "range": [
+        6,
+        11
+      ],
+      "zone": "Dun Morogh",
+      "title": "Dun Morogh: build toward Ironforge",
+      "hub": "Kharanos → Ironforge",
+      "goal": "Level close to home and prepare the fixed Hall milestone.",
+      "steps": [
+        "Combine Kharanos and nearby camp objectives into short loops.",
+        "Train class abilities and maintain the weapon or spell tool your class actually uses.",
+        "Visit Ironforge for flight access, bags and profession choices.",
+        "Use eastern Dun Morogh quests to reach roughly level 11.",
+        "Start the Hall preparation before optional cleanup can push you past the target."
+      ],
+      "priest": "",
+      "pvp": "Keep your return path clear around caves and trogg camps.",
+      "exit": "Begin the shared Hall preparation around 11–12.",
+      "alt": "Use nearby Loch Modan quests if a Dun Morogh objective is overcrowded."
+    },
+    {
+      "id": "skyborne-start",
+      "race": "skyborne",
+      "range": [
+        1,
+        6
+      ],
+      "zone": "Zephras Isle",
+      "title": "Zephras Isle: learn the Skyborne start",
+      "hub": "Launch starting hub",
+      "goal": "Follow the Alliance High Order story while learning your class tools.",
+      "steps": [
+        "Collect nearby story and side quests together before leaving each hub.",
+        "Use Walk on Air and other racial tools deliberately; verify their launch behavior in the client.",
+        "Train class abilities and keep bag space for the new-zone quest items.",
+        "Group for congested named targets and record any launch-only prerequisites."
+      ],
+      "priest": "",
+      "pvp": "Treat route and transport details as launch-sensitive; use the safe story path.",
+      "exit": "Advance through the island story around level 6.",
+      "alt": "Stay on verified quest hubs rather than attempting an undocumented shortcut."
+    },
+    {
+      "id": "skyborne-isle",
+      "race": "skyborne",
+      "range": [
+        6,
+        12
+      ],
+      "zone": "Zephras Isle",
+      "title": "Zephras Isle: finish and transfer",
+      "hub": "High Order quest hubs → Alliance mainland",
+      "goal": "Complete the starting experience and reach Ironforge before the Hall deadline.",
+      "steps": [
+        "Continue the main starting story and combine optional objectives only when they share the route.",
+        "Learn the island flight or transfer points as the launch client presents them.",
+        "Finish essential class training and supplies before leaving.",
+        "Use the verified Alliance transfer, then route to Ironforge.",
+        "Arrive around 12–13 and immediately begin the Hall preparation chain."
+      ],
+      "priest": "",
+      "pvp": "Do not assume beta transport destinations; follow the live-client Alliance transfer.",
+      "exit": "Reach Dun Morogh / Ironforge by roughly 12–13.",
+      "alt": "If the transfer differs at launch, use the update prompt and preserve the Hall-by-15 priority."
+    },
+    {
+      "id": "dunmorogh",
+      "range": [
+        12,
+        14
+      ],
+      "zone": "Dun Morogh",
+      "title": "Dun Morogh: assemble the Hall quest log",
+      "hub": "Steelgrill’s Depot → Earthseer Farsen → Ironforge",
+      "goal": "Finish the outside chain before your level-15 run.",
+      "steps": [
+        "Pick up A Visitor to Dun Morogh from Beldin Steelgrill if available; follow the Farsen quest line.",
+        "Work through Farsen’s Watch and Nip ’Em in the Bud as offered. Loot the Dark Iron Map from the relevant Dark Iron enemies.",
+        "Use the map to start Underground Map; turn it in and obtain Old Ironforge Incursion when eligible.",
+        "Collect Important Heirlooms and The Restless Dead in the Old Ironforge entrance area when available.",
+        "Begin forming your Hall group at level 14. Stop optional questing if it risks pushing you beyond 15 before entry."
+      ],
+      "priest": "Arrive with current training, supplies and role-appropriate gear. State your dungeon role before the first pull.",
+      "pvp": "Preparation is close to Alliance hubs. Finish supplies here before traveling north later.",
+      "exit": "Enter Hall of Thanes at level 15; quest gates are launch-dependent.",
+      "alt": "Use nearby easy quests to reach 15, not a new zone circuit.",
+      "dungeon": "hall"
+    },
+    {
+      "id": "hall-stage",
+      "range": [
+        15,
+        15
+      ],
+      "zone": "Hall of Thanes",
+      "title": "Hall of Thanes: your first fixed stop",
+      "hub": "Old Ironforge",
+      "goal": "First entry no later than level 15. Complete all eligible quests.",
+      "steps": [
+        "Enter at 15 with your three outside quest pickups ready.",
+        "Tell the party you want all quest objectives and both inside pickups.",
+        "After the first boss, check the Ghostly Attendant for An Ancient Grudge.",
+        "Inspect the treaty tablet in the vault. If level-gated, record the missing quest for a return.",
+        "Turn in finished quests, inspect every class-appropriate reward, and prepare the next stage."
+      ],
+      "priest": "Focus the tank’s target; conserve mana on short-lived enemies. Use utility rather than spreading damage onto uncontrolled packs.",
+      "pvp": "Take advantage of this city visit for bags, training, repairs and water.",
+      "exit": "Turn in available Hall quests before heading into your next questing block.",
+      "alt": "If no group is available at 15, work on group formation and supplies rather than silently leveling past your deadline.",
+      "dungeon": "hall"
+    },
+    {
+      "id": "westfall-prep",
+      "range": [
+        15,
+        17
+      ],
+      "zone": "Westfall",
+      "title": "Westfall: prepare Deadmines before the northern trip",
+      "hub": "Stormwind → Sentinel Hill",
+      "goal": "Gain levels and advance Defias prerequisites without running Deadmines yet.",
+      "steps": [
+        "Return through Stormwind. Collect the three Deadmines pickups from Wilder Thistlenettle and Shoni the Shilent.",
+        "At Sentinel Hill, begin Gryan Stoutmantle’s Defias Brotherhood chain.",
+        "Combine its local objectives with nearby Westfall quests. Complete the Redridge/Stormwind travel legs in a single circuit when offered.",
+        "Finish the messenger and escort steps as the chain requires, then collect the dungeon finale and Red Silk Bandanas.",
+        "Set your hearthstone to Stormwind before the northern dungeon journey. Assemble the group before traveling."
+      ],
+      "priest": "Keep Deepblaze or a comparable wand equipped. Use spell damage to soften enemies and wand to preserve mana.",
+      "pvp": "Keep the northern transfer as a group journey. Do not walk into hostile territory merely to look for a group.",
+      "exit": "Head for Ruins at roughly 17–18; unfinished Defias preparation can be completed afterward.",
+      "alt": "Use Loch Modan quests if Westfall is too congested, but preserve the dungeon order.",
+      "dungeon": "deadmines"
+    },
+    {
+      "id": "ruins-stage",
+      "range": [
+        17,
+        18
+      ],
+      "zone": "Ruins of Lordaeron",
+      "title": "Ruins of Lordaeron: travel together, loot carefully",
+      "hub": "Alliance staging point → Tirisfal Glades",
+      "goal": "Complete the four documented Alliance quest pickups inside.",
+      "steps": [
+        "Confirm your party and travel route before leaving; collect useful Alliance flight paths en route.",
+        "Use the overland approach through Hillsbrad/Silverpine only with awareness of higher-level enemies and Horde traffic. Avoid hostile towns and guards.",
+        "Inside, accept Abominable Creatures from Captain Truman before The Baron.",
+        "Loot skeletons for Bloodied Insignia and start it immediately; inspect the graveyard letter and crest spawn points.",
+        "Check objectives before leaving, then hearth to Stormwind. Turn in the crest and retain the letter chain for the Duskwood visit."
+      ],
+      "priest": "Level 18 is the comfortable target if healing. Keep mana for recovery between pulls; do not depend on killing blows in a group.",
+      "pvp": "This is your highest-risk early travel leg. Depart together and avoid fighting near Horde guards.",
+      "exit": "Return south before Deadmines; do not swap the order because a group happens to be available.",
+      "alt": "If the approach is camped, finish southern prerequisites and retry with the same planned dungeon order.",
+      "dungeon": "ruins"
+    },
+    {
+      "id": "deadmines-stage",
+      "range": [
+        19,
+        21
+      ],
+      "zone": "Deadmines",
+      "title": "Deadmines: finish the whole quest package",
+      "hub": "Stormwind → Sentinel Hill → Moonbrook",
+      "goal": "Complete five prepared objectives and pick up VanCleef’s letter.",
+      "steps": [
+        "Finish the Defias chain if needed. Verify the final Defias quest and Red Silk Bandanas are in your log.",
+        "Check all three Stormwind pickups before traveling to Moonbrook.",
+        "With the group, clear the outside undead section for Collecting Memories and Oh Brother… before entering.",
+        "Complete Underground Assault, bandanas and the VanCleef objective inside.",
+        "Loot The Unsent Letter from VanCleef. Complete turn-ins and keep its follow-up chain for the later Stockades visit."
+      ],
+      "priest": "Do not replace a better wand solely because an item is blue. Compare actual bonuses and keep suitable healing gear.",
+      "pvp": "Assemble before entering the mines; avoid a long solo corpse run through respawns.",
+      "exit": "Resume Redridge/Duskwood around 21, adjusting for actual quest experience.",
+      "alt": "If still below a comfortable run level, finish close Westfall or early Redridge objectives.",
+      "dungeon": "deadmines"
+    },
+    {
+      "id": "redridge",
+      "range": [
+        21,
+        24
+      ],
+      "zone": "Redridge Mountains",
+      "title": "Redridge: work outward from Lakeshire",
+      "hub": "Lakeshire",
+      "goal": "Complete manageable road, shoreline and nearby camp loops.",
+      "steps": [
+        "Learn the Lakeshire flight path, sell and gather level-appropriate town quests.",
+        "Batch lakeside and western-road objectives before taking a second trip east.",
+        "Group for elite or densely packed camps when a group is readily available.",
+        "Skip orange objectives and long chains blocked by difficulty; move to Duskwood instead.",
+        "Keep any dungeon-related breadcrumbs and return to the hub before crossing zones."
+      ],
+      "priest": "Short controlled pulls beat recovering from crowded camps. Save Psychic Scream for clear ground.",
+      "pvp": "Contested roads and town approaches can be busy. Leave a camp after repeated targeted deaths.",
+      "exit": "Move to Duskwood around 23–24 or earlier if only difficult quests remain.",
+      "alt": "Early Duskwood or suitable remaining Loch Modan quests."
+    },
+    {
+      "id": "duskwood",
+      "range": [
+        24,
+        27
+      ],
+      "zone": "Duskwood",
+      "title": "Duskwood: split Darkshire and Raven Hill loops",
+      "hub": "Darkshire → Raven Hill",
+      "goal": "Finish useful local chains and your Lordaeron letter follow-up.",
+      "steps": [
+        "Take the Darkshire flight path and inspect the Remember That I Love You follow-up destination.",
+        "Combine eastern forest objectives first; hand in before the long western circuit.",
+        "Batch Raven Hill and cemetery objectives together, keeping an open retreat path.",
+        "Group for Mor’ladim or other difficult finales; check the current class-appropriate reward rather than an old item list.",
+        "Collect Stockades pickups now; run after the Wetlands prerequisite circuit."
+      ],
+      "priest": "Undead control can be useful when available. Use it deliberately and keep DoTs off a controlled enemy.",
+      "pvp": "Do not sit low on mana along a busy road or deep in the cemetery.",
+      "exit": "Move to Wetlands around 26–27 when local quests become travel-heavy.",
+      "alt": "Wetlands, or remaining Redridge quests now within your level."
+    },
+    {
+      "id": "wetlands",
+      "range": [
+        27,
+        30
+      ],
+      "zone": "Wetlands",
+      "title": "Wetlands: connect the northern quest hubs",
+      "hub": "Menethil Harbor → inland camps",
+      "goal": "Complete the Wetlands dungeon preparation and the required excavation run.",
+      "steps": [
+        "Collect the Menethil flight path, supplies and suitable town quests.",
+        "Combine coastline and nearby marsh objectives in one loop; return before moving inland.",
+        "Batch excavation and inland objectives together rather than commuting repeatedly.",
+        "Keep Dun Modr-related prerequisites in mind for a later complete Stockades quest run.",
+        "Complete Excavation Site at 27–29; follow the required dungeon circuit above."
+      ],
+      "priest": "Be careful with underwater objectives: pull conservatively and surface before committing to another enemy.",
+      "pvp": "Retreat toward a clear road, not into additional marsh enemies.",
+      "exit": "Around 30, choose northern Stranglethorn or Arathi based on available quests and pressure.",
+      "alt": "Finish Duskwood chains or take one prepared dungeon run."
+    },
+    {
+      "id": "stvnorth",
+      "range": [
+        30,
+        33
+      ],
+      "zone": "Northern Stranglethorn",
+      "title": "Northern Stranglethorn: overlap your objectives",
+      "hub": "Rebel Camp / expedition quests",
+      "goal": "Make compact hunting loops; do not force the entire zone in one visit.",
+      "steps": [
+        "Collect suitable expedition and Alliance objectives before starting a hunting loop.",
+        "Combine nearby targets by area, returning when several tasks are complete.",
+        "Hold harder chain stages for a later visit rather than grinding higher-level enemies.",
+        "Keep a route back to safety and travel to distant turn-ins only when several align.",
+        "Complete City of Dalaran at 31–33 after the Gnomeregan preparation block."
+      ],
+      "priest": "DoTs are useful on enemies that survive enough ticks. Avoid mana-heavy multi-pulls in contested hunting areas.",
+      "pvp": "This bracket can be volatile. Two deaths to the same group is the signal to switch areas.",
+      "exit": "Move to Arathi around 33, or sooner when contested objectives stall.",
+      "alt": "Arathi; remaining Wetlands quests; a prepared Scarlet Monastery run."
+    },
+    {
+      "id": "arathi",
+      "range": [
+        33,
+        36
+      ],
+      "zone": "Arathi Highlands",
+      "title": "Arathi: one Refuge Pointe circuit at a time",
+      "hub": "Refuge Pointe",
+      "goal": "Complete appropriate open-world quests and skip blocked elite pockets.",
+      "steps": [
+        "Learn the flight path and collect level-appropriate Alliance objectives.",
+        "Work through one side of the zone per circuit, combining nearby kill and collection tasks.",
+        "Attempt elite areas only with a group; do not let one chain consume the whole session.",
+        "Prepare the four-wing Scarlet Monastery visit and the Desolace prerequisite chain.",
+        "Compare available local quests with Desolace or a return to Stranglethorn."
+      ],
+      "priest": "Keep enough mana for an unexpected player encounter after a mob dies.",
+      "pvp": "Avoid contested choke points when the same opposing group controls them.",
+      "exit": "At 35–36, choose the quieter of Stranglethorn, Desolace or suitable Riverglades hubs.",
+      "alt": "Desolace or Riverglades, with new content only if it fits your route."
+    },
+    {
+      "id": "desolace",
+      "range": [
+        36,
+        39
+      ],
+      "zone": "Desolace / Stranglethorn",
+      "title": "Mid-30s: choose the productive circuit",
+      "hub": "Nijel’s Point or your existing Stranglethorn hub",
+      "goal": "Visit Desolace for Monastery prerequisites, with suitable quest loops as filler.",
+      "steps": [
+        "Use productive Stranglethorn chains as filler; preserve the required Desolace prerequisite trip.",
+        "If relocating, collect Nijel’s Point flight access and batch local Desolace objectives.",
+        "Avoid committing to every reputation or distant collection chain just to clear the log.",
+        "Riverglades can replace this bracket if nearby quests prove dense and suitable.",
+        "Complete Drowned City around 38–40 and all four Scarlet Monastery wings in the planned circuit."
+      ],
+      "priest": "Revisit training and wand strength when kills slow down. Save gold for upcoming travel improvements.",
+      "pvp": "A quieter zone can beat an optimal quest route interrupted by corpse runs.",
+      "exit": "Move into the 40–45 circuit when suitable quests thin out.",
+      "alt": "Arathi cleanup or optional Riverglades. Do not add every option to the same route."
+    },
+    {
+      "id": "badlands",
+      "range": [
+        40,
+        43
+      ],
+      "zone": "Badlands",
+      "title": "Badlands: a short, focused visit",
+      "hub": "Accessible quest camps / nearby Alliance flight connection",
+      "goal": "Use suitable quest clusters, then leave before travel dominates.",
+      "steps": [
+        "Train and review your next class talent milestone before committing to another long loop.",
+        "Collect appropriate camp quests and combine shared creature areas.",
+        "Check the route back to an Alliance flight point before setting out; do not assume a local Alliance hub.",
+        "Prepare the required Uldaman full clear around 45–47.",
+        "Keep Riverglades or Tanaris as alternatives rather than forcing sparse quests."
+      ],
+      "priest": "Review Shadowform timing against your actual talent points. Respec only for a clear improvement; verify launch costs.",
+      "pvp": "Open terrain helps you see approaching players. Avoid low-mana fights near active enemy groups.",
+      "exit": "Move to Tanaris around 43 or when local loops stop paying off.",
+      "alt": "Riverglades; early Feralas quests that match your level."
+    },
+    {
+      "id": "tanaris",
+      "range": [
+        43,
+        47
+      ],
+      "zone": "Tanaris",
+      "title": "Tanaris: Gadgetzan-centered loops",
+      "hub": "Gadgetzan",
+      "goal": "Combine desert objectives and begin Zul’Farrak preparation.",
+      "steps": [
+        "Learn the flight path and set a convenient hearth if you will remain in this region.",
+        "Gather level-appropriate Gadgetzan quests and complete nearby objectives together.",
+        "Do coastal or pirate objectives as a separate prepared loop rather than repeated cross-zone trips.",
+        "Gather Zul’Farrak prerequisites before arranging a run around 47–49.",
+        "Leave harder or remote chains for later if Feralas offers cleaner progress."
+      ],
+      "priest": "Carry sufficient water for long loops. Do not turn a crowded camp into a multi-target mana test.",
+      "pvp": "Do not assume a neutral town prevents PvP trouble outside its guarded area.",
+      "exit": "Move to the Feralas / Zul’Farrak circuit around 47; the dungeon is required.",
+      "alt": "Feralas or Hinterlands if the desert is heavily contested."
+    },
+    {
+      "id": "feralas",
+      "range": [
+        47,
+        50
+      ],
+      "zone": "Feralas",
+      "title": "Feralas: finish a loop before the next crossing",
+      "hub": "Feathermoon / mainland Alliance objectives",
+      "goal": "Minimize repeated travel between island and mainland objectives.",
+      "steps": [
+        "Establish flight and transport access before a long quest circuit.",
+        "Collect compatible objectives and batch mainland work before returning to Feathermoon.",
+        "Group for difficult finales when a party is already forming.",
+        "Use Hinterlands as the alternate circuit if you have stronger chains waiting there.",
+        "Prepare the full Maraudon route at 50–52, including both colored sections."
+      ],
+      "priest": "Maintain a small healing set without filling all bag slots. Sell between major circuits.",
+      "pvp": "Trees and uneven terrain obscure players and additional enemies; keep your exit visible.",
+      "exit": "Move toward Un’Goro around 50–51, completing only useful remaining chains.",
+      "alt": "Hinterlands or remaining Tanaris objectives."
+    },
+    {
+      "id": "ungoro",
+      "range": [
+        50,
+        53
+      ],
+      "zone": "Un’Goro Crater",
+      "title": "Un’Goro: stack collection objectives",
+      "hub": "Marshal’s Refuge",
+      "goal": "Carry a broad quest log and finish overlapping crater objectives.",
+      "steps": [
+        "Learn the refuge flight path and collect appropriate quests before beginning a circuit.",
+        "Combine creature and collection objectives by sector; keep free bag space.",
+        "Avoid roaming elite enemies and do not fight with your back toward an unseen patrol.",
+        "Return with several completed objectives rather than after every collection task.",
+        "Complete Alcaz Prison around 51–53; verify access and fill its quest placeholders."
+      ],
+      "priest": "Steady single-target kills are the default. Use defensive cooldowns early enough to create an escape.",
+      "pvp": "Watch both enemy players and roaming elites; either can punish a low-mana pull.",
+      "exit": "Move to Felwood near 53 when remaining tasks become scattered or difficult.",
+      "alt": "Finish Feralas/Hinterlands chains or start suitable Felwood quests."
+    },
+    {
+      "id": "felwood",
+      "range": [
+        53,
+        55
+      ],
+      "zone": "Felwood",
+      "title": "Felwood: keep travel and danger manageable",
+      "hub": "Alliance / neutral quest camps",
+      "goal": "Complete suitable hub loops and prepare the northern transition.",
+      "steps": [
+        "Collect flight access and nearby quests as you progress along the zone.",
+        "Batch adjacent objectives; avoid repeated full-length road trips.",
+        "Inspect any access or reputation requirements before assuming a passage to the next zone is safe.",
+        "Complete Sunken Temple around 54–55 after its prerequisite chains are ready.",
+        "Choose Western Plaguelands or Winterspring next based on your accessible hubs and level."
+      ],
+      "priest": "Camps can be dense. Pull to cleared ground and keep fear away from fresh packs.",
+      "pvp": "Roads and narrow transitions can be camped. Scout before committing.",
+      "exit": "At 55, move into the final hub circuit rather than grinding awkward leftovers.",
+      "alt": "Remaining Un’Goro objectives or early Western Plaguelands."
+    },
+    {
+      "id": "wpl",
+      "range": [
+        55,
+        58
+      ],
+      "zone": "Western Plaguelands",
+      "title": "Western Plaguelands: cautious hub progression",
+      "hub": "Chillwind Camp",
+      "goal": "Gain levels through suitable open-world chains and scoped dungeon trips.",
+      "steps": [
+        "Establish Chillwind flight access and gather appropriate quests.",
+        "Complete nearby chains in batches; isolate enemies near buildings and fences.",
+        "Group for elites and avoid pulling through uncleared interiors.",
+        "If running Blackrock Depths, agree on the exact boss route and quest objectives before joining.",
+        "Move to Winterspring or Eastern Plaguelands when the next quests fit your level better."
+      ],
+      "priest": "Keep undead control available where applicable. Refresh useful healing gear if volunteering for a longer dungeon.",
+      "pvp": "Leave mana and a retreat line on every pull; high-level players may pass through.",
+      "exit": "Around 58, prioritize finishing good chains and preparing the required final dungeon circuits.",
+      "alt": "Winterspring or remaining Felwood quests."
+    },
+    {
+      "id": "finish",
+      "range": [
+        58,
+        60
+      ],
+      "zone": "Winterspring / Eastern Plaguelands",
+      "title": "The last stretch: finish strong chains",
+      "hub": "Everlook / Light’s Hope Chapel",
+      "goal": "Reach 60 without turning the last levels into premature gear farming.",
+      "steps": [
+        "Choose the zone where you already have the most useful chain progress and flight access.",
+        "Complete suitable hub loops; take elite quests only with a ready group.",
+        "Complete Blackmaw Hold around 58–60; fill its Alliance quest placeholders before departure.",
+        "Leave Shaper’s Terrace for 60 unless a suitable group and verified tuning support an earlier visit.",
+        "At 60, review talents, training and gearing for your intended activities. Export your finished progress."
+      ],
+      "priest": "Upgrade when an item is a real improvement. Save repeated loot farming for after the leveling objective is complete.",
+      "pvp": "Relocate between the two final hubs if one is persistently blocked.",
+      "exit": "Level 60 reached. Continue the required dungeon completion blocks below.",
+      "alt": "Finish Western Plaguelands/Felwood chains or one prepared dungeon."
+    },
+    {
+      "id": "end-kalimdor",
+      "range": [
+        60,
+        60
+      ],
+      "zone": "Kalimdor / new-dungeon finish",
+      "title": "Level 60: Dire Maul circuit and Shaper’s Terrace",
+      "hub": "Feathermoon → Dire Maul",
+      "goal": "Finish East, North tribute, West and the North return; place Shaper’s Terrace by verified geography.",
+      "steps": [
+        "Collect Feathermoon and Moonglade pickups; complete Dire Maul East for access.",
+        "Run North tribute; prepare Unfinished Gordok Business before West.",
+        "Clear West and the library, then return North for the linked turn-in.",
+        "Confirm Shaper’s Terrace entrance, quests and tuning; complete the required run."
+      ],
+      "priest": "Bring dispels, water and an agreed role. Do not DoT targets the group needs to control.",
+      "pvp": "Travel to entrances as a group.",
+      "exit": "Proceed to the Blackrock block once these runs are recorded.",
+      "alt": "Swap whole level-60 continent blocks when group availability makes that more efficient."
+    },
+    {
+      "id": "end-blackrock",
+      "range": [
+        60,
+        60
+      ],
+      "zone": "Blackrock Mountain",
+      "title": "Level 60: upper BRD and both Spires",
+      "hub": "Morgan’s Vigil → Flame Crest → Blackrock Mountain",
+      "goal": "Finish BRD chains, Lower Spire and Upper Spire with planned turn-ins between runs.",
+      "steps": [
+        "Finish BRD prison turn-ins and collect bar/vault/Emperor objectives.",
+        "Run upper BRD; arrange the Windsor escort and outside-material returns as needed.",
+        "Complete LBRS and turn in Bijou / Drakkisath preparation; return for Maxwell if necessary.",
+        "Arrange UBRS access and group size; collect conditional attunement objectives before the run."
+      ],
+      "priest": "Clarify DPS versus healing before departure. Utility and safe mana management matter more than padding damage.",
+      "pvp": "Avoid solo entrance travel during active fighting.",
+      "exit": "Move to the Plaguelands chain circuit.",
+      "alt": "Do the Plaguelands first if no upper-spire group is available; keep the Blackrock checklist pending."
+    },
+    {
+      "id": "end-plague",
+      "range": [
+        60,
+        60
+      ],
+      "zone": "Scholomance / Stratholme",
+      "title": "Level 60: linked Plaguelands quest clears",
+      "hub": "Chillwind → Caer Darrow → Light’s Hope",
+      "goal": "Complete Scholo and both Stratholme routes, including their gated returns.",
+      "steps": [
+        "Collect WPL/EPL quests and prepare Dawn’s Gambit / Of Love and Family. Arrange Scholomance entrance access.",
+        "Do initial Scholo objectives; turn in Eva’s chain between the Bag and Kirtonos visits.",
+        "Do Stratholme live Archivist and undead Flesh samples; turn in before their follow-up clears.",
+        "Unlock Ras preparation after Eva; collect Menethil’s Gift before the next undead visit.",
+        "Repeat live for Balnazzar’s head, turn in, then undead for Above and Beyond / Active Agent / Menethil as ready.",
+        "Return to Scholomance for the final Ras objective. Review unresolved placeholders and export progress."
+      ],
+      "priest": "Use Shackle on agreed targets; avoid damaging controlled undead. Carry enough water for longer clears.",
+      "pvp": "Group before approaching the instance gates.",
+      "exit": "Every requested dungeon is covered; unresolved or conditional quests remain clearly recorded.",
+      "alt": "A repeat run is for an actual gated quest, not mandatory loot farming."
+    }
+  ],
+  "dungeons": [
+    {
+      "id": "hall",
+      "name": "Hall of Thanes",
+      "target": "First entry at 15",
+      "note": "Five documented quests. The treaty minimum conflicts between beta sources: enter at 15 as planned, but allow a return for that quest if required.",
+      "source": 3,
+      "quests": [
+        [
+          "incursion",
+          "Old Ironforge Incursion",
+          "Before: Earthseer Farsen after Underground Map from the Dark Iron Map.",
+          "Collect Durgen Dirgehammer’s head; deliver to Magni. Inspect every class-appropriate reward; Deepblaze is relevant to some casters."
+        ],
+        [
+          "heirlooms",
+          "Important Heirlooms",
+          "Before: Thom Filch in Old Ironforge, outside the instance.",
+          "Finish its collection objective before leaving."
+        ],
+        [
+          "restless",
+          "The Restless Dead",
+          "Before: Afadra Dunwall in the entrance area.",
+          "Complete the required spirit kills; inspect your objective count before exit."
+        ],
+        [
+          "grudge",
+          "An Ancient Grudge",
+          "Inside: Ghostly Attendant after the first boss.",
+          "Speak to the attendant and finish the offered objective before moving on."
+        ],
+        [
+          "treaty",
+          "The Treaty of Understanding",
+          "Inside: tablet in the Reliquary of Kings vault.",
+          "Deliver to Magni. Eligibility needs a launch check; record a return if blocked at 15."
+        ]
+      ]
+    },
+    {
+      "id": "ruins",
+      "name": "Ruins of Lordaeron",
+      "target": "After Hall · aim 17–18",
+      "note": "Four documented Alliance quests begin inside. Do not follow the Horde pickup circuit. Travel with your group; inspect item starters immediately.",
+      "source": 5,
+      "quests": [
+        [
+          "abominable",
+          "Abominable Creatures",
+          "Inside: Captain Truman.",
+          "Accept before The Baron; collect his head."
+        ],
+        [
+          "insignia",
+          "Bloodied Insignia",
+          "Inside: quest-starting drop from skeleton enemies.",
+          "Start promptly and collect the additional insignias."
+        ],
+        [
+          "love",
+          "Remember That I Love You",
+          "Inside: Blood-Stained Letter near Rath’mael’s graveyard area.",
+          "Follow the two-step chain toward Darkshire. Mark complete after the follow-up, not just pickup."
+        ],
+        [
+          "crest",
+          "Crest of Lordaeron",
+          "Inside: crest object; several possible spawn points.",
+          "Deliver the Alliance version to Lady Dena Kennedy in Stormwind."
+        ]
+      ]
+    },
+    {
+      "id": "deadmines",
+      "name": "Deadmines",
+      "target": "After Ruins · aim 19–21",
+      "note": "Six documented shared Alliance quests. Prepare the Defias chain first. Two objectives are in the mines outside the instance; class-specific objectives appear separately when relevant.",
+      "source": 4,
+      "quests": [
+        [
+          "defias",
+          "The Defias Brotherhood — dungeon finale",
+          "Before: Gryan Stoutmantle, Sentinel Hill; complete the preceding chain.",
+          "Defeat VanCleef and complete the quest turn-in."
+        ],
+        [
+          "bandanas",
+          "Red Silk Bandanas",
+          "Before: Scout Riell, Sentinel Hill, after the Defias prerequisites.",
+          "Collect bandanas from Defias inside."
+        ],
+        [
+          "assault",
+          "Underground Assault",
+          "Before: Shoni the Shilent, Stormwind Dwarven District.",
+          "Complete the Sneed’s Shredder objective."
+        ],
+        [
+          "memories",
+          "Collecting Memories",
+          "Before: Wilder Thistlenettle, Stormwind Dwarven District.",
+          "Clear the undead mine section outside the instance with your party."
+        ],
+        [
+          "brother",
+          "Oh Brother…",
+          "Before: Wilder Thistlenettle, Stormwind Dwarven District.",
+          "Foreman Thistlenettle is in the outside mine section."
+        ],
+        [
+          "letter",
+          "The Unsent Letter",
+          "Inside: loot Edwin VanCleef.",
+          "Deliver the letter and retain its follow-ups for the Stockades chain."
+        ]
+      ]
+    },
+    {
+      "id": "sfk",
+      "name": "Shadowfang Keep",
+      "target": "22–24",
+      "stage": "redridge",
+      "url": "https://www.icy-veins.com/wow-classic/shadowfang-keep-quests-guide",
+      "note": "Travel with your assembled group via Hillsbrad/Silverpine. This required visit is a travel detour for Alliance.",
+      "quests": [],
+      "prep": "Finish Deadmines first. Pair the northward journey with flight-path collection; return by hearth.",
+      "placeholder": "No standard shared Classic Alliance quest is listed here. Check the selected-class reminder and verify Forever additions; Horde quests are excluded.",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "excavation",
+      "name": "Excavation Site",
+      "target": "27–29",
+      "stage": "wetlands",
+      "url": "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "note": "Required Wetlands stop. Confirm the entrance, group level and pickups before leaving Menethil.",
+      "quests": [],
+      "prep": "Combine with inland Wetlands objectives and Dun Modr before the Stormwind Stockades turn-in circuit.",
+      "placeholder": "Alliance quest list unverified. Reserve space for every outside pickup, prerequisite chain, inside starter and drop-start quest.",
+      "basis": "Quest research placeholder · no verified list"
+    },
+    {
+      "id": "stockades",
+      "name": "The Stockades",
+      "target": "26–28",
+      "stage": "wetlands",
+      "url": "https://www.icy-veins.com/wow-classic/the-stockade-quests-guide",
+      "note": "Run after the Wetlands pickup so one clear covers the six baseline quests. Return to Stormwind after the excavation circuit.",
+      "quests": [
+        [
+          "stockades-q0",
+          "Quell the Uprising",
+          "Warden Thelwater · entrance",
+          "Kill the specified prisoners."
+        ],
+        [
+          "stockades-q1",
+          "The Color of Blood",
+          "Nikova Raskol · Stormwind",
+          "Collect bandanas."
+        ],
+        [
+          "stockades-q2",
+          "Crime and Punishment",
+          "Councilman Millstipe · Darkshire",
+          "Dextren Ward."
+        ],
+        [
+          "stockades-q3",
+          "What Comes Around…",
+          "Guard Berton · Lakeshire",
+          "Targorr the Dread."
+        ],
+        [
+          "stockades-q4",
+          "The Fury Runs Deep",
+          "Motley Garmason · Dun Modr",
+          "After The Dark Iron War; baseline minimum 25. Kill Kam Deepfury."
+        ],
+        [
+          "stockades-q5",
+          "The Stockade Riots",
+          "Warden Thelwater · Stormwind",
+          "Advance VanCleef’s Unsent Letter chain; kill Bazil Thredd."
+        ]
+      ],
+      "prep": "Collect Lakeshire and Darkshire quests while leveling there. At 25+, complete Dun Modr preparation; return with the whole quest package.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "bfd",
+      "name": "Blackfathom Deeps",
+      "target": "26–28",
+      "stage": "wetlands",
+      "url": "https://www.icy-veins.com/wow-classic/blackfathom-deeps-quests-guide",
+      "note": "Slightly late target keeps the full Stockades package together first. Boat west after the Stormwind turn-ins; finish Ashenvale/Darkshore/Darnassus pickups in one circuit.",
+      "quests": [
+        [
+          "bfd-q0",
+          "Knowledge in the Deeps",
+          "Gerrig Bonegrip · Ironforge",
+          "Recover the manuscript near Ghamoo-ra."
+        ],
+        [
+          "bfd-q1",
+          "In Search of Thaelrid",
+          "Dawnwatcher Shaedlass · Darnassus",
+          "Find Thaelrid inside."
+        ],
+        [
+          "bfd-q2",
+          "Researching the Corruption",
+          "Gershala Nightwhisper · Auberdine",
+          "Collect brain stems; check The Corruption Abroad breadcrumb in Stormwind."
+        ],
+        [
+          "bfd-q3",
+          "Twilight Falls",
+          "Argent Guard Manados · Darnassus",
+          "Collect Twilight pendants."
+        ],
+        [
+          "bfd-q4",
+          "Blackfathom Villainy",
+          "Argent Guard Thaelrid · inside",
+          "Kill Kelris; inspect the Alliance reward."
+        ]
+      ],
+      "prep": "Get Knowledge in the Deeps during the Ironforge visit, then use the westward boat connection. Never assume a changed launch boat route.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "rfk",
+      "name": "Razorfen Kraul",
+      "target": "30–32",
+      "stage": "stvnorth",
+      "url": "https://www.icy-veins.com/wow-classic/razorfen-kraul-quests-guide",
+      "note": "Continue south during the first Kalimdor circuit. The Feralas pickup is a long detour: do it before the run rather than promising a complete quest clear without it.",
+      "quests": [
+        [
+          "rfk-q0",
+          "The Crone of the Kraul",
+          "Falfindel Waywarder · Feralas",
+          "Follow Lonebrow’s Journal; kill Charlga."
+        ],
+        [
+          "rfk-q1",
+          "Blueleaf Tubers",
+          "Mebok Mizzyrix · Ratchet",
+          "Bring the supplied collection equipment."
+        ],
+        [
+          "rfk-q2",
+          "Mortality Wanes",
+          "Heralath Fallowbrook · inside",
+          "Recover Treshala’s pendant."
+        ],
+        [
+          "rfk-q3",
+          "Willix the Importer",
+          "Willix · inside",
+          "Clear the escape route, then escort."
+        ]
+      ],
+      "prep": "Pick up Ratchet supplies on the journey south. Get help on the Feralas approach at this level; retain a northern hearth for the next Eastern Kingdoms batch.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "gnomeregan",
+      "name": "Gnomeregan",
+      "target": "31–33",
+      "stage": "stvnorth",
+      "url": "https://www.icy-veins.com/wow-classic/gnomeregan-quests-guide",
+      "note": "Do the Techbot/exterior and Gnogaine preparation first. Ozzie’s second sample quest requires a turn-in between stages.",
+      "quests": [
+        [
+          "gnomeregan-q0",
+          "Save Techbot’s Brain!",
+          "Tinkmaster Overspark · Ironforge",
+          "Techbot outside the instance."
+        ],
+        [
+          "gnomeregan-q1",
+          "Gyrodrillmatic Excavationators",
+          "Shoni · Stormwind",
+          "Collect robot parts."
+        ],
+        [
+          "gnomeregan-q2",
+          "Essential Artificials",
+          "Klockmort Spannerspan · Ironforge",
+          "Collect essentials."
+        ],
+        [
+          "gnomeregan-q3",
+          "Data Rescue",
+          "Master Mechanic Castpipe · Ironforge",
+          "Upgrade punch cards through the machines."
+        ],
+        [
+          "gnomeregan-q4",
+          "The Grand Betrayal",
+          "High Tinker Mekkatorque · Ironforge",
+          "Kill Thermaplugg."
+        ],
+        [
+          "gnomeregan-q5",
+          "Gnogaine",
+          "Ozzie Togglevolt · Kharanos",
+          "First sample; return before next quest."
+        ],
+        [
+          "gnomeregan-q6",
+          "The Only Cure is More Green Glow",
+          "Ozzie · after Gnogaine",
+          "Second sample trip."
+        ],
+        [
+          "gnomeregan-q7",
+          "The Sparklematic 5200!",
+          "Machine · inside",
+          "Use grime-encrusted objects; repeatable."
+        ],
+        [
+          "gnomeregan-q8",
+          "A Fine Mess",
+          "Kernobee · inside",
+          "Escort to safety."
+        ],
+        [
+          "gnomeregan-q9",
+          "Grime-Encrusted Ring → Return of the Ring",
+          "Drop · then Talvash in Ironforge",
+          "Clean the ring; follow the return chain."
+        ]
+      ],
+      "prep": "Batch Stormwind/IF pickups before departure. Reserve bag slots for cards and quest objects; tell the group you need the escort.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "dalaran",
+      "name": "City of Dalaran",
+      "target": "31–33",
+      "stage": "stvnorth",
+      "url": "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "note": "Northern Eastern Kingdoms visit after Gnomeregan. Travel with the group on PvP roads.",
+      "quests": [],
+      "prep": "Set a useful hearth before moving north; complete appropriate Hillsbrad/Arathi objectives around the dungeon trip.",
+      "placeholder": "Alliance quest list unverified. Record launch pickups, inside quests, level gates and turn-ins here.",
+      "basis": "Quest research placeholder · no verified list"
+    },
+    {
+      "id": "drowned",
+      "name": "The Drowned City",
+      "target": "38–40",
+      "stage": "desolace",
+      "url": "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "note": "Required new-content stop. Fit its verified launch entrance into the mid-30s transfer, before the northern Monastery block if geography permits.",
+      "quests": [],
+      "prep": "Do not travel based on an assumed entrance. Confirm the actual location and collect available quests before forming the group.",
+      "placeholder": "Quest list and pickup circuit unverified. Add Alliance/neutral quests and prerequisites from the launch client; this stop remains in the route.",
+      "basis": "Quest research placeholder · no verified list"
+    },
+    {
+      "id": "sm-gy",
+      "name": "Scarlet Monastery · Graveyard",
+      "target": "38–40",
+      "stage": "desolace",
+      "url": "https://www.icy-veins.com/wow-classic/scarlet-monastery-quests-guide",
+      "note": "Required even without a baseline quest. Batch all four wings in one northern visit; the early wings will be below your level.",
+      "quests": [],
+      "prep": "Complete Brother Anton’s Desolace chain and collect the Southshore finale before this trip.",
+      "placeholder": "No standard shared Classic Alliance quest specific to Graveyard is listed here. Verify class-specific and Forever additions; do not invent a quest just to fill the checklist.",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "sm-library",
+      "name": "Scarlet Monastery · Library",
+      "target": "38–40",
+      "stage": "desolace",
+      "url": "https://www.icy-veins.com/wow-classic/scarlet-monastery-quests-guide",
+      "note": "First quest-bearing wing of the four-wing circuit. Doan is one objective in the shared Cathedral checklist.",
+      "quests": [
+        [
+          "sm-library-q0",
+          "Mythology of the Titans",
+          "Librarian Mae Paledust · Ironforge",
+          "Collect the book inside the Library."
+        ]
+      ],
+      "prep": "Collect the book quest in IF. In the Name of the Light must already be accepted; kill Doan before moving to Armory.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "sm-armory",
+      "name": "Scarlet Monastery · Armory",
+      "target": "39–40",
+      "stage": "desolace",
+      "url": "https://www.icy-veins.com/wow-classic/scarlet-monastery-quests-guide",
+      "note": "Kill Herod for In the Name of the Light. That shared quest is tracked once under Cathedral; an unchecked shared quest does not mean Herod is still alive.",
+      "quests": [],
+      "prep": "Continue directly from Library. Record partial shared objectives in the dungeon notes.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "sm-cathedral",
+      "name": "Scarlet Monastery · Cathedral",
+      "target": "40–41",
+      "stage": "desolace",
+      "url": "https://www.icy-veins.com/wow-classic/scarlet-monastery-quests-guide",
+      "note": "Finish the northern wing circuit at a comfortable level. Do not mark the shared quest complete until all four named enemies and the turn-in are done.",
+      "quests": [
+        [
+          "sm-cathedral-q0",
+          "In the Name of the Light",
+          "Raleigh the Devout · Southshore",
+          "Brother Anton → Down the Scarlet Path beforehand. Kill Doan, Herod, Mograine and Whitemane across three wings."
+        ]
+      ],
+      "prep": "Get the Desolace prerequisite before traveling north. Complete Library and Armory first; turn in in Southshore after Cathedral.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "rfd",
+      "name": "Razorfen Downs",
+      "target": "40–42",
+      "stage": "badlands",
+      "url": "https://www.icy-veins.com/wow-classic/razorfen-downs-quests-guide",
+      "note": "Start the second southern Kalimdor circuit here. Coordinate the inside quest sequence before anyone begins the escort.",
+      "quests": [
+        [
+          "rfd-q0",
+          "Bring the Light",
+          "Archbishop Benedictus · Stormwind",
+          "Kill Amnennar."
+        ],
+        [
+          "rfd-q1",
+          "A Host of Evil",
+          "Myriam Moonsinger · outside",
+          "Complete specified kills; baseline minimum 39."
+        ],
+        [
+          "rfd-q2",
+          "Scourge of the Downs → Extinguishing the Idol",
+          "Belnistrasz · inside",
+          "All players finish the dialogue quest before starting the escort."
+        ]
+      ],
+      "prep": "Collect Bring the Light during city training. Cross west together; use Tanaris/Feralas as the next southern quest circuit.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "krol",
+      "name": "Krol’dok Stronghold",
+      "target": "43–45",
+      "stage": "tanaris",
+      "url": "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "note": "Required Riverglades visit. Use a short Eastern Kingdoms block for this and Uldaman, then return west for ZF.",
+      "quests": [],
+      "prep": "Verify the approach and Alliance quest hub. Collect Uldaman prerequisites while on this continent.",
+      "placeholder": "Alliance quest list unverified. Record giver, prerequisite, minimum level, objective and turn-in for each quest.",
+      "basis": "Quest research placeholder · no verified list"
+    },
+    {
+      "id": "uldaman",
+      "name": "Uldaman",
+      "target": "45–47",
+      "stage": "tanaris",
+      "url": "https://www.icy-veins.com/wow-classic/uldaman-quests-guide",
+      "note": "Prepare exterior quests and necklace stages before the full Archaedas clear. Some chains require returning after a turn-in.",
+      "quests": [
+        [
+          "uldaman-q0",
+          "Reclaimed Treasures",
+          "Krom Stoutarm · Ironforge",
+          "Search the exterior mine."
+        ],
+        [
+          "uldaman-q1",
+          "The Lost Dwarves",
+          "Prospector Stormpike · Ironforge",
+          "Find Baelog’s group."
+        ],
+        [
+          "uldaman-q2",
+          "The Hidden Chamber",
+          "Baelog’s Journal · inside",
+          "Follow after the dwarves quest."
+        ],
+        [
+          "uldaman-q3",
+          "Uldaman Reagent Run",
+          "Ghak Healtouch · Thelsamar",
+          "After Badlands Reagent Run."
+        ],
+        [
+          "uldaman-q4",
+          "Agmond’s Fate",
+          "Prospector Ironband · Loch Modan",
+          "Advance Ironband Wants You! chain."
+        ],
+        [
+          "uldaman-q5",
+          "The Lost Tablets of Will",
+          "Advisor Belgrum · Ironforge",
+          "Prepare A Sign of Hope chain."
+        ],
+        [
+          "uldaman-q6",
+          "The Shattered Necklace chain",
+          "Shadowforge drop → Talvash · Ironforge",
+          "Outside preparation, gems, then power-source follow-ups; allow returns."
+        ],
+        [
+          "uldaman-q7",
+          "Power Stones",
+          "Rigglefuzz · Badlands",
+          "Collect stones."
+        ],
+        [
+          "uldaman-q8",
+          "Solution to Doom",
+          "Theldurin · Badlands",
+          "Recover the tablet."
+        ],
+        [
+          "uldaman-q9",
+          "The Platinum Discs",
+          "After Archaedas · inside",
+          "Interact with the discs and finish follow-ups."
+        ]
+      ],
+      "prep": "Use IF → Loch Modan → Badlands for pickups. Confirm a full final-boss run, not a short leveling farm.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "zf",
+      "name": "Zul’Farrak",
+      "target": "47–49",
+      "stage": "feralas",
+      "url": "https://www.icy-veins.com/wow-classic/zul-farrak-quests-guide",
+      "note": "Prepare Hinterlands and Dustwallow tasks before heading to Gadgetzan. Confirm how Gahz’rilla is summoned in the launch client.",
+      "quests": [
+        [
+          "zf-q0",
+          "Nekrum’s Medallion",
+          "Thadius Grimshade · Nethergarde",
+          "Prepare the Witherbark Cages chain in Hinterlands."
+        ],
+        [
+          "zf-q1",
+          "Divino-matic Rod",
+          "Chief Engineer Bilgewhizzle · Gadgetzan",
+          "Recover the rod."
+        ],
+        [
+          "zf-q2",
+          "Scarab Shells",
+          "Tran’rek · Gadgetzan",
+          "Collect shells."
+        ],
+        [
+          "zf-q3",
+          "Troll Temper",
+          "Trenton Lighthammer · Gadgetzan",
+          "Collect temper."
+        ],
+        [
+          "zf-q4",
+          "Tiara of the Deep",
+          "Tabetha · Dustwallow",
+          "Recover the tiara."
+        ],
+        [
+          "zf-q5",
+          "Gahz’rilla",
+          "Wizzle Brassbolts · Shimmering Flats",
+          "Arrange summoning access; Classic mallet preparation uses Hinterlands."
+        ],
+        [
+          "zf-q6",
+          "The Prophecy of Mosh’aru",
+          "Yeh’kinya · Steamwheedle",
+          "After Screecher Spirits; collect tablets. Keep the chain for Sunken Temple."
+        ]
+      ],
+      "prep": "Combine the eastern Uldaman visit with Hinterlands chain preparation. Pick up Tabetha’s quest on the westward return; prepare Yeh’kinya’s Feralas prerequisite.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "mara",
+      "name": "Maraudon · full route",
+      "target": "50–52",
+      "stage": "ungoro",
+      "url": "https://www.icy-veins.com/wow-classic/maraudon-quests-guide",
+      "note": "Agree on orange, purple and inner sections. A princess portal-only run cannot complete this quest package.",
+      "quests": [
+        [
+          "mara-q0",
+          "Shadowshard Fragments",
+          "Archmage Tervosh · Theramore",
+          "Collect outside the purple entrance."
+        ],
+        [
+          "mara-q1",
+          "Vyletongue Corruption",
+          "Talendria · Nijel’s Point",
+          "Bring the provided vial."
+        ],
+        [
+          "mara-q2",
+          "Corruption of Earth and Seed",
+          "Keeper Marandis · Nijel’s Point",
+          "Kill Princess Theradras."
+        ],
+        [
+          "mara-q3",
+          "Twisted Evils",
+          "Willow · Desolace",
+          "Collect carvings."
+        ],
+        [
+          "mara-q4",
+          "Legends of Maraudon",
+          "Cavindra · orange entrance area",
+          "Collect both scepter parts."
+        ],
+        [
+          "mara-q5",
+          "The Scepter of Celebras",
+          "Celebras the Redeemed · inside",
+          "Follow Legends; complete the ritual."
+        ],
+        [
+          "mara-q6",
+          "Seed of Life",
+          "Zaetar · after Princess",
+          "Take the seed onward."
+        ],
+        [
+          "mara-q7",
+          "The Pariah’s Instructions",
+          "Centaur Pariah · southern Desolace",
+          "Do the exterior centaur objective."
+        ]
+      ],
+      "prep": "Collect Theramore pickup during the Dustwallow visit. Return to Nijel’s Point with every outside quest before entering.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "alcaz",
+      "name": "Alcaz Island Prison",
+      "target": "51–53",
+      "stage": "ungoro",
+      "url": "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "note": "Required visit paired with the Dustwallow transfer. Confirm access and travel safety; do not swim into elite patrols without a plan.",
+      "quests": [],
+      "prep": "Use Theramore for supplies and verified transport; return to Un’Goro/Felwood questing afterward.",
+      "placeholder": "Quest list and prison access prerequisites unverified. Record all eligible pickups and any access chain before departure.",
+      "basis": "Quest research placeholder · no verified list"
+    },
+    {
+      "id": "st",
+      "name": "Sunken Temple",
+      "target": "54–55",
+      "stage": "felwood",
+      "url": "https://www.icy-veins.com/wow-classic/sunken-temple-quests-guide",
+      "note": "This is a long preparation package. Finish the Hinterlands egg and any selected-class chain before booking a full temple clear.",
+      "quests": [
+        [
+          "st-q0",
+          "Into the Temple of Atal’Hakkar",
+          "Brohann Caskbelly · Stormwind",
+          "Prepare In Search of the Temple and its travel chain."
+        ],
+        [
+          "st-q1",
+          "Jammal’an the Prophet",
+          "Atal’ai Exile · Hinterlands",
+          "Kill Jammal’an."
+        ],
+        [
+          "st-q2",
+          "The God Hakkar",
+          "Yeh’kinya · Steamwheedle",
+          "ZF tablets → The Ancient Egg; bring the summoning scroll."
+        ],
+        [
+          "st-q3",
+          "Into the Depths",
+          "Marvon Rivetseeker · Tanaris",
+          "Prepare The Sunken Temple / The Stone Circle."
+        ],
+        [
+          "st-q4",
+          "Secret of the Circle",
+          "Marvon Rivetseeker · Tanaris",
+          "Complete the statue puzzle."
+        ],
+        [
+          "st-q5",
+          "Haze of Evil",
+          "Gregan Brewspewer · Feralas",
+          "Muigin and Larion in Un’Goro → Visit Gregan."
+        ],
+        [
+          "st-q6",
+          "The Essence of Eranikus",
+          "Eranikus drop · inside",
+          "Use the nearby brazier; inspect follow-up before giving up its trinket."
+        ],
+        [
+          "st-q7",
+          "Blood of Morphaz · Priest",
+          "Ogtinc · Azshara",
+          "Classic class chain: Cenarion Aid → Of Coursers We Know → The Ichor of Undeath. Verify Forever availability."
+        ]
+      ],
+      "prep": "Start Brohann and the selected class’s level-50 preparation early. Join a group explicitly doing Hakkar, statues and dragons, not only one boss.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "brd-prison",
+      "name": "Blackrock Depths · prison & preparation",
+      "target": "55–57",
+      "stage": "wpl",
+      "url": "https://www.wowhead.com/classic/guide/classic-wow-blackrock-depths-dungeon-quests",
+      "note": "First BRD visit prepares later chains; this is not the Emperor clear. Several follow-ups only become available after an outside turn-in.",
+      "quests": [
+        [
+          "brd-prison-q0",
+          "Overmaster Pyron → Incendius",
+          "Jalinda Sprig · Morgan’s Vigil",
+          "Do Pyron outside before accepting the inside follow-up."
+        ],
+        [
+          "brd-prison-q1",
+          "The Good Stuff",
+          "Oralius · Morgan’s Vigil",
+          "Collect Dark Iron fanny packs."
+        ],
+        [
+          "brd-prison-q2",
+          "Marshal Windsor → Abandoned Hope",
+          "Marshal Maxwell · Morgan’s Vigil",
+          "Prepare Dragonkin Menace chain; locate Windsor and turn in."
+        ],
+        [
+          "brd-prison-q3",
+          "A Crumpled Up Note → A Shred of Hope",
+          "BRD drop after Windsor preparation",
+          "Recover documents from Angerforge and Argelmach on the later run."
+        ],
+        [
+          "brd-prison-q4",
+          "Jail Break!",
+          "Marshal Windsor · inside",
+          "After documents; clear the escort route before starting."
+        ],
+        [
+          "brd-prison-q5",
+          "Dark Iron Legacy",
+          "Franclorn Forgewright · ghost in Blackrock Mountain",
+          "Speak while dead; complete the key objective."
+        ],
+        [
+          "brd-prison-q6",
+          "Kharan Mighthammer → Kharan’s Tale → The Bearer of Bad News",
+          "King Magni · Ironforge",
+          "Prepare The Smoldering Ruins of Thaurissan; speak with prisoner, then return to Magni."
+        ]
+      ],
+      "prep": "Collect Morgan’s Vigil and Ironforge chains before the prison run. Return city turn-ins before scheduling upper BRD.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "blackmaw",
+      "name": "Blackmaw Hold",
+      "target": "58–60",
+      "stage": "finish",
+      "url": "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "note": "Required late-level stop. Confirm geography and launch tuning before choosing between the final quest hubs.",
+      "quests": [],
+      "prep": "Assemble after reaching the published bracket; bring the healing set only if you agree to heal.",
+      "placeholder": "Alliance quest list unverified. Outside, inside, drop-start and access quests need launch confirmation.",
+      "basis": "Quest research placeholder · no verified list"
+    },
+    {
+      "id": "shapers",
+      "name": "Shaper’s Terrace",
+      "target": "60",
+      "stage": "end-kalimdor",
+      "url": "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "note": "Required level-60 finish. Its placement can move within the final continent blocks after the entrance and quest hubs are confirmed.",
+      "quests": [],
+      "prep": "Confirm group size, access and the full quest route before travel.",
+      "placeholder": "Alliance quest list unverified. Add all quest names, givers, gates, objectives and sources as discovered.",
+      "basis": "Quest research placeholder · no verified list"
+    },
+    {
+      "id": "dm-east",
+      "name": "Dire Maul · East",
+      "target": "60",
+      "stage": "end-kalimdor",
+      "url": "https://www.icy-veins.com/wow-classic/dire-maul-quests-guide",
+      "note": "DM here means Dire Maul; Deadmines remains the third opening run. Do East first for Crescent Key access under Classic rules.",
+      "quests": [
+        [
+          "dm-east-q0",
+          "Lethtendris’s Web",
+          "Latronicus Moonspear · Feathermoon",
+          "Recover the web."
+        ],
+        [
+          "dm-east-q1",
+          "Pusillin and the Elder Azj’Tordin",
+          "Azj’Tordin · Lariss Pavilion",
+          "Recover his book; pursue Pusillin for access."
+        ],
+        [
+          "dm-east-q2",
+          "Shards of the Felvine",
+          "Rabine Saturna · Moonglade",
+          "Prepare A Reliquary of Purity; collect after Alzzin."
+        ]
+      ],
+      "prep": "Collect Feathermoon and Moonglade preparation before traveling to Dire Maul. Check changed launch key rules.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "dm-north",
+      "name": "Dire Maul · North",
+      "target": "60",
+      "stage": "end-kalimdor",
+      "url": "https://www.icy-veins.com/wow-classic/dire-maul-quests-guide",
+      "note": "Plan tribute first: spare required guards and Kromcrush. Make the ogre suit before freeing Knot; schedule a North return after West.",
+      "quests": [
+        [
+          "dm-north-q0",
+          "Free Knot!",
+          "Knot Thimblejack · inside",
+          "Obtain the shackle key."
+        ],
+        [
+          "dm-north-q1",
+          "The Gordok Ogre Suit",
+          "Knot · inside",
+          "Bring crafting materials; do before freeing him."
+        ],
+        [
+          "dm-north-q2",
+          "Unfinished Gordok Business",
+          "Kromcrush · after tribute",
+          "West-wing objective; return North afterward."
+        ],
+        [
+          "dm-north-q3",
+          "The Gordok Taste Test",
+          "Stomper Kreeg · after tribute",
+          "Speak after gaining king status."
+        ]
+      ],
+      "prep": "Agree on tribute rules before the first pull and bring disguise materials.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "dm-west",
+      "name": "Dire Maul · West & library",
+      "target": "60",
+      "stage": "end-kalimdor",
+      "url": "https://www.icy-veins.com/wow-classic/dire-maul-quests-guide",
+      "note": "Continue from the North tribute setup. The library includes conditional book and repeatable turn-ins.",
+      "quests": [
+        [
+          "dm-west-q0",
+          "The Madness Within → The Treasure of the Shen’dralar",
+          "Shen’dralar Ancient · inside",
+          "Complete the West sequence."
+        ],
+        [
+          "dm-west-q1",
+          "Elven Legends",
+          "Scholar Runethorn · Feathermoon",
+          "Inspect the library remains."
+        ],
+        [
+          "dm-west-q2",
+          "Holy Bologna: What the Light Won’t Tell You",
+          "Priest book drop / trade",
+          "Conditional book turn-in at the library."
+        ],
+        [
+          "dm-west-q3",
+          "Librams of Focus / Protection / Rapidity",
+          "Lorekeeper Lydros · library",
+          "Conditional repeatables; materials and Elven Legends first."
+        ]
+      ],
+      "prep": "Collect the West objective for Unfinished Gordok Business before returning North. Do not farm rare books solely to finish leveling.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "brd-upper",
+      "name": "Blackrock Depths · upper city",
+      "target": "59–60",
+      "stage": "end-blackrock",
+      "url": "https://www.wowhead.com/classic/guide/classic-wow-blackrock-depths-dungeon-quests",
+      "note": "Second planned BRD block. Complete prison follow-ups before leaving for Emperor; spare Moira when the quest requires it.",
+      "quests": [
+        [
+          "brd-upper-q0",
+          "Hurley Blackbreath",
+          "Ragnar Thunderbrew · Kharanos",
+          "Bar objective."
+        ],
+        [
+          "brd-upper-q1",
+          "Ribbly Screwspigot",
+          "Yuka Screwspigot · Flame Crest",
+          "Bar objective."
+        ],
+        [
+          "brd-upper-q2",
+          "The Heart of the Mountain",
+          "Maxwort Uberglint · Flame Crest",
+          "Vault; arrange keys."
+        ],
+        [
+          "brd-upper-q3",
+          "The Love Potion",
+          "Mistress Nagmara · bar",
+          "Outside materials and return visit."
+        ],
+        [
+          "brd-upper-q4",
+          "A Taste of Flame",
+          "Cyrus Therepentous · Burning Steppes",
+          "Complete his preliminary chain; kill golems."
+        ],
+        [
+          "brd-upper-q5",
+          "The Fate of the Kingdom → The Princess’s Surprise",
+          "Magni / Moira",
+          "After Kharan chain; Emperor then follow-ups."
+        ],
+        [
+          "brd-upper-q6",
+          "Attunement to the Core",
+          "Lothos Riftwaker · Blackrock Mountain",
+          "Retrieve the core fragment."
+        ]
+      ],
+      "prep": "Bring unfinished Incendius, Windsor documents and key objectives from the first visit. Agree which optional bar/vault routes are included.",
+      "placeholder": "Conditional profession/phase quests: verify your professions, Dark Iron smelting access and any Forever additions. Tier 0.5 / special-summon chains require a separate eligibility check.",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "lbrs",
+      "name": "Lower Blackrock Spire",
+      "target": "59–60",
+      "stage": "end-blackrock",
+      "url": "https://www.icy-veins.com/wow-classic/lower-blackrock-spire-quests-guide",
+      "note": "Clear the quest route and collect upper-spire prerequisites. Some chains need an external return before the next visit.",
+      "quests": [
+        [
+          "lbrs-q0",
+          "Put Her Down",
+          "Helendis Riverhorn · Morgan’s Vigil",
+          "Kill Halycon."
+        ],
+        [
+          "lbrs-q1",
+          "Bijou’s Belongings → Bijou’s Reconnaissance",
+          "Bijou · inside",
+          "Recover belongings; deliver report."
+        ],
+        [
+          "lbrs-q2",
+          "Maxwell’s Mission",
+          "Marshal Maxwell · Morgan’s Vigil",
+          "After Bijou; requires another boss clear if not prepared."
+        ],
+        [
+          "lbrs-q3",
+          "General Drakkisath’s Command",
+          "Overlord Wyrmthalak drop",
+          "Unlock the UBRS follow-up."
+        ],
+        [
+          "lbrs-q4",
+          "En-Ay-Es-Tee-Why",
+          "Kibler · Flame Crest",
+          "Collect eggs."
+        ],
+        [
+          "lbrs-q5",
+          "Kibler’s Exotic Pets",
+          "Kibler · Flame Crest",
+          "Use the cage."
+        ],
+        [
+          "lbrs-q6",
+          "Mother’s Milk",
+          "Ragged John · Flame Crest",
+          "Plan the debuff return with your group."
+        ],
+        [
+          "lbrs-q7",
+          "Urok Doomhowl",
+          "Warosh · inside",
+          "Gather summoning items."
+        ],
+        [
+          "lbrs-q8",
+          "Seal of Ascension",
+          "Vaelan · inside",
+          "Gem/key chain; external forging and return."
+        ],
+        [
+          "lbrs-q9",
+          "The Final Tablets",
+          "Prospector Ironboot · Steamwheedle",
+          "Advance the Yeh’kinya tablet follow-ups."
+        ]
+      ],
+      "prep": "Collect Flame Crest and Morgan’s Vigil quests together. Confirm who provides upper-spire access; you need not each finish the key before grouping.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "ubrs",
+      "name": "Upper Blackrock Spire",
+      "target": "60",
+      "stage": "end-blackrock",
+      "url": "https://www.icy-veins.com/wow-classic/upper-blackrock-spire-quests-guide",
+      "note": "Confirm launch group size and key rules; this may need a larger group than the other runs. Complete LBRS prerequisites first.",
+      "quests": [
+        [
+          "ubrs-q0",
+          "General Drakkisath’s Demise",
+          "Marshal Maxwell · Morgan’s Vigil",
+          "After LBRS command; kill Drakkisath."
+        ],
+        [
+          "ubrs-q1",
+          "Doomrigger’s Clasp",
+          "Mayara Brightwing · Morgan’s Vigil",
+          "Recover the clasp."
+        ],
+        [
+          "ubrs-q2",
+          "Pip Quickwit, At Your Service!",
+          "Pip · inside",
+          "Inspect available rescued-NPC follow-ups."
+        ],
+        [
+          "ubrs-q3",
+          "The Matron Protectorate",
+          "Awbee · inside",
+          "Take the dragonflight follow-up."
+        ],
+        [
+          "ubrs-q4",
+          "The Eye of the Emberseer",
+          "Duke Hydraxis · Azshara",
+          "Conditional chain / launch phase; bring it if available."
+        ],
+        [
+          "ubrs-q5",
+          "Blackhand’s Command",
+          "Scarshield Quartermaster drop · outside",
+          "Finish at the orb after Drakkisath."
+        ],
+        [
+          "ubrs-q6",
+          "Drakefire Amulet",
+          "Haleh · Winterspring",
+          "Conditional Onyxia chain after Windsor; blood objective."
+        ]
+      ],
+      "prep": "Turn in LBRS command and advance Windsor/Onyxia before the trip if available. Agree on all quest stops, not just the final boss.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "scholo",
+      "name": "Scholomance",
+      "target": "60",
+      "stage": "end-plague",
+      "url": "https://www.icy-veins.com/wow-classic/scholomance-quests-guide",
+      "note": "Plan a first clear plus follow-up visits. Eva’s and Ras’s chains cannot all be completed in one fresh run.",
+      "quests": [
+        [
+          "scholo-q0",
+          "Barov Family Fortune",
+          "Weldon Barov · Chillwind",
+          "Recover four deeds."
+        ],
+        [
+          "scholo-q1",
+          "Plagued Hatchlings",
+          "Betina Bigglezink · Light’s Hope",
+          "Kill hatchlings."
+        ],
+        [
+          "scholo-q2",
+          "Healthy Dragon Scale",
+          "Hatchling drop after prior quest",
+          "Conditional return pickup."
+        ],
+        [
+          "scholo-q3",
+          "Doctor Theolen Krastinov, the Butcher",
+          "Eva Sarkhoff · outside",
+          "Complete Eva’s first objectives."
+        ],
+        [
+          "scholo-q4",
+          "Krastinov’s Bag of Horrors",
+          "Eva · after first turn-in",
+          "Return for Jandice."
+        ],
+        [
+          "scholo-q5",
+          "Kirtonos the Herald",
+          "Eva · next stage",
+          "Use the provided summoning item."
+        ],
+        [
+          "scholo-q6",
+          "The Human, Ras Frostwhisper → The Dying, Ras Frostwhisper",
+          "Magistrate Marduke · Caer Darrow",
+          "Spectral Essence from Eva; prepare linked Stratholme chain."
+        ],
+        [
+          "scholo-q7",
+          "The Lich, Ras Frostwhisper",
+          "Marduke · after Menethil / keepsake stages",
+          "Final return after Stratholme."
+        ],
+        [
+          "scholo-q8",
+          "Dawn’s Gambit",
+          "Betina · Light’s Hope",
+          "Prepare Tinkee’s Burning Steppes/Winterspring egg chain."
+        ]
+      ],
+      "prep": "Arrange entrance access; personal Skeleton Key chain includes WPL, Gadgetzan, Un’Goro and Araj. Do those while questing if you want your own key.",
+      "placeholder": "Verify phase/profession extras, tier 0.5 summons and Forever additions. Personal key-chain steps are preparation, not evidence that every party member needs a key.",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "strat-live",
+      "name": "Stratholme · live side",
+      "target": "60",
+      "stage": "end-plague",
+      "url": "https://www.icy-veins.com/wow-classic/stratholme-live-quests-guide",
+      "note": "First live clear for Archivist. Turn in before a later Balnazzar-head objective; do not promise both fresh-chain stages on one visit.",
+      "quests": [
+        [
+          "strat-live-q0",
+          "Houses of the Holy",
+          "Leonid Barthalomew · Light’s Hope",
+          "Shared supplies across both sides; tracked here once."
+        ],
+        [
+          "strat-live-q1",
+          "Of Love and Family",
+          "Tirion Fordring chain → Artist Renfray",
+          "Prepare before entry; recover painting."
+        ],
+        [
+          "strat-live-q2",
+          "The Archivist",
+          "Duke Nicholas Zverenhoff · Light’s Hope",
+          "Archive objective; turn in before head stage."
+        ],
+        [
+          "strat-live-q3",
+          "The Great Fras Siabi",
+          "Smokey LaRue · Light’s Hope",
+          "Recover tobacco."
+        ],
+        [
+          "strat-live-q4",
+          "The Restless Souls",
+          "Caretaker Alen → Egan",
+          "Bring the blaster."
+        ],
+        [
+          "strat-live-q5",
+          "The Medallion of Faith",
+          "Aurius · inside",
+          "Recover from live side; prepares undead follow-up."
+        ],
+        [
+          "strat-live-q6",
+          "The Truth Comes Crashing Down",
+          "Balnazzar head after Archivist turn-in",
+          "Return live clear; unlock Above and Beyond."
+        ]
+      ],
+      "prep": "Collect Light’s Hope quests together. Complete Tirion’s outside chain first, and pair the repeat live visit with the Scholomance return circuit.",
+      "placeholder": "",
+      "basis": "Classic baseline · verify Forever launch changes"
+    },
+    {
+      "id": "strat-undead",
+      "name": "Stratholme · undead side",
+      "target": "60",
+      "stage": "end-plague",
+      "url": "https://www.icy-veins.com/wow-classic/stratholme-undead-quests-guide",
+      "note": "Run after Scholo’s Ras preparation and the live-side turn-ins when possible. Bring all shared and linked quests.",
+      "quests": [
+        [
+          "strat-undead-q0",
+          "The Flesh Does Not Lie",
+          "Betina Bigglezink · Light’s Hope",
+          "Collect samples; turn in to unlock the next quest."
+        ],
+        [
+          "strat-undead-q1",
+          "The Active Agent",
+          "Betina · after samples",
+          "Return for the ziggurat item; allow a second visit."
+        ],
+        [
+          "strat-undead-q2",
+          "Above and Beyond",
+          "Duke Nicholas · Light’s Hope",
+          "After Balnazzar head; Baron objective."
+        ],
+        [
+          "strat-undead-q3",
+          "Menethil’s Gift → Soulbound Keepsake",
+          "Leonid / Ras chain",
+          "Use the Baron-room circle; return to the Scholo chain."
+        ],
+        [
+          "strat-undead-q4",
+          "Aurius’ Reckoning",
+          "Aurius · after medallion",
+          "Complete the Baron event and inspect Aurius."
+        ]
+      ],
+      "prep": "Pre-plan sample turn-in and repeat run. Houses of the Holy remains tracked under live side.",
+      "placeholder": "Conditional tier 0.5: Dead Man’s Plea and related special encounters need phase, gear-chain and launch eligibility verification.",
+      "basis": "Classic baseline · verify Forever launch changes"
+    }
+  ],
+  "sources": [
+    [
+      "Official systems overview",
+      "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "Confirmed design direction for changed talents, items, racials and camping; not a complete Priest launch specification."
+    ],
+    [
+      "Official new zones and launch overview",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "Riverglades and other new content. New dungeons are required in this all-dungeon route; zone filler remains flexible."
+    ],
+    [
+      "Official new dungeon level bands",
+      "https://eu.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/628618",
+      "Announced bands; the run targets here are recommendations within or near those bands."
+    ],
+    [
+      "Hall of Thanes walkthrough",
+      "https://www.wowhead.com/forever/news/the-hall-of-thanes-new-dungeon-walkthrough-for-wow-forever-382991",
+      "Five quests and the Dun Morogh preparation chain. Beta information."
+    ],
+    [
+      "Forever dungeon quest index",
+      "https://www.wowhead.com/forever/guide/dungeons/every-dungeon-quest-location",
+      "Quest minimums and Deadmines checklist. The index itself warns some data is incomplete; treaty level needs rechecking."
+    ],
+    [
+      "Ruins of Lordaeron quest guide",
+      "https://www.icy-veins.com/wow-forever/ruins-of-lordaeron-quests",
+      "Four documented Alliance quests, their inside pickups and follow-ups. Beta information."
+    ],
+    [
+      "Deadmines Classic quest context",
+      "https://www.icy-veins.com/wow-classic/deadmines-quests-guide",
+      "Distinguishes the mine objectives outside the instance. Use as a baseline, not proof of unchanged Forever tuning."
+    ],
+    [
+      "Shadow Priest early beta guide",
+      "https://www.wowhead.com/forever/guide/classes/priest/shadow/level-20-dps-overview",
+      "Early spell-and-wand play and Spirit Tap. Does not validate a full level-60 launch build."
+    ],
+    [
+      "Old Ironforge Incursion reward",
+      "https://www.wowhead.com/forever/quest=96393/old-ironforge-incursion",
+      "Inspect Deepblaze when selecting your quest reward."
+    ],
+    [
+      "Official Forever race/class matrix",
+      "https://news.blizzard.com/en-gb/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+      "Official Alliance combinations, Skyborne start, and updated racial abilities."
+    ]
+  ]
+}
