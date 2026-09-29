@@ -21,6 +21,98 @@
 .placeholder-quest{opacity:.82}
 @media(max-width:650px){.pickup-row{grid-template-columns:1fr}.quest-cluster>summary{align-items:flex-start;flex-direction:column}.pickup-status{max-width:220px}}
 @media(max-width:720px){.dashboard-grid,.session-grid,.verify-controls,.verify-row,.quest{grid-template-columns:1fr}.readiness{grid-template-columns:repeat(2,1fr)}.skill-controls{grid-template-columns:1fr 90px}.skill-controls a{grid-column:1/-1}}footer{border-top:1px solid var(--line);padding-top:18px;margin-top:30px;font-size:13px;color:var(--muted)}[hidden]{display:none!important}@media(max-width:1100px){.layout{grid-template-columns:230px 1fr}.sidebar{padding:22px 14px}.columns{grid-template-columns:1fr}.grid3{grid-template-columns:1fr}.intro{display:block}.intro .badge{margin-top:12px}}@media(max-width:720px){.layout{display:block}.sidebar{position:relative;height:auto;padding:18px 20px}.sidebar nav{display:flex;overflow:auto;gap:6px;max-height:150px;flex-wrap:wrap}.nav-item{width:auto;font-size:13px}.sidebar .nav-title{margin:16px 0 6px}.sidebar .field{margin-top:10px}.brand{font-size:1.3rem}.topline{margin-bottom:20px}main{padding:24px 16px}.controls{grid-template-columns:75px 1fr}.controls button{grid-column:1/-1}.milestones{gap:6px}.milestone{padding:10px}.milestone strong{font-size:13px}.milestone small{font-size:12px}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.box{padding:18px}.stage-head{display:block}.stage-head .badge{margin-top:10px}}@media print{.sidebar,.controls,.tabs,.inline-actions,.stage-actions,.dungeon:not([open]){display:none}.layout{display:block}body{background:white;color:black}main{max-width:none}.box,.milestone{background:white;color:black;break-inside:avoid}.muted,small,.quest p{color:#444}}
+
+/* Crisp route UI: clearer layers, focus states, and compact task controls. */
+:root{
+  --bg:#0d111a;--panel:#151b27;--panel2:#1c2534;--ink:#f4f5fb;--muted:#a8b2c7;
+  --line:#303b50;--purple:#cbb8ff;--gold:#f0cb85;--green:#8ee0b1;
+  --ease-out:cubic-bezier(.23,1,.32,1)
+}
+body{background:radial-gradient(ellipse at 78% -15%,rgba(106,89,157,.14),transparent 42%),var(--bg);line-height:1.58}
+button,a,input,select,textarea{outline-offset:3px}
+:focus-visible{outline:2px solid var(--gold)!important;outline-offset:3px}
+main{max-width:1500px;padding-top:26px}
+.sidebar{background:rgba(18,23,34,.96);border-color:rgba(132,147,179,.18);box-shadow:12px 0 30px rgba(0,0,0,.08)}
+.brand{letter-spacing:-.025em}
+.nav-item{border-radius:7px;transition:background-color 150ms ease,color 150ms ease}
+.nav-item:hover{background:rgba(203,184,255,.08)}
+.nav-item.active{border-left:3px solid var(--purple);background:linear-gradient(90deg,rgba(203,184,255,.16),rgba(203,184,255,.04));color:#eee7ff}
+.topline{padding-bottom:13px;border-bottom:1px solid rgba(132,147,179,.16)}
+.intro{margin-bottom:6px}
+.intro p{line-height:1.5}
+.controls{margin-top:20px}
+input,select,textarea{border-color:#3d4960;transition:border-color 150ms ease,box-shadow 150ms ease,background-color 150ms ease}
+input:hover,select:hover,textarea:hover{border-color:#65728b}
+input:focus,select:focus,textarea:focus{border-color:var(--purple);box-shadow:0 0 0 3px rgba(203,184,255,.13);background:#121927}
+button{transition:transform 120ms ease-out,border-color 150ms ease,background-color 150ms ease,color 150ms ease}
+button:active{transform:scale(.98)}
+button.primary:hover{background:#d5c6ff;border-color:#d5c6ff}
+.progress-track{height:6px;background:#252e3f}
+.progress-fill{border-radius:4px;box-shadow:0 0 12px rgba(203,184,255,.3)}
+.milestone{border-radius:9px;background:linear-gradient(145deg,#171e2b,#141a25);border:1px solid rgba(132,147,179,.13);border-top:2px solid var(--gold);box-shadow:0 8px 22px rgba(0,0,0,.12)}
+.tabs{gap:6px;border-bottom-color:rgba(132,147,179,.22)}
+.tab{padding:11px 13px;border-radius:7px 7px 0 0;transition:color 140ms ease,background-color 140ms ease}
+.tab:hover{background:rgba(203,184,255,.07);color:var(--ink)}
+.tab[aria-selected=true]{background:rgba(203,184,255,.07)}
+.stage-head{align-items:center;padding-bottom:17px;border-bottom:1px solid rgba(132,147,179,.16)}
+.stage-head h2{letter-spacing:-.02em}
+.box{background:linear-gradient(145deg,rgba(25,32,46,.98),rgba(20,26,38,.98));border-color:rgba(132,147,179,.2);box-shadow:0 10px 26px rgba(0,0,0,.12)}
+.note{border-left-color:var(--gold);border-radius:0 8px 8px 0;background:rgba(240,203,133,.075)}
+.check{gap:14px;padding:12px 2px}
+.check:hover{color:var(--ink)}
+.check input{cursor:pointer}
+.quest-cluster{border-color:rgba(132,147,179,.22);background:rgba(21,27,39,.56);transition:border-color 160ms ease,background-color 160ms ease}
+.quest-cluster[open]{border-color:rgba(203,184,255,.43);background:rgba(25,31,45,.82)}
+.quest-cluster>summary{min-height:66px;padding:15px 18px;list-style:none}
+.quest-cluster>summary::before{content:'+';display:inline-grid;place-items:center;flex:0 0 22px;width:22px;height:22px;border:1px solid var(--line);border-radius:6px;color:var(--purple);font-size:16px;line-height:1}
+.quest-cluster[open]>summary::before{content:'−';background:rgba(203,184,255,.1)}
+.quest-cluster>summary::-webkit-details-marker{display:none}
+.quest-cluster>summary>span{flex:1}
+.quest-cluster-body{padding:0 18px 18px}
+.cluster-note{max-width:75ch}
+.pickup-row{grid-template-columns:minmax(0,1fr) minmax(205px,auto);gap:20px;padding:16px 0;border-top-color:rgba(132,147,179,.16)}
+.pickup-title{font-size:15px;letter-spacing:-.01em}
+.pickup-meta{gap:5px;font-size:13px;line-height:1.5}
+.pickup-meta strong{color:#d7dced}
+.status-checks{gap:6px}
+.status-checks label{padding:5px 8px;background:rgba(12,17,26,.45);transition:background-color 140ms ease,border-color 140ms ease,color 140ms ease}
+.status-checks label:hover{border-color:#7886a1;color:var(--ink)}
+.status-checks label:has([data-status-choice="completed"]:checked){border-color:rgba(142,224,177,.55);background:rgba(76,151,112,.14);color:#b8f0ce}
+.status-checks label:has([data-status-choice="blocked"]:checked){border-color:rgba(236,134,148,.55);background:rgba(157,77,92,.14);color:#ffc4cc}
+.status-checks label:has([data-status-choice="accepted"]:checked){border-color:rgba(127,164,239,.55);background:rgba(85,119,190,.15);color:#c9d8ff}
+.status-checks input{accent-color:var(--purple)}
+.cluster-actions{padding-top:8px}
+.dungeon{border:1px solid transparent;border-radius:10px;overflow:hidden}
+.dungeon[open]{border-color:rgba(132,147,179,.2);background:rgba(19,25,37,.38)}
+.dungeon summary{position:relative;padding:17px 48px 17px 18px;border:1px solid rgba(132,147,179,.17);transition:background-color 150ms ease,border-color 150ms ease}
+.dungeon summary:hover{border-color:rgba(203,184,255,.4);background:#252e40}
+.dungeon summary::after{content:'+';position:absolute;right:18px;top:50%;transform:translateY(-50%);color:var(--purple);font-size:20px;font-weight:400}
+.dungeon[open] summary::after{content:'−'}
+.dungeon-content{padding:18px;border-color:rgba(132,147,179,.18);background:rgba(16,21,31,.65)}
+.readiness span{border:1px solid rgba(132,147,179,.12);background:rgba(11,16,25,.72)}
+.quest{padding:16px 0;border-bottom-color:rgba(132,147,179,.17)}
+.quest-title{line-height:1.45}
+.source-links a{text-underline-offset:3px}
+.ref-link[data-tip]::after{border-color:#7868a3;box-shadow:0 12px 30px rgba(0,0,0,.42)}
+footer{color:#929db2}
+@media(max-width:720px){
+  main{padding:20px 15px 42px}
+  .sidebar{border-right:0;border-bottom:1px solid rgba(132,147,179,.18)}
+  .sidebar nav{flex-wrap:nowrap;max-height:none;padding:3px 0 8px}
+  .nav-item{flex:0 0 auto}
+  .topline{align-items:flex-start}
+  .controls{gap:9px}
+  .milestones{grid-template-columns:1fr}
+  .milestone{padding:12px 14px}
+  .tabs{margin-right:-15px;padding-right:15px}
+  .pickup-row{grid-template-columns:1fr;gap:10px}
+  .pickup-status{max-width:none!important}
+  .status-checks{gap:5px}
+  .stage-head{padding-bottom:13px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
+}
 </style></head><body>
 <div class="layout"><aside class="sidebar"><div class="eyebrow">Alliance / PvP</div><div class="brand">The <span>Alliance</span> Path</div><small>Alliance race & class field guide</small><div class="selector-stack"><label class="field">Alliance race<select id="race"><option value="human">Human</option><option value="dwarf">Dwarf</option><option value="gnome">Gnome</option><option value="nightelf">Night Elf</option><option value="skyborne">Skyborne</option></select></label><label class="field">Class<select id="classChoice"></select></label></div><div class="nav-title">Journey to 60</div><nav id="routeNav" aria-label="Leveling stages"></nav><div class="notice"><span id="identitySummary">Solo questing · selected class</span><br><span id="roleSummary">Dungeon role adapts to class</span><br>Every dungeon · batched travel</div></aside>
 <main><div class="topline"><div class="eyebrow">WoW Forever / Launch plan</div><span id="saveStatus" class="status" role="status">Progress stays in this browser</span></div><div class="intro"><div><h1 id="guideTitle">Alliance leveling guide</h1><p id="guideSubtitle">Five starts. Nine classes. Every dungeon. Level 60 completion circuits.</p></div><span class="badge">Beta-based · checked 28 Sep 2026</span></div>
