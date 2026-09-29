@@ -508,6 +508,7 @@ if(document.modelContext?.registerTool){try{Promise.resolve(document.modelContex
   };
   function setStage(id) {
     if (!stages().some(s => s.id === id)) return;
+    ui.level='world';ui.continent=null;ui.zone=null;ui.query='';
     state.stage = id;
     save();
     renderStage();
@@ -534,7 +535,8 @@ if(document.modelContext?.registerTool){try{Promise.resolve(document.modelContex
   function zoneLink(id) {
     const zone=data.zones[id], here=ui.zone===id;
     const related=stages().filter(s=>s.zoneIds.includes(id));
-    return `<button class="atlas-zone-link ${here?'selected':''}" data-zone="${escape(id)}" ${here?'aria-current="location"':''}><span class="atlas-zone-name">${escape(zone.name)}</span><span class="atlas-zone-meta">${related.map(s=>s.range.join('–')).join(', ') || 'Travel'} · ${artFor(id)?'Map available':'Route notes'}</span><span class="atlas-zone-arrow">↗</span></button>`;
+    const artLabel=data.art[id]?'Zone map':artFor(id)?'Area map':'Route notes';
+    return `<button class="atlas-zone-link ${here?'selected':''}" data-zone="${escape(id)}" ${here?'aria-current="location"':''}><span class="atlas-zone-name">${escape(zone.name)}</span><span class="atlas-zone-meta">${related.map(s=>s.range.join('–')).join(', ') || 'Travel'} · ${artLabel}</span><span class="atlas-zone-arrow">↗</span></button>`;
   }
   function clusterCard(cluster) {
     const done=cluster.questIds.filter(id=>status(id)==='completed').length;
@@ -573,7 +575,7 @@ if(document.modelContext?.registerTool){try{Promise.resolve(document.modelContex
     const zone = event.target.closest('[data-zone]');
     if (zone && app.contains(zone)) goZone(zone.dataset.zone);
   });
-  document.addEventListener('click',e=>{if(e.target.closest('[data-tab="map"]')){ui.query='';render()}});
+  document.addEventListener('click',e=>{if(e.target.closest('[data-tab="map"]'))goWorld()});
   window.renderAzerothMap=render;
   render();
 })();
