@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedOn": "28 Sep 2026",
+  "reviewedOn": "29 Sep 2026",
   "races": {
     "human": "Human",
     "dwarf": "Dwarf",
@@ -950,7 +950,7 @@
       "hub": "Northshire Abbey",
       "goal": "Finish the starting pocket before moving to Goldshire.",
       "steps": [
-        "Collect nearby Abbey quests together; finish objectives in the same direction before returning.",
+        "Use the named pickup list below. Clear the Northshire Abbey and vineyard cluster before the Echo Ridge and Garrick loop.",
         "Group for crowded named targets when credit can be shared. Avoid waiting through several respawns alone.",
         "Loot vendor items, sell on a turn-in trip and train useful available spells.",
         "Leave for Goldshire when the local quest pocket is exhausted, around level 6."
@@ -972,7 +972,7 @@
       "hub": "Aldrassil",
       "goal": "Reach Dolanaar with supplies and your core spells trained.",
       "steps": [
-        "Collect the nearby starting quests and combine overlapping objectives.",
+        "Use the named pickup list below. Clear the Aldrassil grove cluster before entering Webwood cave with both cave quests.",
         "Join a small group for crowded cave or named-enemy objectives; agree on the exit.",
         "Sell and train during turn-in trips instead of returning after each quest.",
         "Move to Dolanaar around level 6 once the starter pocket is complete."
@@ -994,7 +994,7 @@
       "hub": "Goldshire → Stormwind",
       "goal": "Reach 10–11 with current class training and a useful weapon, then travel north instead of settling into Westfall.",
       "steps": [
-        "Work from Goldshire in one direction at a time; combine farm, road and nearby kill objectives.",
+        "Take the named Goldshire quests below, then clear Fargodeep and the two farms before the Jasperlode / Eastvale circuit.",
         "Group for Hogger or similarly difficult objectives if a group is already available.",
         "Visit your class trainer, sell, restock class resources and check for a useful weapon upgrade.",
         "Travel to Stormwind, learn its flight path, then take the Deeprun Tram to Ironforge.",
@@ -1017,7 +1017,7 @@
       "hub": "Dolanaar → Darnassus",
       "goal": "Transfer to Ironforge around 11–12; do not stay in Darkshore until 20.",
       "steps": [
-        "Complete efficient Dolanaar-centered loops; avoid a long cleanup tour of the island.",
+        "Use the named Dolanaar pickup list below; finish the Lake Al’Ameth and Ban’ethil clusters without adding a long island cleanup tour.",
         "Visit Darnassus for training and supplies, and collect the relevant flight path.",
         "Head through Rut’theran to the mainland. Confirm the launch boat destination before boarding.",
         "If the boat goes to Stormwind, use the tram to Ironforge. If using Menethil, the Wetlands–Loch Modan road is dangerous at this level: travel with help.",
@@ -1040,7 +1040,7 @@
       "hub": "Anvilmar",
       "goal": "Finish the compact starter quests and reach greater Dun Morogh efficiently.",
       "steps": [
-        "Collect Anvilmar quests in batches and finish overlapping objectives together.",
+        "Use the named Anvilmar pickup list below; clear the boar fields before carrying both Grelin quests into the Frostmane cave.",
         "Train class abilities and sell during turn-ins instead of making extra trips.",
         "Group for crowded named targets when shared credit makes it faster.",
         "Leave the valley around level 6 with supplies and free bag space."
@@ -1062,7 +1062,7 @@
       "hub": "Kharanos → Ironforge",
       "goal": "Use local loops and arrive in Ironforge with time for the Hall chain.",
       "steps": [
-        "Work Kharanos quests by area and avoid long single-objective crossings.",
+        "Use the named Kharanos pickups below; clear the Grizzled Den, Gol’Bolar and Amberstill clusters as separate short loops.",
         "Visit the class trainer and keep your primary weapon, ranged weapon or spell ranks current.",
         "Collect the Ironforge flight path and set up bags, repairs and supplies.",
         "Finish productive eastern Dun Morogh quests until roughly level 11.",
@@ -1085,7 +1085,7 @@
       "hub": "Anvilmar",
       "goal": "Complete the starter pocket, train, and move into Dun Morogh.",
       "steps": [
-        "Batch nearby starter quests before each return to Anvilmar.",
+        "Use the named Anvilmar pickup list below; clear the boar fields before carrying both Grelin quests into the Frostmane cave.",
         "Sell vendor loot and train during the same visit.",
         "Group for crowded caves and named enemies rather than waiting alone.",
         "Leave around level 6 with enough space for the Dun Morogh loops."
@@ -1107,7 +1107,7 @@
       "hub": "Kharanos → Ironforge",
       "goal": "Level close to home and prepare the fixed Hall milestone.",
       "steps": [
-        "Combine Kharanos and nearby camp objectives into short loops.",
+        "Use the named Kharanos pickups below; clear the Grizzled Den, Gol’Bolar and Amberstill clusters as separate short loops.",
         "Train class abilities and maintain the weapon or spell tool your class actually uses.",
         "Visit Ironforge for flight access, bags and profession choices.",
         "Use eastern Dun Morogh quests to reach roughly level 11.",
@@ -1130,7 +1130,7 @@
       "hub": "Launch starting hub",
       "goal": "Follow the Alliance High Order story while learning your class tools.",
       "steps": [
-        "Collect nearby story and side quests together before leaving each hub.",
+        "Use the live-name capture list below at each Zephras Isle hub; record exact Forever quest and NPC names when the launch client exposes them.",
         "Use Walk on Air and other racial tools deliberately; verify their launch behavior in the client.",
         "Train class abilities and keep bag space for the new-zone quest items.",
         "Group for congested named targets and record any launch-only prerequisites."
@@ -1152,7 +1152,7 @@
       "hub": "High Order quest hubs → Alliance mainland",
       "goal": "Complete the starting experience and reach Ironforge before the Hall deadline.",
       "steps": [
-        "Continue the main starting story and combine optional objectives only when they share the route.",
+        "Use the Zephras Isle story-hub placeholders below and replace them with exact live quest names through the update prompt.",
         "Learn the island flight or transfer points as the launch client presents them.",
         "Finish essential class training and supplies before leaving.",
         "Use the verified Alliance transfer, then route to Ironforge.",
@@ -1333,7 +1333,7 @@
       "hub": "Menethil Harbor → inland camps",
       "goal": "Complete the Wetlands dungeon preparation and the required excavation run.",
       "steps": [
-        "Collect the Menethil flight path, supplies and suitable town quests.",
+        "Take the named Menethil Harbor pickups below before starting the coast, excavation and Dun Modr circuits.",
         "Combine coastline and nearby marsh objectives in one loop; return before moving inland.",
         "Batch excavation and inland objectives together rather than commuting repeatedly.",
         "Keep Dun Modr-related prerequisites in mind for a later complete Stockades quest run.",
@@ -1630,6 +1630,2102 @@
       "alt": "A repeat run is for an actual gated quest, not mandatory loot farming."
     }
   ],
+  "earlyQuestClusters": {
+    "human-start": [
+      {
+        "id": "northshire-abbey",
+        "area": "Northshire Abbey and the vineyards",
+        "levels": "1–3",
+        "confidence": "classic",
+        "note": "Take every Abbey pickup before making one clockwise vineyard loop.",
+        "quests": [
+          {
+            "id": "human-threat-within",
+            "name": "A Threat Within",
+            "giver": "Deputy Willem",
+            "pickup": "Northshire Abbey",
+            "objective": "Speak with Marshal McBride inside the Abbey.",
+            "turnin": "Marshal McBride"
+          },
+          {
+            "id": "human-kobold-cleanup",
+            "name": "Kobold Camp Cleanup",
+            "giver": "Marshal McBride",
+            "pickup": "Northshire Abbey",
+            "objective": "Clear Kobold Vermin around the northwestern vineyard edge.",
+            "turnin": "Marshal McBride"
+          },
+          {
+            "id": "human-wolves-border",
+            "name": "Wolves Across the Border",
+            "giver": "Eagan Peltskinner",
+            "pickup": "Outside Northshire Abbey",
+            "objective": "Collect Tough Wolf Meat from the nearby wolves.",
+            "turnin": "Eagan Peltskinner"
+          },
+          {
+            "id": "human-brotherhood-thieves",
+            "name": "Brotherhood of Thieves",
+            "giver": "Deputy Willem",
+            "pickup": "Northshire Abbey",
+            "objective": "Collect Red Burlap Bandanas from Defias around the vineyards.",
+            "turnin": "Deputy Willem"
+          },
+          {
+            "id": "human-milly-harvest",
+            "name": "Milly's Harvest",
+            "giver": "Milly Osworth",
+            "pickup": "Northshire vineyards",
+            "objective": "Collect Milly's Harvest from the occupied vineyard.",
+            "turnin": "Milly Osworth"
+          }
+        ]
+      },
+      {
+        "id": "echo-ridge",
+        "area": "Echo Ridge Mine and Garrick's camp",
+        "levels": "3–6",
+        "confidence": "classic",
+        "note": "Clear the mine quests together, then swing south for Garrick before returning to the Abbey.",
+        "quests": [
+          {
+            "id": "human-garrick",
+            "name": "Bounty on Garrick Padfoot",
+            "giver": "Deputy Willem",
+            "pickup": "Northshire Abbey",
+            "objective": "Defeat Garrick Padfoot at the camp southwest of the Abbey.",
+            "turnin": "Deputy Willem"
+          },
+          {
+            "id": "human-investigate-echo",
+            "name": "Investigate Echo Ridge",
+            "giver": "Marshal McBride",
+            "pickup": "Northshire Abbey",
+            "objective": "Scout and kill kobolds around Echo Ridge Mine.",
+            "turnin": "Marshal McBride"
+          },
+          {
+            "id": "human-skirmish-echo",
+            "name": "Skirmish at Echo Ridge",
+            "giver": "Marshal McBride",
+            "pickup": "Northshire Abbey",
+            "objective": "Defeat Kobold Laborers deeper around Echo Ridge Mine.",
+            "turnin": "Marshal McBride"
+          },
+          {
+            "id": "human-report-goldshire",
+            "name": "Report to Goldshire",
+            "giver": "Marshal McBride",
+            "pickup": "Northshire Abbey",
+            "objective": "Carry the route onward to Goldshire.",
+            "turnin": "Marshal Dughan"
+          }
+        ]
+      }
+    ],
+    "human-elwynn": [
+      {
+        "id": "fargodeep-mine",
+        "area": "Fargodeep Mine, Maclure Vineyards and Stonefield Farm",
+        "levels": "6–9",
+        "confidence": "classic",
+        "note": "Pick up in Goldshire first, add the two farm chains on the way, and enter the mine once with every kobold objective.",
+        "quests": [
+          {
+            "id": "elwynn-fargodeep",
+            "name": "The Fargodeep Mine",
+            "giver": "Marshal Dughan",
+            "pickup": "Goldshire",
+            "objective": "Explore Fargodeep Mine south of Goldshire.",
+            "turnin": "Marshal Dughan"
+          },
+          {
+            "id": "elwynn-gold-dust",
+            "name": "Gold Dust Exchange",
+            "giver": "Remy Two Times",
+            "pickup": "Goldshire",
+            "objective": "Collect Gold Dust from kobolds in and around Fargodeep Mine.",
+            "turnin": "Remy Two Times"
+          },
+          {
+            "id": "elwynn-kobold-candles",
+            "name": "Kobold Candles",
+            "giver": "William Pestle",
+            "pickup": "Goldshire inn",
+            "objective": "Collect Large Candles from kobolds around Fargodeep Mine.",
+            "turnin": "William Pestle"
+          },
+          {
+            "id": "elwynn-lost-necklace",
+            "name": "Lost Necklace",
+            "giver": "Billy Maclure",
+            "pickup": "Maclure Vineyards",
+            "objective": "Ask at Stonefield Farm about Bernice's necklace.",
+            "turnin": "Auntie Bernice Stonefield"
+          },
+          {
+            "id": "elwynn-pie-billy",
+            "name": "Pie for Billy",
+            "giver": "Auntie Bernice Stonefield",
+            "pickup": "Stonefield Farm",
+            "objective": "Collect boar meat while moving between the farms.",
+            "turnin": "Auntie Bernice Stonefield"
+          },
+          {
+            "id": "elwynn-back-billy",
+            "name": "Back to Billy",
+            "giver": "Auntie Bernice Stonefield",
+            "pickup": "Stonefield Farm",
+            "objective": "Return to Billy Maclure at Maclure Vineyards.",
+            "turnin": "Billy Maclure"
+          },
+          {
+            "id": "elwynn-goldtooth",
+            "name": "Goldtooth",
+            "giver": "Billy Maclure",
+            "pickup": "Maclure Vineyards",
+            "objective": "Enter Fargodeep Mine and recover Bernice's Necklace from Goldtooth.",
+            "turnin": "Auntie Bernice Stonefield"
+          },
+          {
+            "id": "elwynn-young-lovers",
+            "name": "Young Lovers",
+            "giver": "Maybell Maclure",
+            "pickup": "Maclure Vineyards",
+            "objective": "Deliver the letter to Tommy Joe Stonefield across the river.",
+            "turnin": "Tommy Joe Stonefield"
+          },
+          {
+            "id": "elwynn-speak-gramma",
+            "name": "Speak with Gramma",
+            "giver": "Tommy Joe Stonefield",
+            "pickup": "Stonefield Farm",
+            "objective": "Speak with Gramma Stonefield in the farmhouse.",
+            "turnin": "Gramma Stonefield"
+          },
+          {
+            "id": "elwynn-princess",
+            "name": "Princess Must Die!",
+            "giver": "Ma Stonefield",
+            "pickup": "Stonefield Farm",
+            "objective": "Defeat Princess in the nearby Brackwell Pumpkin Patch with help if needed.",
+            "turnin": "Ma Stonefield"
+          },
+          {
+            "id": "elwynn-fishy-peril",
+            "name": "A Fishy Peril",
+            "giver": "Remy Two Times",
+            "pickup": "Goldshire",
+            "objective": "Report the murloc threat to Marshal Dughan and immediately collect Further Concerns.",
+            "turnin": "Marshal Dughan"
+          }
+        ]
+      },
+      {
+        "id": "jasperlode-eastvale",
+        "area": "Jasperlode Mine, Eastvale and Stone Cairn Lake",
+        "levels": "8–11",
+        "confidence": "classic",
+        "note": "Use the road east once, completing mine, wildlife and murloc objectives before the Eastvale return.",
+        "quests": [
+          {
+            "id": "elwynn-jasperlode",
+            "name": "The Jasperlode Mine",
+            "giver": "Marshal Dughan",
+            "pickup": "Goldshire",
+            "objective": "Explore Jasperlode Mine east of Goldshire.",
+            "turnin": "Marshal Dughan"
+          },
+          {
+            "id": "elwynn-further-concerns",
+            "name": "Further Concerns",
+            "giver": "Marshal Dughan",
+            "pickup": "Goldshire",
+            "objective": "Report to Guard Thomas on the eastern road.",
+            "turnin": "Guard Thomas"
+          },
+          {
+            "id": "elwynn-protect-frontier",
+            "name": "Protect the Frontier",
+            "giver": "Guard Thomas",
+            "pickup": "Eastern Elwynn road",
+            "objective": "Defeat bears and prowlers around Eastvale and the road.",
+            "turnin": "Guard Thomas"
+          },
+          {
+            "id": "elwynn-bounty-murlocs",
+            "name": "Bounty on Murlocs",
+            "giver": "Guard Thomas",
+            "pickup": "Eastern Elwynn road",
+            "objective": "Collect Torn Murloc Fins along the streams and Stone Cairn Lake.",
+            "turnin": "Guard Thomas"
+          },
+          {
+            "id": "elwynn-bundle-trouble",
+            "name": "A Bundle of Trouble",
+            "giver": "Supervisor Raelen",
+            "pickup": "Eastvale Logging Camp",
+            "objective": "Collect bundles of wood around Eastvale.",
+            "turnin": "Supervisor Raelen"
+          },
+          {
+            "id": "elwynn-stone-cairn",
+            "name": "Stone Cairn Lake",
+            "giver": "Marshal Dughan",
+            "pickup": "Goldshire",
+            "objective": "Speak with the guard near Stone Cairn Lake.",
+            "turnin": "Guard Thomas"
+          },
+          {
+            "id": "elwynn-find-guards",
+            "name": "Find the Lost Guards",
+            "giver": "Guard Thomas",
+            "pickup": "Eastern Elwynn road",
+            "objective": "Find the first missing guard near the murloc area.",
+            "turnin": "A Half-Eaten Body"
+          },
+          {
+            "id": "elwynn-discover-rolf",
+            "name": "Discover Rolf's Fate",
+            "giver": "A Half-Eaten Body",
+            "pickup": "Eastern Elwynn",
+            "objective": "Find Rolf's corpse near the murloc camp.",
+            "turnin": "Rolf's Corpse"
+          },
+          {
+            "id": "elwynn-report-thomas",
+            "name": "Report to Thomas",
+            "giver": "Rolf's Corpse",
+            "pickup": "Eastern Elwynn murloc camp",
+            "objective": "Return the findings to Guard Thomas.",
+            "turnin": "Guard Thomas"
+          }
+        ]
+      },
+      {
+        "id": "westbrook-hogger",
+        "area": "Westbrook Garrison and the Riverpaw camps",
+        "levels": "9–11",
+        "confidence": "classic",
+        "note": "Take the garrison breadcrumb and bounty together; group for Hogger rather than waiting for a solo opening.",
+        "quests": [
+          {
+            "id": "elwynn-westbrook",
+            "name": "Westbrook Garrison Needs Help!",
+            "giver": "Marshal Dughan",
+            "pickup": "Goldshire",
+            "objective": "Report to Deputy Rainer at Westbrook Garrison.",
+            "turnin": "Deputy Rainer"
+          },
+          {
+            "id": "elwynn-riverpaw",
+            "name": "Riverpaw Gnoll Bounty",
+            "giver": "Deputy Rainer",
+            "pickup": "Westbrook Garrison",
+            "objective": "Collect Painted Gnoll Armbands from nearby Riverpaw camps.",
+            "turnin": "Deputy Rainer"
+          },
+          {
+            "id": "elwynn-hogger",
+            "name": "Wanted: Hogger",
+            "giver": "Wanted Poster",
+            "pickup": "Goldshire",
+            "objective": "Defeat Hogger at the Riverpaw camps south of Westbrook.",
+            "turnin": "Marshal Dughan"
+          }
+        ]
+      }
+    ],
+    "dwarf-start": [
+      {
+        "id": "anvilmar",
+        "area": "Anvilmar and the Coldridge boar fields",
+        "levels": "1–3",
+        "confidence": "classic",
+        "note": "Take the indoor and outdoor pickups together before the first boar-field loop.",
+        "quests": [
+          {
+            "id": "coldridge-outfitters",
+            "name": "Dwarven Outfitters",
+            "giver": "Sten Stoutarm",
+            "pickup": "Anvilmar",
+            "objective": "Collect Tough Wolf Meat from wolves near Anvilmar.",
+            "turnin": "Sten Stoutarm"
+          },
+          {
+            "id": "coldridge-new-threat",
+            "name": "A New Threat",
+            "giver": "Balir Frosthammer",
+            "pickup": "Anvilmar",
+            "objective": "Defeat Rockjaw troggs southeast of Anvilmar.",
+            "turnin": "Balir Frosthammer"
+          },
+          {
+            "id": "coldridge-boar-hunter",
+            "name": "Boar Hunters",
+            "giver": "Talin Keeneye",
+            "pickup": "Coldridge boar fields",
+            "objective": "Defeat Small Crag Boars around Talin's camp.",
+            "turnin": "Talin Keeneye"
+          },
+          {
+            "id": "coldridge-refugee",
+            "name": "A Refugee's Quandary",
+            "giver": "Felix Whindlebolt",
+            "pickup": "Anvilmar",
+            "objective": "Recover Felix's scattered box, chest and bucket while crossing Coldridge.",
+            "turnin": "Felix Whindlebolt"
+          }
+        ]
+      },
+      {
+        "id": "frostmane-cave",
+        "area": "Frostmane troll cave and western Coldridge",
+        "levels": "3–6",
+        "confidence": "classic",
+        "note": "Take both Grelin quests before entering the cave; do not make a second cave trip for the journal.",
+        "quests": [
+          {
+            "id": "coldridge-troll-cave",
+            "name": "The Troll Cave",
+            "giver": "Grelin Whitebeard",
+            "pickup": "Western Coldridge camp",
+            "objective": "Defeat Frostmane trolls in and around the cave.",
+            "turnin": "Grelin Whitebeard"
+          },
+          {
+            "id": "coldridge-stolen-journal",
+            "name": "The Stolen Journal",
+            "giver": "Grelin Whitebeard",
+            "pickup": "Western Coldridge camp",
+            "objective": "Recover Grelin's journal from Grik'nir the Cold inside the cave.",
+            "turnin": "Grelin Whitebeard"
+          },
+          {
+            "id": "coldridge-senirs-observations",
+            "name": "Senir's Observations",
+            "giver": "Grelin Whitebeard",
+            "pickup": "Western Coldridge camp",
+            "objective": "Carry Grelin's report through the pass toward Kharanos.",
+            "turnin": "Senir Whitebeard"
+          },
+          {
+            "id": "coldridge-mail",
+            "name": "Coldridge Valley Mail Delivery",
+            "giver": "Sten Stoutarm",
+            "pickup": "Anvilmar",
+            "objective": "Follow the delivery chain along the road out of Coldridge.",
+            "turnin": "Talin Keeneye"
+          }
+        ]
+      }
+    ],
+    "dwarf-dunmorogh": [
+      {
+        "id": "kharanos-grizzled",
+        "area": "Kharanos, the Grizzled Den and Wendigo Cave",
+        "levels": "6–8",
+        "confidence": "classic",
+        "note": "Take the Kharanos errands first, sweep the Grizzled Den, then finish the wendigo cave before returning.",
+        "quests": [
+          {
+            "id": "dm-boar-ribs",
+            "name": "Beer Basted Boar Ribs",
+            "giver": "Ragnar Thunderbrew",
+            "pickup": "Kharanos inn",
+            "objective": "Collect boar ribs and buy Rhapsody Malt in Kharanos.",
+            "turnin": "Ragnar Thunderbrew"
+          },
+          {
+            "id": "dm-grizzled-den",
+            "name": "The Grizzled Den",
+            "giver": "Pilot Stonegear",
+            "pickup": "Kharanos",
+            "objective": "Collect Wendigo Manes from the Grizzled Den southwest of Kharanos.",
+            "turnin": "Pilot Stonegear"
+          },
+          {
+            "id": "dm-frostmane-hold",
+            "name": "Frostmane Hold",
+            "giver": "Senir Whitebeard",
+            "pickup": "Kharanos",
+            "objective": "Explore Frostmane Hold and defeat Headhunters.",
+            "turnin": "Senir Whitebeard"
+          },
+          {
+            "id": "dm-ammo-rumbleshot",
+            "name": "Ammo for Rumbleshot",
+            "giver": "Loslor Rudge",
+            "pickup": "Kharanos",
+            "objective": "Deliver Rumbleshot's ammo while moving east.",
+            "turnin": "Hegnar Rumbleshot"
+          },
+          {
+            "id": "dm-stocking-jetsteam",
+            "name": "Stocking Jetsteam",
+            "giver": "Pilot Bellowfiz",
+            "pickup": "Steelgrill's Depot",
+            "objective": "Collect the wildlife meat and fur during the Kharanos loop.",
+            "turnin": "Pilot Bellowfiz"
+          },
+          {
+            "id": "dm-tools-steelgrill",
+            "name": "Tools for Steelgrill",
+            "giver": "Tharek Blackstone",
+            "pickup": "Kharanos",
+            "objective": "Deliver the tools to Beldin Steelgrill while passing the depot.",
+            "turnin": "Beldin Steelgrill"
+          }
+        ]
+      },
+      {
+        "id": "golbol-amberstill",
+        "area": "Gol'Bolar Quarry and Amberstill Ranch",
+        "levels": "7–10",
+        "confidence": "classic",
+        "note": "Clear quarry troggs, then swing north through the ranch and Mangeclaw before returning to Kharanos.",
+        "quests": [
+          {
+            "id": "dm-public-servant",
+            "name": "The Public Servant",
+            "giver": "Senator Mehr Stonehallow",
+            "pickup": "Gol'Bolar Quarry",
+            "objective": "Defeat Rockjaw Bonesnappers in the quarry.",
+            "turnin": "Senator Mehr Stonehallow"
+          },
+          {
+            "id": "dm-blasted-troggs",
+            "name": "Those Blasted Troggs!",
+            "giver": "Foreman Stonebrow",
+            "pickup": "Gol'Bolar Quarry",
+            "objective": "Defeat Rockjaw Skullthumpers inside the quarry.",
+            "turnin": "Foreman Stonebrow"
+          },
+          {
+            "id": "dm-protecting-herd",
+            "name": "Protecting the Herd",
+            "giver": "Rudra Amberstill",
+            "pickup": "Amberstill Ranch",
+            "objective": "Defeat Vagash in the hills north of the ranch.",
+            "turnin": "Rudra Amberstill"
+          },
+          {
+            "id": "dm-lost-pilot",
+            "name": "The Lost Pilot",
+            "giver": "Pilot Hammerfoot",
+            "pickup": "Road east of Kharanos",
+            "objective": "Find the lost pilot's remains near Ironforge airfield road.",
+            "turnin": "A Dwarven Corpse"
+          },
+          {
+            "id": "dm-pilots-revenge",
+            "name": "A Pilot's Revenge",
+            "giver": "A Dwarven Corpse",
+            "pickup": "Eastern Dun Morogh",
+            "objective": "Defeat Mangeclaw nearby.",
+            "turnin": "Pilot Hammerfoot"
+          }
+        ]
+      },
+      {
+        "id": "brewnall-gnomer",
+        "area": "Brewnall Village and Gnomeregan approaches",
+        "levels": "9–11",
+        "confidence": "classic",
+        "note": "Use this western loop only until the Hall preparation level; leave optional chains unfinished if they delay the level-15 dungeon.",
+        "quests": [
+          {
+            "id": "dm-perfect-stout",
+            "name": "The Perfect Stout",
+            "giver": "Rejold Barleybrew",
+            "pickup": "Brewnall Village",
+            "objective": "Collect Shimmerweed from trolls around Shimmer Ridge.",
+            "turnin": "Rejold Barleybrew"
+          },
+          {
+            "id": "dm-bitter-rivals",
+            "name": "Bitter Rivals",
+            "giver": "Marleth Barleybrew",
+            "pickup": "Kharanos",
+            "objective": "Complete the Thunder Ale errand between Kharanos and Brewnall.",
+            "turnin": "Marleth Barleybrew"
+          },
+          {
+            "id": "dm-filthy-paws",
+            "name": "Filthy Paws",
+            "giver": "Mountaineer Stormpike",
+            "pickup": "North Gate Outpost",
+            "objective": "Recover Miners' Gear from the Silver Stream Mine.",
+            "turnin": "Mountaineer Stormpike"
+          },
+          {
+            "id": "dm-recombobulation",
+            "name": "Operation Recombobulation",
+            "giver": "Razzle Sprysprocket",
+            "pickup": "Brewnall Village",
+            "objective": "Collect Gyromechanic Gears and Restabilization Cogs from leper gnomes.",
+            "turnin": "Razzle Sprysprocket"
+          },
+          {
+            "id": "dm-evershine",
+            "name": "Evershine",
+            "giver": "Rejold Barleybrew",
+            "pickup": "Brewnall Village",
+            "objective": "Deliver Evershine to Tundra MacGrann on the western loop.",
+            "turnin": "Tundra MacGrann"
+          },
+          {
+            "id": "dm-favor-evershine",
+            "name": "A Favor for Evershine",
+            "giver": "Rejold Barleybrew",
+            "pickup": "Brewnall Village",
+            "objective": "Collect the requested wildlife items around western Dun Morogh.",
+            "turnin": "Rejold Barleybrew"
+          },
+          {
+            "id": "dm-reports",
+            "name": "The Reports",
+            "giver": "Senir Whitebeard",
+            "pickup": "Kharanos",
+            "objective": "Carry the reports to Ironforge only when the route already takes you there.",
+            "turnin": "Senator Barin Redstone"
+          }
+        ]
+      }
+    ],
+    "elf-start": [
+      {
+        "id": "shadowglen-grove",
+        "area": "Aldrassil grove and Shadowglen wildlife",
+        "levels": "1–3",
+        "confidence": "classic",
+        "note": "Take the Aldrassil pickups together and clear the wildlife circle before returning.",
+        "quests": [
+          {
+            "id": "sg-balance",
+            "name": "The Balance of Nature",
+            "giver": "Conservator Ilthalaine",
+            "pickup": "Aldrassil",
+            "objective": "Defeat young nightsabers and thistle boars around Shadowglen.",
+            "turnin": "Conservator Ilthalaine"
+          },
+          {
+            "id": "sg-woodland",
+            "name": "The Woodland Protector",
+            "giver": "Melithar Staghelm",
+            "pickup": "Aldrassil",
+            "objective": "Speak with Tarindrella, then clear grell around the grove.",
+            "turnin": "Tarindrella"
+          },
+          {
+            "id": "sg-good-friend",
+            "name": "A Good Friend",
+            "giver": "Dirania Silvershine",
+            "pickup": "Aldrassil",
+            "objective": "Find Iverron at the cave northwest of Aldrassil.",
+            "turnin": "Iverron"
+          },
+          {
+            "id": "sg-antidote",
+            "name": "Iverron's Antidote",
+            "giver": "Iverron",
+            "pickup": "Northwestern Shadowglen",
+            "objective": "Collect antidote materials from nearby spiders, lilies and woodland creatures.",
+            "turnin": "Dirania Silvershine"
+          }
+        ]
+      },
+      {
+        "id": "webwood",
+        "area": "Webwood spider cave",
+        "levels": "3–6",
+        "confidence": "classic",
+        "note": "Carry both Webwood quests into the cave and group if launch traffic makes egg or named spawns slow.",
+        "quests": [
+          {
+            "id": "sg-webwood-venom",
+            "name": "Webwood Venom",
+            "giver": "Gilshalan Windwalker",
+            "pickup": "Aldrassil",
+            "objective": "Collect Webwood Venom Sacs outside and near the cave.",
+            "turnin": "Gilshalan Windwalker"
+          },
+          {
+            "id": "sg-webwood-egg",
+            "name": "Webwood Egg",
+            "giver": "Gilshalan Windwalker",
+            "pickup": "Aldrassil",
+            "objective": "Recover a Webwood Egg from the back of the spider cave.",
+            "turnin": "Gilshalan Windwalker"
+          },
+          {
+            "id": "sg-tenaron",
+            "name": "Tenaron's Summons",
+            "giver": "Gilshalan Windwalker",
+            "pickup": "Aldrassil",
+            "objective": "Climb Aldrassil and speak with Tenaron Stormgrip.",
+            "turnin": "Tenaron Stormgrip"
+          },
+          {
+            "id": "sg-crown-earth",
+            "name": "Crown of the Earth",
+            "giver": "Tenaron Stormgrip",
+            "pickup": "Top of Aldrassil",
+            "objective": "Use the crystal phial at the moonwell on the road to Dolanaar.",
+            "turnin": "Corithras Moonrage"
+          }
+        ]
+      }
+    ],
+    "elf-teldrassil": [
+      {
+        "id": "dolanaar-timberlings",
+        "area": "Dolanaar and Lake Al'Ameth",
+        "levels": "6–8",
+        "confidence": "classic",
+        "note": "Pick up around Dolanaar, then make one southeastern loop through Denalan's garden and the lake.",
+        "quests": [
+          {
+            "id": "tel-dolanaar-delivery",
+            "name": "Dolanaar Delivery",
+            "giver": "Porthannius",
+            "pickup": "Road into Dolanaar",
+            "objective": "Deliver the package to Innkeeper Keldamyr.",
+            "turnin": "Innkeeper Keldamyr"
+          },
+          {
+            "id": "tel-zenn",
+            "name": "Zenn's Bidding",
+            "giver": "Zenn Foulhoof",
+            "pickup": "Road east of Dolanaar",
+            "objective": "Collect nightsaber fangs, strigid owl feathers and webwood spider silk.",
+            "turnin": "Zenn Foulhoof"
+          },
+          {
+            "id": "tel-denalans-earth",
+            "name": "Denalan's Earth",
+            "giver": "Syral Bladeleaf",
+            "pickup": "Dolanaar",
+            "objective": "Deliver the soil to Denalan at the garden south of Dolanaar.",
+            "turnin": "Denalan"
+          },
+          {
+            "id": "tel-timberling-seeds",
+            "name": "Timberling Seeds",
+            "giver": "Denalan",
+            "pickup": "Denalan's garden",
+            "objective": "Collect Timberling Seeds around Lake Al'Ameth.",
+            "turnin": "Denalan"
+          },
+          {
+            "id": "tel-timberling-sprouts",
+            "name": "Timberling Sprouts",
+            "giver": "Denalan",
+            "pickup": "Denalan's garden",
+            "objective": "Collect Timberling Sprouts around Lake Al'Ameth.",
+            "turnin": "Denalan"
+          },
+          {
+            "id": "tel-crown-earth",
+            "name": "Crown of the Earth",
+            "giver": "Corithras Moonrage",
+            "pickup": "Dolanaar",
+            "objective": "Visit the next moonwell on the planned island circuit.",
+            "turnin": "Corithras Moonrage"
+          },
+          {
+            "id": "tel-seek-redemption",
+            "name": "Seek Redemption!",
+            "giver": "Syral Bladeleaf",
+            "pickup": "Dolanaar",
+            "objective": "Collect Fel Cones during the Dolanaar wildlife loop.",
+            "turnin": "Zenn Foulhoof"
+          },
+          {
+            "id": "tel-rellian",
+            "name": "Rellian Greenspyre",
+            "giver": "Denalan",
+            "pickup": "Denalan's garden",
+            "objective": "Carry the seed to Rellian Greenspyre when visiting Darnassus.",
+            "turnin": "Rellian Greenspyre"
+          },
+          {
+            "id": "tel-tumors",
+            "name": "Tumors",
+            "giver": "Rellian Greenspyre",
+            "pickup": "Darnassus",
+            "objective": "Collect Mossy Tumors from timberlings around Lake Al'Ameth.",
+            "turnin": "Rellian Greenspyre"
+          }
+        ]
+      },
+      {
+        "id": "banethil-gnarlpine",
+        "area": "Ban'ethil Barrow Den and Gnarlpine camps",
+        "levels": "8–10",
+        "confidence": "classic",
+        "note": "Complete the dreamcatcher and relic objectives in the same western circuit; the Barrow Den is easier with a small group.",
+        "quests": [
+          {
+            "id": "tel-dreamcatcher",
+            "name": "The Emerald Dreamcatcher",
+            "giver": "Tallonkai Swiftroot",
+            "pickup": "Dolanaar",
+            "objective": "Recover the Emerald Dreamcatcher from Starbreeze Village.",
+            "turnin": "Tallonkai Swiftroot"
+          },
+          {
+            "id": "tel-ferocitas",
+            "name": "Ferocitas the Dream Eater",
+            "giver": "Tallonkai Swiftroot",
+            "pickup": "Dolanaar",
+            "objective": "Defeat Ferocitas and Gnarlpine mystics near the Oracle Glade route.",
+            "turnin": "Tallonkai Swiftroot"
+          },
+          {
+            "id": "tel-gnarlpine-corruption",
+            "name": "Gnarlpine Corruption",
+            "giver": "Athridas Bearmantle",
+            "pickup": "Dolanaar",
+            "objective": "Investigate Ban'ethil Barrow Den.",
+            "turnin": "Oben Rageclaw"
+          },
+          {
+            "id": "tel-relics-wakening",
+            "name": "The Relics of Wakening",
+            "giver": "Athridas Bearmantle",
+            "pickup": "Ban'ethil Barrow Den",
+            "objective": "Recover the four relics inside the Barrow Den.",
+            "turnin": "Oben Rageclaw"
+          },
+          {
+            "id": "tel-ursel",
+            "name": "Ursal the Mauler",
+            "giver": "Athridas Bearmantle",
+            "pickup": "Dolanaar",
+            "objective": "Defeat Ursal in Gnarlpine Hold with help if needed.",
+            "turnin": "Athridas Bearmantle"
+          },
+          {
+            "id": "tel-sleeping-druid",
+            "name": "The Sleeping Druid",
+            "giver": "Oben Rageclaw",
+            "pickup": "Ban'ethil Barrow Den",
+            "objective": "Recover the shaman's item inside the Barrow Den.",
+            "turnin": "Oben Rageclaw"
+          },
+          {
+            "id": "tel-druid-claw",
+            "name": "Druid of the Claw",
+            "giver": "Oben Rageclaw",
+            "pickup": "Ban'ethil Barrow Den",
+            "objective": "Finish the chained druid objective before leaving the den.",
+            "turnin": "Oben Rageclaw"
+          }
+        ]
+      },
+      {
+        "id": "darnassus-transfer",
+        "area": "Road to Darnassus and the transfer out",
+        "levels": "10–11",
+        "confidence": "classic",
+        "note": "Finish only objectives already on the Darnassus route, then train and leave enough time to reach Ironforge before the Hall milestone.",
+        "quests": [
+          {
+            "id": "tel-road-darnassus",
+            "name": "The Road to Darnassus",
+            "giver": "Moon Priestess Amara",
+            "pickup": "Road west of Dolanaar",
+            "objective": "Defeat Gnarlpine ambushers along the road.",
+            "turnin": "Moon Priestess Amara"
+          },
+          {
+            "id": "tel-tears-moon",
+            "name": "Tears of the Moon",
+            "giver": "Pelturas Whitemoon",
+            "pickup": "Near the Oracle Glade",
+            "objective": "Defeat Lady Sathrah and recover Silvery Spinnerets.",
+            "turnin": "Pelturas Whitemoon"
+          },
+          {
+            "id": "tel-twisted-hatred",
+            "name": "Twisted Hatred",
+            "giver": "Tallonkai Swiftroot",
+            "pickup": "Dolanaar",
+            "objective": "Defeat Lord Melenas in Fel Rock with a partner if needed.",
+            "turnin": "Tallonkai Swiftroot"
+          },
+          {
+            "id": "tel-enchanted-glade",
+            "name": "The Enchanted Glade",
+            "giver": "Sentinel Arynia Cloudsbreak",
+            "pickup": "Oracle Glade",
+            "objective": "Collect Bloodfeather Belts around the Oracle Glade route.",
+            "turnin": "Sentinel Arynia Cloudsbreak"
+          }
+        ]
+      }
+    ],
+    "skyborne-start": [
+      {
+        "id": "thendal-grove",
+        "area": "Thendal Grove",
+        "levels": "1–3",
+        "confidence": "beta",
+        "source": "https://www.foreverwisp.com/guides/wow-forever-alliance-skyborne-leveling-guide",
+        "note": "Current-beta route for build 1.60.1.69913. Take the story and gathering quests before the first grove circuit.",
+        "quests": [
+          {
+            "id": "sky-coming-age",
+            "name": "Coming of Age",
+            "giver": "Ailee Farheart",
+            "pickup": "Thendal Grove",
+            "objective": "Meet Rorian and begin the Skyborne story.",
+            "turnin": "Rorian"
+          },
+          {
+            "id": "sky-harmony-balance",
+            "name": "Harmony in Balance",
+            "giver": "Rorian",
+            "pickup": "Thendal Grove",
+            "objective": "Complete Rorian's opening grove objective.",
+            "turnin": "Rorian"
+          },
+          {
+            "id": "sky-infestation",
+            "name": "Infestation Investigation",
+            "giver": "Elatrell Featherlight",
+            "pickup": "Thendal Grove",
+            "objective": "Investigate the cirrusfly infestation in the nearby grove.",
+            "turnin": "Elatrell Featherlight"
+          },
+          {
+            "id": "sky-cirrusfly-queen",
+            "name": "The Cirrusfly Queen",
+            "giver": "Elatrell Featherlight",
+            "pickup": "Thendal Grove",
+            "objective": "Defeat the Cirrusfly Queen after the investigation.",
+            "turnin": "Elatrell Featherlight"
+          },
+          {
+            "id": "sky-windstones",
+            "name": "Harvesting Windstones",
+            "giver": "Dalia",
+            "pickup": "Thendal Grove",
+            "objective": "Gather Windstones while completing the grove loop.",
+            "turnin": "Dalia"
+          },
+          {
+            "id": "sky-ley-lines",
+            "name": "Reading the Ley Lines",
+            "giver": "Falorne",
+            "pickup": "Thendal Grove",
+            "objective": "Read the ley-line points through the grove and Standing Stones route.",
+            "turnin": "Falorne"
+          }
+        ]
+      },
+      {
+        "id": "standing-stones",
+        "area": "Standing Stones",
+        "levels": "2–4",
+        "confidence": "beta",
+        "source": "https://www.foreverwisp.com/guides/wow-forever-alliance-skyborne-leveling-guide",
+        "note": "Advance the story to Yala and finish the shared elemental and ley-line circuit before returning.",
+        "quests": [
+          {
+            "id": "sky-elemental-unrest",
+            "name": "Elemental Unrest",
+            "giver": "Rorian",
+            "pickup": "Thendal Grove",
+            "objective": "Advance the elemental story to Yala Windwatcher at the Standing Stones.",
+            "turnin": "Yala Windwatcher"
+          },
+          {
+            "id": "sky-agitators",
+            "name": "Agitators",
+            "giver": "Yala Windwatcher",
+            "pickup": "Standing Stones",
+            "objective": "Defeat the agitators around the Standing Stones.",
+            "turnin": "Yala Windwatcher"
+          },
+          {
+            "id": "sky-return-rorian",
+            "name": "Return to Rorian",
+            "giver": "Yala Windwatcher",
+            "pickup": "Standing Stones",
+            "objective": "Return to Rorian after completing the Standing Stones objectives.",
+            "turnin": "Rorian"
+          }
+        ]
+      },
+      {
+        "id": "ursera-ruins",
+        "area": "Ursera grounds and southern ruins",
+        "levels": "3–5",
+        "confidence": "beta",
+        "source": "https://www.foreverwisp.com/guides/wow-forever-alliance-skyborne-leveling-guide",
+        "note": "Pair the western-den quests, then sweep the southern ruins without returning between each objective.",
+        "quests": [
+          {
+            "id": "sky-foul-matriarch",
+            "name": "Foul Matriarch",
+            "giver": "Aetheen",
+            "pickup": "Ursera grounds",
+            "objective": "Defeat the matriarch in the western den.",
+            "turnin": "Aetheen"
+          },
+          {
+            "id": "sky-aggressive-encroachment",
+            "name": "Aggressive Encroachment",
+            "giver": "Valreaa",
+            "pickup": "Ursera grounds",
+            "objective": "Clear the encroaching enemies on the same western-den trip.",
+            "turnin": "Valreaa"
+          },
+          {
+            "id": "sky-adventurer",
+            "name": "The Adventurer",
+            "giver": "Aetheen",
+            "pickup": "Ursera grounds",
+            "objective": "Complete the offered route objective toward the southern ruins.",
+            "turnin": "Aetheen"
+          },
+          {
+            "id": "sky-alaketh-thugs",
+            "name": "Al'Aketh Thugs",
+            "giver": "Hanaa",
+            "pickup": "Southern ruins",
+            "objective": "Defeat Al'Aketh thugs around the ruins.",
+            "turnin": "Hanaa"
+          },
+          {
+            "id": "sky-great-outdoors",
+            "name": "The Great Outdoors",
+            "giver": "Raan",
+            "pickup": "Southern ruins",
+            "objective": "Complete Raan's outdoor objective during the same ruins sweep.",
+            "turnin": "Raan"
+          }
+        ]
+      },
+      {
+        "id": "shendar-nests",
+        "area": "Shen'dar cave and southwest nests",
+        "levels": "4–6",
+        "confidence": "beta",
+        "source": "https://www.foreverwisp.com/guides/wow-forever-alliance-skyborne-leveling-guide",
+        "note": "Carry the cave quests together, then combine the nests, prideclaws and passive supply drops outside.",
+        "quests": [
+          {
+            "id": "sky-criminal-element",
+            "name": "The Criminal Element",
+            "giver": "Aonda",
+            "pickup": "Shen'dar approach",
+            "objective": "Clear the criminal group in the Shen'dar cave.",
+            "turnin": "Aonda"
+          },
+          {
+            "id": "sky-pilfered-windstones",
+            "name": "Pilfered Windstones",
+            "giver": "Teeri",
+            "pickup": "Shen'dar approach",
+            "objective": "Recover stolen Windstones in the cave circuit.",
+            "turnin": "Teeri"
+          },
+          {
+            "id": "sky-hippogryph",
+            "name": "Hippogryph Harrassment",
+            "giver": "Teeri",
+            "pickup": "Southwest nests",
+            "objective": "Complete the hippogryph objective around the southwest nests.",
+            "turnin": "Teeri"
+          },
+          {
+            "id": "sky-prideclaws",
+            "name": "The Problem With Prideclaws",
+            "giver": "Indari",
+            "pickup": "Southwest Zephras Isle",
+            "objective": "Defeat Prideclaws while moving between the nests.",
+            "turnin": "Indari"
+          },
+          {
+            "id": "sky-little-beauty",
+            "name": "A Little Beauty",
+            "giver": "Taleen",
+            "pickup": "Southwest Zephras Isle",
+            "objective": "Complete Taleen's nearby collection objective.",
+            "turnin": "Taleen"
+          },
+          {
+            "id": "sky-larders",
+            "name": "Restocking the Larders",
+            "giver": "Zerril",
+            "pickup": "Southwest Zephras Isle",
+            "objective": "Collect supply drops passively during the outdoor loop.",
+            "turnin": "Zerril"
+          },
+          {
+            "id": "sky-infiltrating-cult",
+            "name": "Infiltrating the Cult",
+            "giver": "Previous story turn-in",
+            "pickup": "End of the southwest circuit",
+            "objective": "Begin the Falaath infiltration chapter before leaving the hub.",
+            "turnin": "Follow the live-client story marker",
+            "placeholder": true
+          }
+        ]
+      }
+    ],
+    "skyborne-isle": [
+      {
+        "id": "falaath-continuation",
+        "area": "Falaath infiltration and western watchtower",
+        "levels": "6–8",
+        "confidence": "beta",
+        "source": "https://www.foreverwisp.com/guides/wow-forever-alliance-skyborne-leveling-guide",
+        "note": "Keep the infiltration chapter intact; live beta requirements take precedence over this route snapshot.",
+        "quests": [
+          {
+            "id": "sky-among-faithful",
+            "name": "Among the Faithful",
+            "giver": "Falaath story contact — verify live name",
+            "pickup": "Falaath infiltration hub",
+            "objective": "Advance the infiltration chain through Falaath and the western watchtower.",
+            "turnin": "Follow the live-client story marker",
+            "placeholder": true
+          }
+        ]
+      },
+      {
+        "id": "high-order-eastern",
+        "area": "High Order, standing-stones expedition and eastern watchtower",
+        "levels": "8–10",
+        "confidence": "placeholder",
+        "source": "https://www.foreverwisp.com/guides/wow-forever-alliance-skyborne-leveling-guide",
+        "note": "The current route confirms this chapter order but the public summary does not expose every exact pickup name. Capture each live name before moving hubs.",
+        "quests": [
+          {
+            "id": "sky-high-order-chapter",
+            "name": "High Order chapter pickups — live names needed",
+            "giver": "Valanaar story contacts — live names needed",
+            "pickup": "Valanaar and the expedition camp",
+            "objective": "Complete the High Order, expedition and eastern-watchtower chapters in sequence.",
+            "turnin": "Follow the live-client story markers",
+            "placeholder": true,
+            "unlinked": true
+          }
+        ]
+      },
+      {
+        "id": "shrine-transfer",
+        "area": "Turncoat, council crystal and Shrine of Akir",
+        "levels": "10–12",
+        "confidence": "beta",
+        "source": "https://www.foreverwisp.com/guides/wow-forever-alliance-skyborne-leveling-guide",
+        "note": "Finish the council and shrine chain, then take the story transfer. Route to Ironforge immediately for Hall preparation.",
+        "quests": [
+          {
+            "id": "sky-fate-zephras",
+            "name": "The Fate of Zephras",
+            "giver": "Final council story contact — verify live name",
+            "pickup": "Shrine of Akir chapter",
+            "objective": "Finish the Zephras finale and unlock the Dalaran / Stormwind transfer.",
+            "turnin": "Follow the live-client story marker",
+            "placeholder": true
+          }
+        ]
+      }
+    ],
+    "dunmorogh": [
+      {
+        "id": "steelgrill-farsen",
+        "area": "Steelgrill's Depot and Earthseer Farsen",
+        "levels": "12–13",
+        "confidence": "beta",
+        "note": "This is the Hall of Thanes access chain. Stop unrelated questing once the chain is ready.",
+        "quests": [
+          {
+            "id": "hall-visitor",
+            "name": "A Visitor to Dun Morogh",
+            "giver": "Beldin Steelgrill",
+            "pickup": "Steelgrill's Depot",
+            "objective": "Follow the breadcrumb to Earthseer Farsen.",
+            "turnin": "Earthseer Farsen"
+          },
+          {
+            "id": "hall-farsens-watch",
+            "name": "Farsen's Watch",
+            "giver": "Earthseer Farsen",
+            "pickup": "Dun Morogh",
+            "objective": "Complete Farsen's nearby investigation objective.",
+            "turnin": "Earthseer Farsen"
+          },
+          {
+            "id": "hall-nip-bud",
+            "name": "Nip 'Em in the Bud",
+            "giver": "Earthseer Farsen",
+            "pickup": "Dun Morogh",
+            "objective": "Complete the offered Dark Iron objective and loot the map when it drops.",
+            "turnin": "Earthseer Farsen"
+          }
+        ]
+      },
+      {
+        "id": "dark-iron-map",
+        "area": "Dark Iron camp and Old Ironforge entrance",
+        "levels": "13–15",
+        "confidence": "beta",
+        "note": "Carry the map chain through its turn-in, then collect every Old Ironforge quest before forming the group.",
+        "quests": [
+          {
+            "id": "hall-underground-map",
+            "name": "Underground Map",
+            "giver": "Dark Iron Map",
+            "pickup": "Dark Iron enemies in Dun Morogh",
+            "objective": "Use the dropped map to start the quest and deliver it as directed.",
+            "turnin": "Earthseer Farsen"
+          },
+          {
+            "id": "hall-old-if-incursion",
+            "name": "Old Ironforge Incursion",
+            "giver": "Earthseer Farsen",
+            "pickup": "Dun Morogh",
+            "objective": "Prepare the outside chain for entry to Hall of Thanes.",
+            "turnin": "Follow the quest text"
+          },
+          {
+            "id": "hall-heirlooms",
+            "name": "Important Heirlooms",
+            "giver": "Thom Filch",
+            "pickup": "Old Ironforge entrance area",
+            "objective": "Collect the Hall objective during the dungeon run.",
+            "turnin": "Thom Filch"
+          },
+          {
+            "id": "hall-restless-dead",
+            "name": "The Restless Dead",
+            "giver": "Afadra Dunwall",
+            "pickup": "Ironforge",
+            "objective": "Complete the Hall objective during the dungeon run.",
+            "turnin": "Afadra Dunwall"
+          }
+        ]
+      }
+    ],
+    "westfall-prep": [
+      {
+        "id": "furlbrow-saldean",
+        "area": "Furlbrow's Pumpkin Farm and Saldean's Farm",
+        "levels": "15–16",
+        "confidence": "classic",
+        "note": "Collect both farms' quests before killing boars, harvest watchers and Defias in one northern loop.",
+        "quests": [
+          {
+            "id": "wf-poor-blanchy",
+            "name": "Poor Old Blanchy",
+            "giver": "Verna Furlbrow",
+            "pickup": "Furlbrow's Pumpkin Farm",
+            "objective": "Collect Handfuls of Oats along Westfall roads and fields.",
+            "turnin": "Verna Furlbrow"
+          },
+          {
+            "id": "wf-forgotten-heirloom",
+            "name": "The Forgotten Heirloom",
+            "giver": "Farmer Furlbrow",
+            "pickup": "Furlbrow's Pumpkin Farm",
+            "objective": "Recover Furlbrow's Pocket Watch from the farmhouse.",
+            "turnin": "Farmer Furlbrow"
+          },
+          {
+            "id": "wf-westfall-stew",
+            "name": "Westfall Stew",
+            "giver": "Verna Furlbrow",
+            "pickup": "Furlbrow's Pumpkin Farm",
+            "objective": "Collect the requested wildlife ingredients across northern Westfall.",
+            "turnin": "Salma Saldean"
+          },
+          {
+            "id": "wf-goretusk-pie",
+            "name": "Goretusk Liver Pie",
+            "giver": "Salma Saldean",
+            "pickup": "Saldean's Farm",
+            "objective": "Collect Goretusk Livers while doing the farm loop.",
+            "turnin": "Salma Saldean"
+          },
+          {
+            "id": "wf-killing-fields",
+            "name": "The Killing Fields",
+            "giver": "Farmer Saldean",
+            "pickup": "Saldean's Farm",
+            "objective": "Defeat Harvest Watchers in the nearby fields.",
+            "turnin": "Farmer Saldean"
+          }
+        ]
+      },
+      {
+        "id": "jangolode-coast",
+        "area": "Jangolode Mine, Gold Coast Quarry and the western shore",
+        "levels": "15–17",
+        "confidence": "classic",
+        "note": "Advance the Defias chain, bandanas and patrol objectives together; finish the lighthouse objective on the same western sweep.",
+        "quests": [
+          {
+            "id": "wf-defias-brotherhood",
+            "name": "The Defias Brotherhood",
+            "giver": "Gryan Stoutmantle",
+            "pickup": "Sentinel Hill",
+            "objective": "Advance the chain through its Westfall, Redridge and Stormwind legs until the dungeon finale is offered.",
+            "turnin": "Gryan Stoutmantle"
+          },
+          {
+            "id": "wf-red-bandanas",
+            "name": "Red Leather Bandanas",
+            "giver": "Scout Galiaan",
+            "pickup": "Sentinel Hill",
+            "objective": "Collect Red Leather Bandanas from Defias camps and mines.",
+            "turnin": "Scout Galiaan"
+          },
+          {
+            "id": "wf-peoples-militia",
+            "name": "The People's Militia",
+            "giver": "Gryan Stoutmantle",
+            "pickup": "Sentinel Hill",
+            "objective": "Defeat Defias around Jangolode Mine and later camps as the chain advances.",
+            "turnin": "Gryan Stoutmantle"
+          },
+          {
+            "id": "wf-patrolling",
+            "name": "Patrolling Westfall",
+            "giver": "Captain Danuvin",
+            "pickup": "Sentinel Hill",
+            "objective": "Defeat gnolls around the western Westfall camps.",
+            "turnin": "Captain Danuvin"
+          },
+          {
+            "id": "wf-coastal-menace",
+            "name": "The Coastal Menace",
+            "giver": "Captain Grayson",
+            "pickup": "Westfall Lighthouse",
+            "objective": "Defeat Old Murk-Eye along the coast with help if needed.",
+            "turnin": "Captain Grayson"
+          },
+          {
+            "id": "wf-coast-clear",
+            "name": "The Coast Isn't Clear",
+            "giver": "Captain Grayson",
+            "pickup": "Westfall Lighthouse",
+            "objective": "Defeat murlocs along the western and southern coast.",
+            "turnin": "Captain Grayson"
+          },
+          {
+            "id": "wf-keeper-flame",
+            "name": "Keeper of the Flame",
+            "giver": "Captain Grayson",
+            "pickup": "Westfall Lighthouse",
+            "objective": "Collect Flask of Oil from Harvest Watchers during the field loops.",
+            "turnin": "Captain Grayson"
+          },
+          {
+            "id": "wf-defias-traitor",
+            "name": "The Defias Traitor",
+            "giver": "The Defias Traitor",
+            "pickup": "Sentinel Hill after the courier chain",
+            "objective": "Escort the traitor toward Moonbrook immediately before the Deadmines preparation.",
+            "turnin": "Gryan Stoutmantle"
+          }
+        ]
+      }
+    ],
+    "redridge": [
+      {
+        "id": "lakeshire-lake",
+        "area": "Lakeshire, Lake Everstill and the western road",
+        "levels": "21–22",
+        "confidence": "classic",
+        "note": "Take the town pickups together, then clear the lake and western-road errands before traveling east.",
+        "quests": [
+          {
+            "id": "rr-encroaching-gnolls",
+            "name": "Encroaching Gnolls",
+            "giver": "Deputy Feldon",
+            "pickup": "Lakeshire",
+            "objective": "Report the gnoll threat and advance the western-road chain.",
+            "turnin": "Marshal Marris"
+          },
+          {
+            "id": "rr-underbelly-scales",
+            "name": "Underbelly Scales",
+            "giver": "Verner Osgood",
+            "pickup": "Lakeshire",
+            "objective": "Collect Redridge Whelp Scales east of Lakeshire.",
+            "turnin": "Verner Osgood"
+          },
+          {
+            "id": "rr-lost-tools",
+            "name": "The Lost Tools",
+            "giver": "Foreman Oslow",
+            "pickup": "Lakeshire bridge",
+            "objective": "Recover Oslow's Toolbox from the bottom of Lake Everstill.",
+            "turnin": "Foreman Oslow"
+          },
+          {
+            "id": "rr-hilarys-necklace",
+            "name": "Hilary's Necklace",
+            "giver": "Shawn",
+            "pickup": "Lakeshire",
+            "objective": "Find Hilary's Necklace in Lake Everstill.",
+            "turnin": "Hilary"
+          },
+          {
+            "id": "rr-selling-fish",
+            "name": "Selling Fish",
+            "giver": "Dockmaster Baren",
+            "pickup": "Lakeshire docks",
+            "objective": "Collect Spotted Sunfish from murlocs around Lake Everstill.",
+            "turnin": "Dockmaster Baren"
+          },
+          {
+            "id": "rr-free-lunch",
+            "name": "A Free Lunch",
+            "giver": "Darcy",
+            "pickup": "Lakeshire inn",
+            "objective": "Deliver the lunch to Guard Parker on the southern road.",
+            "turnin": "Guard Parker"
+          },
+          {
+            "id": "rr-murloc-poachers",
+            "name": "Murloc Poachers",
+            "giver": "Dockmaster Baren",
+            "pickup": "Lakeshire docks",
+            "objective": "Defeat murlocs along Lake Everstill while collecting fish.",
+            "turnin": "Dockmaster Baren"
+          }
+        ]
+      },
+      {
+        "id": "redridge-canyons",
+        "area": "Redridge Canyons, Render's camps and Stonewatch approaches",
+        "levels": "22–24",
+        "confidence": "classic",
+        "note": "Group gnoll and Blackrock objectives by camp. Skip deep orange camps and return later rather than forcing deaths.",
+        "quests": [
+          {
+            "id": "rr-assessing-threat",
+            "name": "Assessing the Threat",
+            "giver": "Deputy Feldon",
+            "pickup": "Lakeshire",
+            "objective": "Defeat Redridge gnolls in the canyon camps.",
+            "turnin": "Deputy Feldon"
+          },
+          {
+            "id": "rr-blackrock-menace",
+            "name": "Blackrock Menace",
+            "giver": "Marshal Marris",
+            "pickup": "Lakeshire",
+            "objective": "Defeat Blackrock orcs north of Lakeshire.",
+            "turnin": "Marshal Marris"
+          },
+          {
+            "id": "rr-solomons-law",
+            "name": "Solomon's Law",
+            "giver": "Magistrate Solomon",
+            "pickup": "Lakeshire",
+            "objective": "Collect Shadowhide Pendants from gnolls in the eastern camps.",
+            "turnin": "Magistrate Solomon"
+          },
+          {
+            "id": "rr-wanted-fangore",
+            "name": "Wanted: Lieutenant Fangore",
+            "giver": "Wanted Poster",
+            "pickup": "Lakeshire",
+            "objective": "Defeat Lieutenant Fangore at the Shadowhide camp with a group.",
+            "turnin": "Magistrate Solomon"
+          },
+          {
+            "id": "rr-unwelcome-guest",
+            "name": "An Unwelcome Guest",
+            "giver": "Martie Jainrose",
+            "pickup": "Lakeshire outskirts",
+            "objective": "Defeat Bellygrub in the fields.",
+            "turnin": "Martie Jainrose"
+          },
+          {
+            "id": "rr-redridge-goulash",
+            "name": "Redridge Goulash",
+            "giver": "Chef Breanna",
+            "pickup": "Lakeshire",
+            "objective": "Collect condor, boar and spider ingredients on the canyon loop.",
+            "turnin": "Chef Breanna"
+          },
+          {
+            "id": "rr-everstill-bridge",
+            "name": "The Everstill Bridge",
+            "giver": "Foreman Oslow",
+            "pickup": "Lakeshire bridge",
+            "objective": "Collect bridge materials from gnolls during the canyon loop.",
+            "turnin": "Foreman Oslow"
+          },
+          {
+            "id": "rr-blackrock-bounty",
+            "name": "Blackrock Bounty",
+            "giver": "Guard Howe",
+            "pickup": "Tower north of Lakeshire",
+            "objective": "Collect Battleworn Axes from Blackrock orcs.",
+            "turnin": "Guard Howe"
+          },
+          {
+            "id": "rr-gathilzogg",
+            "name": "Wanted: Gath'Ilzogg",
+            "giver": "Wanted Poster",
+            "pickup": "Lakeshire",
+            "objective": "Defeat Gath'Ilzogg at Stonewatch Keep with a group.",
+            "turnin": "Magistrate Solomon"
+          },
+          {
+            "id": "rr-tharilzun",
+            "name": "Tharil'zun",
+            "giver": "Marshal Marris",
+            "pickup": "Lakeshire",
+            "objective": "Defeat Tharil'zun in the Stonewatch chain with a group.",
+            "turnin": "Marshal Marris"
+          }
+        ]
+      }
+    ],
+    "duskwood": [
+      {
+        "id": "darkshire-east",
+        "area": "Darkshire, Tranquil Gardens and the Rotting Orchard",
+        "levels": "24–25",
+        "confidence": "classic",
+        "note": "Take the town quests together and finish the eastern undead and worgen sweep before committing to Raven Hill.",
+        "quests": [
+          {
+            "id": "dw-night-watch",
+            "name": "The Night Watch",
+            "giver": "Commander Althea Ebonlocke",
+            "pickup": "Darkshire",
+            "objective": "Defeat undead around Tranquil Gardens and later Raven Hill as the chain advances.",
+            "turnin": "Commander Althea Ebonlocke"
+          },
+          {
+            "id": "dw-worgen-woods",
+            "name": "Worgen in the Woods",
+            "giver": "Calor",
+            "pickup": "Darkshire",
+            "objective": "Defeat Nightbane worgen in the eastern woods and Rotting Orchard.",
+            "turnin": "Calor"
+          },
+          {
+            "id": "dw-rotting-orchard",
+            "name": "The Rotting Orchard",
+            "giver": "Commander Althea Ebonlocke",
+            "pickup": "Darkshire",
+            "objective": "Scout the Rotting Orchard southeast of Darkshire.",
+            "turnin": "Commander Althea Ebonlocke"
+          },
+          {
+            "id": "dw-totem-infliction",
+            "name": "The Totem of Infliction",
+            "giver": "Madame Eva",
+            "pickup": "Darkshire",
+            "objective": "Collect the requested reagents from Duskwood beasts and spiders.",
+            "turnin": "Madame Eva"
+          },
+          {
+            "id": "dw-look-stars",
+            "name": "Look To The Stars",
+            "giver": "Viktori Prism'Antras",
+            "pickup": "Darkshire",
+            "objective": "Advance the chain while completing nearby skeleton and ogre objectives.",
+            "turnin": "Viktori Prism'Antras"
+          },
+          {
+            "id": "dw-crime-punishment",
+            "name": "Crime and Punishment",
+            "giver": "Councilman Millstipe",
+            "pickup": "Darkshire",
+            "objective": "Keep this Stockades quest for the planned complete dungeon run.",
+            "turnin": "Councilman Millstipe"
+          },
+          {
+            "id": "dw-remember-love",
+            "name": "Remember That I Love You",
+            "giver": "Blood-Stained Letter",
+            "pickup": "Ruins of Lordaeron",
+            "objective": "Complete the letter's follow-up near Darkshire while working the eastern loop.",
+            "turnin": "Follow the quest text"
+          }
+        ]
+      },
+      {
+        "id": "raven-hill",
+        "area": "Raven Hill, cemetery and western Duskwood",
+        "levels": "25–27",
+        "confidence": "classic",
+        "note": "Carry every cemetery objective before traveling west. Group for Mor'Ladim and other named elites.",
+        "quests": [
+          {
+            "id": "dw-hermit",
+            "name": "The Hermit",
+            "giver": "Elaine Carevin",
+            "pickup": "Darkshire",
+            "objective": "Find Abercrombie north of Raven Hill Cemetery.",
+            "turnin": "Abercrombie"
+          },
+          {
+            "id": "dw-deliveries-sven",
+            "name": "Deliveries to Sven",
+            "giver": "Elaine Carevin",
+            "pickup": "Darkshire",
+            "objective": "Deliver supplies to Sven's camp in western Duskwood.",
+            "turnin": "Sven Yorgen"
+          },
+          {
+            "id": "dw-wolves-heels",
+            "name": "Wolves at Our Heels",
+            "giver": "Lars",
+            "pickup": "Sven's camp",
+            "objective": "Defeat Starving Dire Wolves around western Duskwood.",
+            "turnin": "Lars"
+          },
+          {
+            "id": "dw-eight-legged",
+            "name": "Eight-Legged Menaces",
+            "giver": "Watcher Dodds",
+            "pickup": "Raven Hill road",
+            "objective": "Defeat spiders around the western cemetery road.",
+            "turnin": "Watcher Dodds"
+          },
+          {
+            "id": "dw-yorgen-worgen",
+            "name": "The Yorgen Worgen",
+            "giver": "Sven Yorgen",
+            "pickup": "Sven's camp",
+            "objective": "Investigate the Yorgen farmstead and advance the worgen chain.",
+            "turnin": "Sven Yorgen"
+          },
+          {
+            "id": "dw-stalvan",
+            "name": "The Legend of Stalvan",
+            "giver": "Clerk Daltry",
+            "pickup": "Darkshire inn",
+            "objective": "Advance only the chain legs that share your current travel route.",
+            "turnin": "Follow the quest text"
+          },
+          {
+            "id": "dw-supplies-darkshire",
+            "name": "Supplies from Darkshire",
+            "giver": "Abercrombie",
+            "pickup": "North of Raven Hill Cemetery",
+            "objective": "Carry Abercrombie's list to Darkshire during the return trip.",
+            "turnin": "Elaine Carevin"
+          },
+          {
+            "id": "dw-svens-revenge",
+            "name": "Sven's Revenge",
+            "giver": "Sven Yorgen",
+            "pickup": "Sven's camp",
+            "objective": "Advance Sven's western Duskwood investigation on the same circuit.",
+            "turnin": "Follow the quest text"
+          },
+          {
+            "id": "dw-ogre-thieves",
+            "name": "Ogre Thieves",
+            "giver": "Abercrombie",
+            "pickup": "North of Raven Hill Cemetery",
+            "objective": "Recover Abercrombie's crate from the Vul'Gol Ogre Mound.",
+            "turnin": "Abercrombie"
+          }
+        ]
+      }
+    ],
+    "wetlands": [
+      {
+        "id": "menethil-coast",
+        "area": "Menethil Harbor, Bluegill Marsh and the coast",
+        "levels": "27–28",
+        "confidence": "classic",
+        "note": "Take the harbor quests before leaving town and clear murloc, crocolisk and wreck objectives in one coastal loop.",
+        "quests": [
+          {
+            "id": "wl-claws-deep",
+            "name": "Claws from the Deep",
+            "giver": "Karl Boran",
+            "pickup": "Menethil Harbor",
+            "objective": "Collect Bluegill Murloc fins and defeat Gobbler in Bluegill Marsh.",
+            "turnin": "Karl Boran"
+          },
+          {
+            "id": "wl-young-crocolisk",
+            "name": "Young Crocolisk Skins",
+            "giver": "James Halloran",
+            "pickup": "Menethil Harbor",
+            "objective": "Collect Young Crocolisk Skins along the road and coast.",
+            "turnin": "James Halloran"
+          },
+          {
+            "id": "wl-third-fleet",
+            "name": "The Third Fleet",
+            "giver": "First Mate Fitzsimmons",
+            "pickup": "Menethil Harbor inn",
+            "objective": "Buy a flagon of mead in the inn to begin the wreck chain.",
+            "turnin": "First Mate Fitzsimmons"
+          },
+          {
+            "id": "wl-cursed-crew",
+            "name": "The Cursed Crew",
+            "giver": "First Mate Fitzsimmons",
+            "pickup": "Menethil Harbor",
+            "objective": "Collect Lightforge Ingots from cursed sailors at the northern wrecks.",
+            "turnin": "First Mate Fitzsimmons"
+          },
+          {
+            "id": "wl-lifting-curse",
+            "name": "Lifting the Curse",
+            "giver": "First Mate Fitzsimmons",
+            "pickup": "Menethil Harbor",
+            "objective": "Defeat Captain Halyndor and recover his key at the wrecks.",
+            "turnin": "First Mate Fitzsimmons"
+          },
+          {
+            "id": "wl-alchemical-hazards",
+            "name": "Alchemical Hazards",
+            "giver": "Caitlin Grassman",
+            "pickup": "Menethil Harbor",
+            "objective": "Complete the Thelgen Rock objective when it shares the inland route.",
+            "turnin": "Caitlin Grassman"
+          }
+        ]
+      },
+      {
+        "id": "greenwarden",
+        "area": "Greenwarden's Grove and Mosshide camps",
+        "levels": "28–29",
+        "confidence": "classic",
+        "note": "Advance the breadcrumb to Rethiel, then stack gnoll and Fen Creeper objectives before leaving the grove.",
+        "quests": [
+          {
+            "id": "wl-greenwarden",
+            "name": "The Greenwarden",
+            "giver": "First Mate Fitzsimmons",
+            "pickup": "Menethil Harbor",
+            "objective": "Report to Rethiel at Greenwarden's Grove.",
+            "turnin": "Rethiel the Greenwarden"
+          },
+          {
+            "id": "wl-tramping-paws",
+            "name": "Tramping Paws",
+            "giver": "Rethiel the Greenwarden",
+            "pickup": "Greenwarden's Grove",
+            "objective": "Defeat Mosshide gnolls around the nearby camps.",
+            "turnin": "Rethiel the Greenwarden"
+          },
+          {
+            "id": "wl-fire-taboo",
+            "name": "Fire Taboo",
+            "giver": "Rethiel the Greenwarden",
+            "pickup": "Greenwarden's Grove",
+            "objective": "Collect Crude Flint from Mosshide enemies.",
+            "turnin": "Rethiel the Greenwarden"
+          },
+          {
+            "id": "wl-blisters-land",
+            "name": "Blisters on The Land",
+            "giver": "Rethiel the Greenwarden",
+            "pickup": "Greenwarden's Grove",
+            "objective": "Defeat Fen Creepers in the marsh around the grove.",
+            "turnin": "Rethiel the Greenwarden"
+          }
+        ]
+      },
+      {
+        "id": "whelgar-excavation",
+        "area": "Whelgar's Excavation Site and the inland road",
+        "levels": "27–29",
+        "confidence": "classic",
+        "note": "This is the key inland cluster. Carry all dig-site quests before entering the raptor area or the Excavation Site dungeon.",
+        "quests": [
+          {
+            "id": "wl-search-excavation",
+            "name": "In Search of The Excavation Team",
+            "giver": "Tarrel Rockweaver",
+            "pickup": "Menethil Harbor",
+            "objective": "Find the expedition at Whelgar's Excavation Site.",
+            "turnin": "Merrin Rockweaver"
+          },
+          {
+            "id": "wl-ormers-revenge",
+            "name": "Ormer's Revenge",
+            "giver": "Ormer Ironbraid",
+            "pickup": "Whelgar's Excavation Site",
+            "objective": "Defeat raptors around the dig site as the chain advances.",
+            "turnin": "Ormer Ironbraid"
+          },
+          {
+            "id": "wl-uncovering-past",
+            "name": "Uncovering the Past",
+            "giver": "Prospector Whelgar",
+            "pickup": "Whelgar's Excavation Site",
+            "objective": "Recover the four archaeological relics around the excavation.",
+            "turnin": "Prospector Whelgar"
+          },
+          {
+            "id": "wl-absent-prospector",
+            "name": "The Absent Minded Prospector",
+            "giver": "Prospector Whelgar",
+            "pickup": "Whelgar's Excavation Site",
+            "objective": "Advance the escort and report chain when a safe group is available.",
+            "turnin": "Follow the quest text"
+          },
+          {
+            "id": "wl-digging-ooze",
+            "name": "Digging Through the Ooze",
+            "giver": "Sida",
+            "pickup": "Menethil Harbor",
+            "objective": "Collect Sida's Bag from oozes on the inland route.",
+            "turnin": "Sida"
+          },
+          {
+            "id": "wl-grim-task",
+            "name": "A Grim Task",
+            "giver": "Longbraid the Grim",
+            "pickup": "Whelgar's Excavation Site",
+            "objective": "Defeat the named Wetlands objective with a group if needed.",
+            "turnin": "Longbraid the Grim"
+          }
+        ]
+      },
+      {
+        "id": "dun-modr",
+        "area": "Dun Modr and the Thandol Span",
+        "levels": "29–30",
+        "confidence": "classic",
+        "note": "Use this northern circuit for Stockades prerequisites and future travel; group before entering dense Dark Iron camps.",
+        "quests": [
+          {
+            "id": "wl-dark-iron-war",
+            "name": "The Dark Iron War",
+            "giver": "Motley Garmason",
+            "pickup": "Dun Modr",
+            "objective": "Defeat Dark Iron dwarves in and around Dun Modr.",
+            "turnin": "Motley Garmason"
+          },
+          {
+            "id": "wl-thandol-span",
+            "name": "The Thandol Span",
+            "giver": "Rhag Garmason",
+            "pickup": "Dun Modr",
+            "objective": "Investigate the Thandol Span and follow the chain's nearby steps.",
+            "turnin": "Rhag Garmason"
+          },
+          {
+            "id": "wl-fall-dun-modr",
+            "name": "The Fall of Dun Modr",
+            "giver": "Longbraid the Grim",
+            "pickup": "Dun Modr",
+            "objective": "Defeat named Dark Iron leaders with a group.",
+            "turnin": "Longbraid the Grim"
+          }
+        ]
+      },
+      {
+        "id": "forever-new-wetlands",
+        "area": "New Forever Wetlands pickups requiring a live check",
+        "levels": "27–30",
+        "confidence": "placeholder",
+        "source": "https://www.wowhead.com/forever/quests/eastern-kingdoms/wetlands",
+        "note": "These names exist in the Forever database, but public records did not expose reliable giver and objective text during this review. Check the linked records in the live client.",
+        "quests": [
+          {
+            "id": "wl-lack-virtue",
+            "name": "A Lack of Virtue",
+            "giver": "Live giver not verified",
+            "pickup": "Wetlands — verify in client",
+            "objective": "Record the live objective and group it with the nearest verified cluster.",
+            "turnin": "Live turn-in not verified",
+            "placeholder": true
+          },
+          {
+            "id": "wl-spoils-war",
+            "name": "Spoils of War",
+            "giver": "Live giver not verified",
+            "pickup": "Wetlands — verify in client",
+            "objective": "Record the live objective and group it with the nearest verified cluster.",
+            "turnin": "Live turn-in not verified",
+            "placeholder": true
+          },
+          {
+            "id": "wl-return-statuette-new",
+            "name": "Return the Statuette",
+            "giver": "Live giver not verified",
+            "pickup": "Wetlands — verify the Forever version",
+            "objective": "Confirm this new same-name record and its prerequisites before routing it.",
+            "turnin": "Live turn-in not verified",
+            "placeholder": true
+          }
+        ]
+      }
+    ],
+    "gnome-start": [
+      {
+        "id": "anvilmar",
+        "area": "Anvilmar and the Coldridge boar fields",
+        "levels": "1–3",
+        "confidence": "classic",
+        "note": "Take the indoor and outdoor pickups together before the first boar-field loop.",
+        "quests": [
+          {
+            "id": "coldridge-outfitters",
+            "name": "Dwarven Outfitters",
+            "giver": "Sten Stoutarm",
+            "pickup": "Anvilmar",
+            "objective": "Collect Tough Wolf Meat from wolves near Anvilmar.",
+            "turnin": "Sten Stoutarm"
+          },
+          {
+            "id": "coldridge-new-threat",
+            "name": "A New Threat",
+            "giver": "Balir Frosthammer",
+            "pickup": "Anvilmar",
+            "objective": "Defeat Rockjaw troggs southeast of Anvilmar.",
+            "turnin": "Balir Frosthammer"
+          },
+          {
+            "id": "coldridge-boar-hunter",
+            "name": "Boar Hunters",
+            "giver": "Talin Keeneye",
+            "pickup": "Coldridge boar fields",
+            "objective": "Defeat Small Crag Boars around Talin's camp.",
+            "turnin": "Talin Keeneye"
+          },
+          {
+            "id": "coldridge-refugee",
+            "name": "A Refugee's Quandary",
+            "giver": "Felix Whindlebolt",
+            "pickup": "Anvilmar",
+            "objective": "Recover Felix's scattered box, chest and bucket while crossing Coldridge.",
+            "turnin": "Felix Whindlebolt"
+          }
+        ]
+      },
+      {
+        "id": "frostmane-cave",
+        "area": "Frostmane troll cave and western Coldridge",
+        "levels": "3–6",
+        "confidence": "classic",
+        "note": "Take both Grelin quests before entering the cave; do not make a second cave trip for the journal.",
+        "quests": [
+          {
+            "id": "coldridge-troll-cave",
+            "name": "The Troll Cave",
+            "giver": "Grelin Whitebeard",
+            "pickup": "Western Coldridge camp",
+            "objective": "Defeat Frostmane trolls in and around the cave.",
+            "turnin": "Grelin Whitebeard"
+          },
+          {
+            "id": "coldridge-stolen-journal",
+            "name": "The Stolen Journal",
+            "giver": "Grelin Whitebeard",
+            "pickup": "Western Coldridge camp",
+            "objective": "Recover Grelin's journal from Grik'nir the Cold inside the cave.",
+            "turnin": "Grelin Whitebeard"
+          },
+          {
+            "id": "coldridge-senirs-observations",
+            "name": "Senir's Observations",
+            "giver": "Grelin Whitebeard",
+            "pickup": "Western Coldridge camp",
+            "objective": "Carry Grelin's report through the pass toward Kharanos.",
+            "turnin": "Senir Whitebeard"
+          },
+          {
+            "id": "coldridge-mail",
+            "name": "Coldridge Valley Mail Delivery",
+            "giver": "Sten Stoutarm",
+            "pickup": "Anvilmar",
+            "objective": "Follow the delivery chain along the road out of Coldridge.",
+            "turnin": "Talin Keeneye"
+          }
+        ]
+      }
+    ],
+    "gnome-dunmorogh": [
+      {
+        "id": "kharanos-grizzled",
+        "area": "Kharanos, the Grizzled Den and Wendigo Cave",
+        "levels": "6–8",
+        "confidence": "classic",
+        "note": "Take the Kharanos errands first, sweep the Grizzled Den, then finish the wendigo cave before returning.",
+        "quests": [
+          {
+            "id": "dm-boar-ribs",
+            "name": "Beer Basted Boar Ribs",
+            "giver": "Ragnar Thunderbrew",
+            "pickup": "Kharanos inn",
+            "objective": "Collect boar ribs and buy Rhapsody Malt in Kharanos.",
+            "turnin": "Ragnar Thunderbrew"
+          },
+          {
+            "id": "dm-grizzled-den",
+            "name": "The Grizzled Den",
+            "giver": "Pilot Stonegear",
+            "pickup": "Kharanos",
+            "objective": "Collect Wendigo Manes from the Grizzled Den southwest of Kharanos.",
+            "turnin": "Pilot Stonegear"
+          },
+          {
+            "id": "dm-frostmane-hold",
+            "name": "Frostmane Hold",
+            "giver": "Senir Whitebeard",
+            "pickup": "Kharanos",
+            "objective": "Explore Frostmane Hold and defeat Headhunters.",
+            "turnin": "Senir Whitebeard"
+          },
+          {
+            "id": "dm-ammo-rumbleshot",
+            "name": "Ammo for Rumbleshot",
+            "giver": "Loslor Rudge",
+            "pickup": "Kharanos",
+            "objective": "Deliver Rumbleshot's ammo while moving east.",
+            "turnin": "Hegnar Rumbleshot"
+          },
+          {
+            "id": "dm-stocking-jetsteam",
+            "name": "Stocking Jetsteam",
+            "giver": "Pilot Bellowfiz",
+            "pickup": "Steelgrill's Depot",
+            "objective": "Collect the wildlife meat and fur during the Kharanos loop.",
+            "turnin": "Pilot Bellowfiz"
+          },
+          {
+            "id": "dm-tools-steelgrill",
+            "name": "Tools for Steelgrill",
+            "giver": "Tharek Blackstone",
+            "pickup": "Kharanos",
+            "objective": "Deliver the tools to Beldin Steelgrill while passing the depot.",
+            "turnin": "Beldin Steelgrill"
+          }
+        ]
+      },
+      {
+        "id": "golbol-amberstill",
+        "area": "Gol'Bolar Quarry and Amberstill Ranch",
+        "levels": "7–10",
+        "confidence": "classic",
+        "note": "Clear quarry troggs, then swing north through the ranch and Mangeclaw before returning to Kharanos.",
+        "quests": [
+          {
+            "id": "dm-public-servant",
+            "name": "The Public Servant",
+            "giver": "Senator Mehr Stonehallow",
+            "pickup": "Gol'Bolar Quarry",
+            "objective": "Defeat Rockjaw Bonesnappers in the quarry.",
+            "turnin": "Senator Mehr Stonehallow"
+          },
+          {
+            "id": "dm-blasted-troggs",
+            "name": "Those Blasted Troggs!",
+            "giver": "Foreman Stonebrow",
+            "pickup": "Gol'Bolar Quarry",
+            "objective": "Defeat Rockjaw Skullthumpers inside the quarry.",
+            "turnin": "Foreman Stonebrow"
+          },
+          {
+            "id": "dm-protecting-herd",
+            "name": "Protecting the Herd",
+            "giver": "Rudra Amberstill",
+            "pickup": "Amberstill Ranch",
+            "objective": "Defeat Vagash in the hills north of the ranch.",
+            "turnin": "Rudra Amberstill"
+          },
+          {
+            "id": "dm-lost-pilot",
+            "name": "The Lost Pilot",
+            "giver": "Pilot Hammerfoot",
+            "pickup": "Road east of Kharanos",
+            "objective": "Find the lost pilot's remains near Ironforge airfield road.",
+            "turnin": "A Dwarven Corpse"
+          },
+          {
+            "id": "dm-pilots-revenge",
+            "name": "A Pilot's Revenge",
+            "giver": "A Dwarven Corpse",
+            "pickup": "Eastern Dun Morogh",
+            "objective": "Defeat Mangeclaw nearby.",
+            "turnin": "Pilot Hammerfoot"
+          }
+        ]
+      },
+      {
+        "id": "brewnall-gnomer",
+        "area": "Brewnall Village and Gnomeregan approaches",
+        "levels": "9–11",
+        "confidence": "classic",
+        "note": "Use this western loop only until the Hall preparation level; leave optional chains unfinished if they delay the level-15 dungeon.",
+        "quests": [
+          {
+            "id": "dm-perfect-stout",
+            "name": "The Perfect Stout",
+            "giver": "Rejold Barleybrew",
+            "pickup": "Brewnall Village",
+            "objective": "Collect Shimmerweed from trolls around Shimmer Ridge.",
+            "turnin": "Rejold Barleybrew"
+          },
+          {
+            "id": "dm-bitter-rivals",
+            "name": "Bitter Rivals",
+            "giver": "Marleth Barleybrew",
+            "pickup": "Kharanos",
+            "objective": "Complete the Thunder Ale errand between Kharanos and Brewnall.",
+            "turnin": "Marleth Barleybrew"
+          },
+          {
+            "id": "dm-filthy-paws",
+            "name": "Filthy Paws",
+            "giver": "Mountaineer Stormpike",
+            "pickup": "North Gate Outpost",
+            "objective": "Recover Miners' Gear from the Silver Stream Mine.",
+            "turnin": "Mountaineer Stormpike"
+          },
+          {
+            "id": "dm-recombobulation",
+            "name": "Operation Recombobulation",
+            "giver": "Razzle Sprysprocket",
+            "pickup": "Brewnall Village",
+            "objective": "Collect Gyromechanic Gears and Restabilization Cogs from leper gnomes.",
+            "turnin": "Razzle Sprysprocket"
+          },
+          {
+            "id": "dm-evershine",
+            "name": "Evershine",
+            "giver": "Rejold Barleybrew",
+            "pickup": "Brewnall Village",
+            "objective": "Deliver Evershine to Tundra MacGrann on the western loop.",
+            "turnin": "Tundra MacGrann"
+          },
+          {
+            "id": "dm-favor-evershine",
+            "name": "A Favor for Evershine",
+            "giver": "Rejold Barleybrew",
+            "pickup": "Brewnall Village",
+            "objective": "Collect the requested wildlife items around western Dun Morogh.",
+            "turnin": "Rejold Barleybrew"
+          },
+          {
+            "id": "dm-reports",
+            "name": "The Reports",
+            "giver": "Senir Whitebeard",
+            "pickup": "Kharanos",
+            "objective": "Carry the reports to Ironforge only when the route already takes you there.",
+            "turnin": "Senator Barin Redstone"
+          }
+        ]
+      }
+    ]
+  },
   "dungeons": [
     {
       "id": "hall",
