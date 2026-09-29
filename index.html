@@ -113,9 +113,44 @@ footer{color:#929db2}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
 }
+/* Theme chooser palettes: shared layout, distinct dark color systems. */
+body[data-theme="iron"]{color-scheme:dark;--bg:#181817;--panel:#222220;--panel2:#2b2b28;--ink:#e8e3d7;--muted:#aaa496;--line:#46443c;--purple:#c69a51;--gold:#d6ae69;--green:#91c9a0;--on-accent:#1d170e;--sidebar:#1e1e1b}
+body[data-theme="midnight"]{color-scheme:dark;--bg:#0d1420;--panel:#172231;--panel2:#1c2a3a;--ink:#e8eff5;--muted:#9eafbf;--line:#34485d;--purple:#83c5df;--gold:#a0cee0;--green:#9aceb4;--on-accent:#09151b;--sidebar:#111b29}
+body[data-theme="dusk"]{color-scheme:dark;--bg:#15131c;--panel:#211d2a;--panel2:#292332;--ink:#eee9f2;--muted:#b0a8bb;--line:#40384e;--purple:#c0a0ef;--gold:#d1b8ec;--green:#9fc9b3;--on-accent:#191020;--sidebar:#1b1824}
+body[data-theme="ember"]{color-scheme:dark;--bg:#15110f;--panel:#221b17;--panel2:#2b211c;--ink:#eee7df;--muted:#b9a99d;--line:#4b382f;--purple:#ff9957;--gold:#e7ad75;--green:#8fc3a0;--on-accent:#23140c;--sidebar:#1b1512}
+body[data-theme] .sidebar{background:var(--sidebar);border-color:var(--line)}
+body[data-theme] button:hover{border-color:var(--purple);background:var(--panel2)}
+body[data-theme] button.primary,body[data-theme] .button.primary{background:var(--purple);border-color:var(--purple);color:var(--on-accent)}
+body[data-theme] input,body[data-theme] select,body[data-theme] textarea{background:var(--panel2);border-color:var(--line);color:var(--ink)}
+body[data-theme] input[type=checkbox]{accent-color:var(--purple)}
+body[data-theme] .brand span{color:var(--purple)}
+body[data-theme] .nav-item.active{background:color-mix(in srgb,var(--purple) 17%,var(--panel));color:var(--ink);border-color:var(--purple)}
+body[data-theme] .note{background:color-mix(in srgb,var(--gold) 9%,var(--panel));border-color:var(--gold);color:var(--ink)}
+body[data-theme] .milestone{background:var(--panel);border-color:var(--gold)}
+body[data-theme] .progress-track{background:var(--panel2)}
+body[data-theme] .progress-fill{background:var(--purple)}
+body[data-theme] .dungeon summary{background:var(--panel2)}
+body[data-theme] .dungeon-content{background:var(--panel);border-color:var(--line)}
+body[data-theme] .quest-cluster{background:var(--panel);border-color:var(--line)}
+body[data-theme] .action-card{background:var(--panel2);border-color:var(--line);border-left-color:var(--purple)}
+body[data-theme] .action-card.warning{background:color-mix(in srgb,var(--gold) 10%,var(--panel));border-color:var(--gold)}
+body[data-theme] .check{border-color:var(--line)}
+body[data-theme] .status-checks label:has(input:checked){background:color-mix(in srgb,var(--purple) 15%,var(--panel));border-color:var(--purple)}
+body[data-theme] .ref-link[data-tip]::after{background:var(--panel);border-color:var(--line);color:var(--ink)}
+body[data-theme] .readiness span{background:var(--panel2)}
+body[data-theme] .quest-cluster,.box,.dungeon summary,.dungeon-content,.milestone,.badge,.action-card,.note,.readiness span,.status-checks label,.portable-code,.level-chip,.quest-status,.quest-cluster>summary{border-radius:3px}
+.theme-control{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;white-space:nowrap}
+.theme-control select{width:auto;min-width:148px;padding:6px 9px;border-radius:3px}
+/* Expedition board route: pickups, class tactics, and next-loop cards scan as a compact board. */
+#route .columns{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+#route .columns>.box,#route .columns>div{display:contents}
+#route .columns .box{padding:16px;margin-bottom:14px;border-radius:3px}
+#route .stage-head{align-items:center}
+@media(max-width:1000px){#route .columns{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){#route .columns{grid-template-columns:1fr}.theme-control{white-space:normal}.theme-control select{min-width:125px}}
 </style></head><body>
 <div class="layout"><aside class="sidebar"><div class="eyebrow">Alliance / PvP</div><div class="brand">The <span>Alliance</span> Path</div><small>Alliance race & class field guide</small><div class="selector-stack"><label class="field">Alliance race<select id="race"><option value="human">Human</option><option value="dwarf">Dwarf</option><option value="gnome">Gnome</option><option value="nightelf">Night Elf</option><option value="skyborne">Skyborne</option></select></label><label class="field">Class<select id="classChoice"></select></label></div><div class="nav-title">Journey to 60</div><nav id="routeNav" aria-label="Leveling stages"></nav><div class="notice"><span id="identitySummary">Solo questing · selected class</span><br><span id="roleSummary">Dungeon role adapts to class</span><br>Every dungeon · batched travel</div></aside>
-<main><div class="topline"><div class="eyebrow">WoW Forever / Launch plan</div><span id="saveStatus" class="status" role="status">Progress stays in this browser</span></div><div class="intro"><div><h1 id="guideTitle">Alliance leveling guide</h1><p id="guideSubtitle">Five starts. Nine classes. Every dungeon. Level 60 completion circuits.</p></div><span class="badge">Beta-based · checked 28 Sep 2026</span></div>
+<main><div class="topline"><div class="eyebrow">WoW Forever / Launch plan</div><div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end"><label class="theme-control" for="themeChoice">Theme<select id="themeChoice"><option value="iron">Iron &amp; Brass</option><option value="midnight">Midnight Steel</option><option value="dusk">Dusk &amp; Violet</option><option value="ember">Black &amp; Ember</option></select></label><span id="saveStatus" class="status" role="status">Progress stays in this browser</span></div></div><div class="intro"><div><h1 id="guideTitle">Alliance leveling guide</h1><p id="guideSubtitle">Five starts. Nine classes. Every dungeon. Level 60 completion circuits.</p></div><span class="badge">Beta-based · checked 28 Sep 2026</span></div>
 <div class="controls"><label class="field">Level<input id="level" type="number" min="1" max="60" value="1"></label><label class="field">Current zone / town<input id="zone" placeholder="e.g. Elwynn Forest / Goldshire"></label><button class="primary" id="findStage">Show my next steps</button></div><div class="progress-meta"><span id="progressLabel"></span><span id="levelLabel"></span></div><div class="progress-track"><div id="progressFill" class="progress-fill"></div></div><div id="milestones" class="milestones"></div>
 <div class="tabs" role="tablist" aria-label="Guide sections"><button class="tab" id="tab-route" role="tab" aria-controls="route" aria-selected="true" data-tab="route">Zone route</button><button class="tab" id="tab-next" role="tab" aria-controls="next" aria-selected="false" data-tab="next" tabindex="-1">Next actions</button><button class="tab" id="tab-dungeons" role="tab" aria-controls="dungeons" aria-selected="false" data-tab="dungeons" tabindex="-1">Dungeon quests</button><button class="tab" id="tab-priest" role="tab" aria-controls="priest" aria-selected="false" data-tab="priest" tabindex="-1">Class playbook</button><button class="tab" id="tab-skills" role="tab" aria-controls="skills" aria-selected="false" data-tab="skills" tabindex="-1">Trainer skills</button><button class="tab" id="tab-verify" role="tab" aria-controls="verify" aria-selected="false" data-tab="verify" tabindex="-1">Verify data</button><button class="tab" id="tab-sources" role="tab" aria-controls="sources" aria-selected="false" data-tab="sources" tabindex="-1">Sources & uncertainties</button><button class="tab" id="tab-update" role="tab" aria-controls="update" aria-selected="false" data-tab="update" tabindex="-1">Update / rebuild site</button></div>
 <section id="route" role="tabpanel" aria-labelledby="tab-route"></section><section id="next" role="tabpanel" aria-labelledby="tab-next" hidden></section><section id="dungeons" role="tabpanel" aria-labelledby="tab-dungeons" hidden></section>
@@ -369,4 +404,8 @@ $('generateProgressCode').onclick=()=>{try{$('progressCode').value=encodeProgres
 document.querySelector('[role=tablist]').addEventListener('keydown',e=>{const tabs=[...document.querySelectorAll('[role=tab]')],i=tabs.indexOf(document.activeElement);if(i<0)return;let n;if(e.key==='ArrowRight')n=(i+1)%tabs.length;else if(e.key==='ArrowLeft')n=(i+tabs.length-1)%tabs.length;else if(e.key==='Home')n=0;else if(e.key==='End')n=tabs.length-1;else return;e.preventDefault();showTab(tabs[n].dataset.tab);tabs[n].focus();});
 $('sourceList').innerHTML=SOURCES.map(s=>`<div class="source-item"><a href="${s[1]}" target="_blank" rel="noopener">${esc(s[0])} ↗</a><p>${esc(s[2])}</p></div>`).join('');syncFields();renderStage();renderDungeons();renderProgress();renderNextActions();renderSkills();makePrompt();
 if(document.modelContext?.registerTool){try{Promise.resolve(document.modelContext.registerTool({name:'read_leveling_progress',title:'Read leveling progress',description:'Read the player’s saved level, zone and completion state, plus the update prompt. Does not change progress.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true,untrustedContentHint:true},execute:(input)=>{if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).length)throw Error('Expected an empty object.');return {progress:structuredClone(state),updatePrompt:$('prompt').value};}})).catch(()=>{});}catch{}}
+</script>
+<script>
+(()=>{const select=document.getElementById("themeChoice"),key="wfg-theme";if(!select)return;let saved="";try{saved=localStorage.getItem(key)||""}catch{}const valid=["iron","midnight","dusk","ember"];const apply=value=>{const theme=valid.includes(value)?value:"iron";document.body.dataset.theme=theme;select.value=theme;try{localStorage.setItem(key,theme)}catch{}};apply(saved);select.addEventListener("change",()=>apply(select.value));})();
 </script></body></html>
+
