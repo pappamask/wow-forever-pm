@@ -1259,12 +1259,12 @@
       "id": "deadmines-stage",
       "range": [
         19,
-        21
+        20
       ],
       "zone": "Deadmines",
       "title": "Deadmines: finish the whole quest package",
       "hub": "Stormwind → Sentinel Hill → Moonbrook",
-      "goal": "Complete five prepared objectives and pick up VanCleef’s letter.",
+      "goal": "Complete the prepared quest package in one clear; this is not assumed to provide two full levels.",
       "steps": [
         "Finish the Defias chain if needed. Verify the final Defias quest and Red Silk Bandanas are in your log.",
         "Check all three Stormwind pickups before traveling to Moonbrook.",
@@ -1274,14 +1274,14 @@
       ],
       "priest": "Do not replace a better wand solely because an item is blue. Compare actual bonuses and keep suitable healing gear.",
       "pvp": "Assemble before entering the mines; avoid a long solo corpse run through respawns.",
-      "exit": "Resume Redridge/Duskwood around 21, adjusting for actual quest experience.",
-      "alt": "If still below a comfortable run level, finish close Westfall or early Redridge objectives.",
+      "exit": "Move into Redridge after the turn-ins, usually around level 20. Do not repeat Deadmines solely to force level 21.",
+      "alt": "If one clear leaves you below level 20, bridge with close Westfall or western Redridge quests.",
       "dungeon": "deadmines"
     },
     {
       "id": "redridge",
       "range": [
-        21,
+        20,
         24
       ],
       "zone": "Redridge Mountains",
@@ -3802,8 +3802,8 @@
     {
       "id": "deadmines",
       "name": "Deadmines",
-      "target": "After Ruins · aim 19–21",
-      "note": "Six documented shared Alliance quests. Prepare the Defias chain first. Two objectives are in the mines outside the instance; class-specific objectives appear separately when relevant.",
+      "target": "One prepared clear at 19–20 · 21 remains viable",
+      "note": "Six documented shared Alliance quests. Prepare the Defias chain first. Two objectives are in the mines outside the instance; class-specific objectives appear separately when relevant. Treat 19–20 as the recommended entry window, not a promise of gaining two levels from one clear.",
       "source": 4,
       "quests": [
         [
