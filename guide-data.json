@@ -5045,5 +5045,114 @@
       "https://news.blizzard.com/en-gb/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
       "Official Alliance combinations, Skyborne start, and updated racial abilities."
     ]
-  ]
+  ],
+  "joanaSource": {
+    "name": "Joana Alliance 1–60 route reference",
+    "url": "https://www.joanasworld.com/web-guides.php",
+    "note": "Classic travel order and batching reference; verify Forever-specific facts here."
+  },
+  "oneClearRunGroups": {
+    "brd-prison": {
+      "key": "brd-full",
+      "label": "Blackrock Depths · one full clear"
+    },
+    "brd-upper": {
+      "key": "brd-full",
+      "label": "Blackrock Depths · one full clear"
+    },
+    "strat-live": {
+      "key": "strat-full",
+      "label": "Stratholme · one full live-to-undead clear"
+    },
+    "strat-undead": {
+      "key": "strat-full",
+      "label": "Stratholme · one full live-to-undead clear"
+    }
+  },
+  "oneClearQuestPolicy": {
+    "treaty": {
+      "type": "conditional",
+      "note": "Attempt during the level-15 clear only if the tablet quest is available. If it is level-gated, mark it blocked and omit it; no Hall return is scheduled."
+    },
+    "gnomeregan-q7": {
+      "type": "once",
+      "note": "Repeatable machine quest: complete at most one turn-in during the clear and ignore repeat copies."
+    },
+    "uldaman-q6": {
+      "type": "exclude",
+      "note": "The Shattered Necklace chain normally reveals instance follow-ups after outside turn-ins. Omitted unless every inside stage is already prepared before the only clear."
+    },
+    "brd-prison-q3": {
+      "type": "exclude",
+      "note": "The note/documents stage unlocks after the Windsor contact and an outside turn-in. It cannot be guaranteed in the same fresh full clear."
+    },
+    "brd-prison-q4": {
+      "type": "exclude",
+      "note": "Jail Break follows the Windsor documents stage and normally requires another BRD entry. Omitted from the one-clear route."
+    },
+    "brd-upper-q3": {
+      "type": "exclude",
+      "note": "The Love Potion starts inside and requires outside materials plus a return. Omitted from the one-clear route."
+    },
+    "brd-upper-q5": {
+      "type": "exclude",
+      "note": "The Emperor quest follows the Kharan/Magni turn-in sequence. Omitted unless fully unlocked before the single BRD clear."
+    },
+    "dm-north-q2": {
+      "type": "exclude",
+      "note": "Starts after a North tribute clear, sends you into West, then requires a North return. Omitted from the one-clear-per-wing route."
+    },
+    "dm-west-q3": {
+      "type": "once",
+      "note": "Conditional repeatables: bring materials and complete at most one relevant libram turn-in; do not farm or repeat the wing."
+    },
+    "lbrs-q2": {
+      "type": "exclude",
+      "note": "Maxwell’s Mission unlocks after Bijou’s report and would require another LBRS boss clear. Omitted from the one-clear route."
+    },
+    "lbrs-q8": {
+      "type": "conditional",
+      "note": "Collect Seal of Ascension components during the one LBRS clear. The external forging and return are not allowed to trigger another clear."
+    },
+    "scholo-q2": {
+      "type": "exclude",
+      "note": "Unlocks only after Plagued Hatchlings is turned in outside. Omitted from the single Scholomance clear."
+    },
+    "scholo-q4": {
+      "type": "exclude",
+      "note": "Unlocks after the first Eva dungeon objective is turned in. Omitted from the single Scholomance clear."
+    },
+    "scholo-q5": {
+      "type": "exclude",
+      "note": "Later Eva chain stage that normally needs another Scholomance entry. Omitted from the one-clear route."
+    },
+    "scholo-q7": {
+      "type": "exclude",
+      "note": "Final Ras objective unlocks after linked Scholomance and Stratholme stages. Omitted because no Scholomance return is allowed."
+    },
+    "strat-live-q6": {
+      "type": "exclude",
+      "note": "Balnazzar’s head quest unlocks only after The Archivist is turned in. Omitted because the full Stratholme clear happens once."
+    },
+    "strat-undead-q1": {
+      "type": "exclude",
+      "note": "The Active Agent unlocks after The Flesh Does Not Lie is turned in. Omitted because no second Stratholme entry is allowed."
+    },
+    "strat-undead-q2": {
+      "type": "exclude",
+      "note": "Above and Beyond depends on the excluded Balnazzar-head follow-up. Omitted from the one-clear route."
+    },
+    "strat-undead-q3": {
+      "type": "conditional",
+      "note": "Include only if the complete Ras/Menethil chain is prepared before the single Stratholme clear; otherwise omit it."
+    },
+    "ubrs-q2": {
+      "type": "once",
+      "note": "Use the corrected Finkle Einhorn quest title; complete it during the single UBRS clear."
+    },
+    "ubrs-q6": {
+      "type": "exclude",
+      "note": "Drakefire Amulet progression normally sends you back through BRD. Omitted from the one-clear route unless the entire chain is already prepared before the single UBRS clear."
+    }
+  }
 }
