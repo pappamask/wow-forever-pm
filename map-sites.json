@@ -1,11 +1,45 @@
 {
-  "note": "Named objective landmarks. Artwork x/y are manually checked map positions; reference zone percentages are inherited Classic-era waypoints, not verified Forever beta quest-object coordinates.",
+  "note": "Named route stops on 1000x668 beta-client artwork. Artwork-only points identify an area, not a verified NPC or spawn. Classic zone percentages remain historical references, not Forever beta quest-object coordinates.",
   "clusters": {
+    "human-start:northshire-abbey": [
+      {"name":"Northshire Vineyards","map":"elwynn-forest","x":540,"y":323,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/elwynn-forest","basis":"Vineyard area southeast of the Abbey on the client map; not an individual quest target"}
+    ],
     "human-elwynn:fargodeep-mine": [
-      {"name":"Fargodeep Mine entrance","map":"elwynn-forest","x":390,"y":548,"zonePercent":[39,82],"sourceUrl":"https://www.wowhead.com/forever/quest=62/the-fargodeep-mine","basis":"Classic-era player waypoint; check Forever terrain"}
+      {"name":"Fargodeep Mine entrance","map":"elwynn-forest","x":390,"y":548,"zonePercent":[39,82],"sourceUrl":"https://www.wowhead.com/forever/quest=62/the-fargodeep-mine","basis":"Classic-era player waypoint; check Forever terrain"},
+      {"name":"Maclure Vineyards","map":"elwynn-forest","x":327,"y":568,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/elwynn-forest","basis":"Vineyard landmark on the client artwork, not an exact quest-giver point"},
+      {"name":"Stonefield Farm","map":"elwynn-forest","x":416,"y":581,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/elwynn-forest","basis":"Farm landmark on the client artwork, not an exact quest-giver point"}
     ],
     "human-elwynn:jasperlode-eastvale": [
-      {"name":"Jasperlode Mine entrance","map":"elwynn-forest","x":616,"y":361,"zonePercent":[61.6,54.1],"sourceUrl":"https://www.wowhead.com/forever/quest=76/the-jasperlode-mine","basis":"Classic-era player waypoint; check Forever terrain"}
+      {"name":"Jasperlode Mine entrance","map":"elwynn-forest","x":616,"y":361,"zonePercent":[61.6,54.1],"sourceUrl":"https://www.wowhead.com/forever/quest=76/the-jasperlode-mine","basis":"Classic-era player waypoint; check Forever terrain"},
+      {"name":"Stone Cairn Lake","map":"elwynn-forest","x":724,"y":316,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/elwynn-forest","basis":"Lake label on the client artwork; murloc and missing-guard objectives span its shores"},
+      {"name":"Eastvale Logging Camp","map":"elwynn-forest","x":838,"y":426,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/elwynn-forest","basis":"Logging-camp landmark on client artwork, not every nearby bundle or bear objective"}
+    ],
+    "elf-teldrassil:dolanaar-timberlings": [
+      {"name":"Lake Al'Ameth and Denalan's eastern shore","map":"teldrassil","x":573,"y":469,"artworkOnly":true,"sourceUrl":"https://www.wowhead.com/forever/quest=997/denalans-earth","basis":"Forever quest text puts Denalan at the eastern end of the lake; pin covers the lake circuit, not his exact point"},
+      {"name":"Dolanaar eastern road","map":"teldrassil","x":616,"y":378,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/teldrassil","basis":"Road east of the client-map Dolanaar landmark; objective range remains approximate"}
+    ],
+    "elf-teldrassil:banethil-gnarlpine": [
+      {"name":"Ban'ethil Barrow Den","map":"teldrassil","x":427,"y":347,"artworkOnly":true,"sourceUrl":"https://www.wowhead.com/forever/quest=483/the-relics-of-wakening","basis":"Forever quest names the den west of Dolanaar; cave entrance is approximate on artwork"},
+      {"name":"Gnarlpine camp approach","map":"teldrassil","x":356,"y":354,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/teldrassil","basis":"Broad western camp approach, not a verified enemy spawn point"}
+    ],
+    "dwarf-dunmorogh:kharanos-grizzled": [
+      {"name":"The Grizzled Den","map":"dun-morogh","x":383,"y":389,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Den area southwest of Kharanos on the client map, not a cave-interior objective"},
+      {"name":"Frostmane Hold approach","map":"dun-morogh","x":302,"y":428,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Western mountain approach to the named subzone; exact cave entry needs a live check"}
+    ],
+    "gnome-dunmorogh:kharanos-grizzled": [
+      {"name":"The Grizzled Den","map":"dun-morogh","x":383,"y":389,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Same physical den as the Dwarf route; approximate client-map area"},
+      {"name":"Frostmane Hold approach","map":"dun-morogh","x":302,"y":428,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Same western mountain approach as the Dwarf route; exact cave entry needs a live check"}
+    ],
+    "dwarf-dunmorogh:golbol-amberstill": [
+      {"name":"Gol'Bolar Quarry","map":"dun-morogh","x":698,"y":382,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Quarry objective area on the client artwork, separate from Amberstill Ranch"},
+      {"name":"Vagash's hills north of Amberstill","map":"dun-morogh","x":635,"y":282,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Hills north of ranch from guide quest text; exact Vagash spawn unverified"}
+    ],
+    "gnome-dunmorogh:golbol-amberstill": [
+      {"name":"Gol'Bolar Quarry","map":"dun-morogh","x":698,"y":382,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Same physical quarry as the Dwarf route; approximate client-map area"},
+      {"name":"Vagash's hills north of Amberstill","map":"dun-morogh","x":635,"y":282,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/dun-morogh","basis":"Same hills as the Dwarf route; exact Vagash spawn unverified"}
+    ],
+    "dunmorogh:steelgrill-farsen": [
+      {"name":"Ironband's Compound · Dark Iron Spies and Map","map":"dun-morogh","x":770,"y":405,"artworkOnly":true,"sourceUrl":"https://www.wowhead.com/forever/quest=96390/nip-em-in-the-bud","basis":"Forever quest sends players east to Ironband's Compound; the Dark Iron Map also drops from spies here. Pixel is an approximate area south of Helm's Bed Lake"}
     ],
     "westfall-prep:furlbrow-saldean": [
       {"name":"The Jansen Stead","map":"westfall","x":580,"y":114,"zonePercent":[58,17],"sourceUrl":"https://www.wowhead.com/guide/the-explorers-guide-499","basis":"Classic landmark reference; beta recorder places Verna Furlbrow in this named area"},
@@ -14,7 +48,39 @@
     ],
     "westfall-prep:jangolode-coast": [
       {"name":"Jangolode Mine","map":"westfall","x":440,"y":160,"zonePercent":[44,24],"sourceUrl":"https://www.wowhead.com/guide/the-explorers-guide-499","basis":"Classic landmark reference; check Forever terrain"},
-      {"name":"Gold Coast Quarry","map":"westfall","x":320,"y":287,"zonePercent":[32,43],"sourceUrl":"https://www.wowhead.com/wotlk/achievement=802/explore-westfall","basis":"Classic landmark reference; check Forever terrain"}
+      {"name":"Gold Coast Quarry","map":"westfall","x":320,"y":287,"zonePercent":[32,43],"sourceUrl":"https://www.wowhead.com/wotlk/achievement=802/explore-westfall","basis":"Classic landmark reference; check Forever terrain"},
+      {"name":"Moonbrook escort endpoint","map":"westfall","x":431,"y":455,"artworkOnly":true,"sourceUrl":"https://www.wowhead.com/forever/quest=155/the-defias-brotherhood","basis":"Named Moonbrook destination in the Forever quest; do not confuse it with Jangolode or the coast"},
+      {"name":"Western shore circuit","map":"westfall","x":286,"y":485,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/westfall","basis":"Broad coast route on the client artwork; individual coastal targets are not verified"}
+    ],
+    "redridge:lakeshire-lake": [
+      {"name":"Lake Everstill · Lost Tools","map":"redridge-mountains","x":392,"y":383,"artworkOnly":true,"sourceUrl":"https://www.wowhead.com/forever/quest=125/the-lost-tools","basis":"Forever quest directs players to the bottom of Lake Everstill; lake-area pin is not the exact submerged toolbox"},
+      {"name":"Western road and gnoll camps","map":"redridge-mountains","x":105,"y":361,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/redridge-mountains","basis":"Broad western road objective area, not a verified gnoll spawn"}
+    ],
+    "redridge:redridge-canyons": [
+      {"name":"Redridge canyon approach","map":"redridge-mountains","x":695,"y":276,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/redridge-mountains","basis":"Eastern canyon planning area; individual Shadowhide objectives are not fixed"},
+      {"name":"Stonewatch Keep","map":"redridge-mountains","x":621,"y":376,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/redridge-mountains","basis":"Keep landmark visible on client artwork, separate from the northern canyon"}
+    ],
+    "duskwood:darkshire-east": [
+      {"name":"Tranquil Gardens Cemetery","map":"duskwood","x":798,"y":453,"artworkOnly":true,"sourceUrl":"https://www.wowhead.com/forever/quest=56/the-night-watch","basis":"Forever quest names Tranquil Gardens; pin follows cemetery on client artwork"},
+      {"name":"Rotting Orchard","map":"duskwood","x":652,"y":508,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/duskwood","basis":"Orchard field visible southeast of the road; broad objective area, not an individual target"}
+    ],
+    "duskwood:raven-hill": [
+      {"name":"Raven Hill cemetery","map":"duskwood","x":195,"y":290,"artworkOnly":true,"sourceUrl":"https://www.wowhead.com/forever/quest=57/the-night-watch","basis":"Forever quest names Raven Hill; cemetery covers multiple targets"},
+      {"name":"Western Duskwood camp circuit","map":"duskwood","x":229,"y":467,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/duskwood","basis":"Broad southwest road approach for Sven and Abercrombie tasks; exact camps need a live check"}
+    ],
+    "wetlands:menethil-coast": [
+      {"name":"Bluegill Marsh","map":"wetlands","x":249,"y":274,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/wetlands","basis":"Marsh objective region east of Menethil; individual murloc positions unverified"},
+      {"name":"Lost Fleet coastal wrecks","map":"wetlands","x":257,"y":170,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/wetlands","basis":"Northwestern coastal wreck area, separate from Menethil Harbor pickup"}
+    ],
+    "wetlands:greenwarden": [
+      {"name":"Mosshide inland camps","map":"wetlands","x":642,"y":194,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/wetlands","basis":"Broad eastern inland objective area, not Greenwarden's Grove pickup or a verified gnoll spawn"}
+    ],
+    "wetlands:whelgar-excavation": [
+      {"name":"Whelgar's dig and fossil area","map":"wetlands","x":367,"y":308,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/wetlands","basis":"Outdoor excavation objective area; distinct from the new Excavation Site instance entrance"},
+      {"name":"Inland road loop","map":"wetlands","x":509,"y":337,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/wetlands","basis":"Broad road approach for follow-up travel, not a single quest object"}
+    ],
+    "arathi:route-1": [
+      {"name":"Boulderfist Hall approach","map":"arathi-highlands","x":526,"y":482,"artworkOnly":true,"sourceUrl":"https://warcraftforever.games/maps/arathi-highlands","basis":"Client subzone southeast of Refuge Pointe; route-planning area only because this later stage has no linked quest IDs"}
     ]
   }
 }

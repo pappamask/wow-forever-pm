@@ -1573,12 +1573,12 @@
       "zone": "Kalimdor / new-dungeon finish",
       "title": "Level 60: Dire Maul circuit and Shaper’s Terrace",
       "hub": "Feathermoon → Dire Maul",
-      "goal": "Finish East, North tribute, West and the North return; place Shaper’s Terrace by verified geography.",
+      "goal": "Finish the Dire Maul circuit in Feralas, then travel to Un’Goro for Shaper’s Terrace; its exact entrance remains unverified.",
       "steps": [
         "Collect Feathermoon and Moonglade pickups; complete Dire Maul East for access.",
         "Run North tribute; prepare Unfinished Gordok Business before West.",
         "Clear West and the library, then return North for the linked turn-in.",
-        "Confirm Shaper’s Terrace entrance, quests and tuning; complete the required run."
+        "Travel to Un’Goro for Shaper’s Terrace; confirm its entrance, quests and tuning before the required run."
       ],
       "priest": "Bring dispels, water and an agreed role. Do not DoT targets the group needs to control.",
       "pvp": "Travel to entrances as a group.",
@@ -2740,7 +2740,7 @@
     "dunmorogh": [
       {
         "id": "steelgrill-farsen",
-        "area": "Steelgrill's Depot and Earthseer Farsen",
+        "area": "Farsen's farsight and Ironband's Compound",
         "levels": "12–13",
         "confidence": "beta",
         "note": "This is the Hall of Thanes access chain. Stop unrelated questing once the chain is ready.",
@@ -2757,40 +2757,40 @@
             "id": "hall-farsens-watch",
             "name": "Farsen's Watch",
             "giver": "Earthseer Farsen",
-            "pickup": "Dun Morogh",
-            "objective": "Complete Farsen's nearby investigation objective.",
+            "pickup": "Earthseer Farsen · Gol'Bolar overlook",
+            "objective": "Ask Farsen for his farsight at his camp; the southeast spy camp comes in the following quest.",
             "turnin": "Earthseer Farsen"
           },
           {
             "id": "hall-nip-bud",
             "name": "Nip 'Em in the Bud",
             "giver": "Earthseer Farsen",
-            "pickup": "Dun Morogh",
-            "objective": "Complete the offered Dark Iron objective and loot the map when it drops.",
+            "pickup": "Earthseer Farsen · Gol'Bolar overlook",
+            "objective": "Kill Dark Iron Spies at Ironband's Compound east/southeast of Gol'Bolar Quarry and loot the map when it drops.",
             "turnin": "Earthseer Farsen"
           }
         ]
       },
       {
         "id": "dark-iron-map",
-        "area": "Dark Iron camp and Old Ironforge entrance",
+        "area": "Dark Iron Map return and Old Ironforge entrance",
         "levels": "13–15",
         "confidence": "beta",
-        "note": "Carry the map chain through its turn-in, then collect every Old Ironforge quest before forming the group.",
+        "note": "The map drops from the spies at area 1's Ironband marker. Return it to Farsen, then collect the Old Ironforge quests in Ironforge before forming the group. Interior Hall objectives are not surface-map pins.",
         "quests": [
           {
             "id": "hall-underground-map",
             "name": "Underground Map",
             "giver": "Dark Iron Map",
-            "pickup": "Dark Iron enemies in Dun Morogh",
-            "objective": "Use the dropped map to start the quest and deliver it as directed.",
+            "pickup": "Dark Iron Spies at Ironband's Compound",
+            "objective": "Use the map dropped at Ironband's Compound to start the quest, then take it back to Farsen.",
             "turnin": "Earthseer Farsen"
           },
           {
             "id": "hall-old-if-incursion",
             "name": "Old Ironforge Incursion",
             "giver": "Earthseer Farsen",
-            "pickup": "Dun Morogh",
+            "pickup": "Earthseer Farsen · Gol'Bolar overlook",
             "objective": "Prepare the outside chain for entry to Hall of Thanes.",
             "turnin": "Follow the quest text"
           },
