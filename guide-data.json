@@ -2816,16 +2816,16 @@
     "westfall-prep": [
       {
         "id": "furlbrow-saldean",
-        "area": "Furlbrow's Pumpkin Farm and Saldean's Farm",
+        "area": "The Jansen Stead, Furlbrow's Pumpkin Farm and Saldean's Farm",
         "levels": "15–16",
         "confidence": "classic",
-        "note": "Collect both farms' quests before killing boars, harvest watchers and Defias in one northern loop.",
+        "note": "Check Verna Furlbrow at The Jansen Stead in the Forever beta, then collect the Furlbrow and Saldean farm quests before one northern objective loop.",
         "quests": [
           {
             "id": "wf-poor-blanchy",
             "name": "Poor Old Blanchy",
             "giver": "Verna Furlbrow",
-            "pickup": "Furlbrow's Pumpkin Farm",
+            "pickup": "The Jansen Stead",
             "objective": "Collect Handfuls of Oats along Westfall roads and fields.",
             "turnin": "Verna Furlbrow"
           },
@@ -2841,7 +2841,7 @@
             "id": "wf-westfall-stew",
             "name": "Westfall Stew",
             "giver": "Verna Furlbrow",
-            "pickup": "Furlbrow's Pumpkin Farm",
+            "pickup": "The Jansen Stead",
             "objective": "Collect the requested wildlife ingredients across northern Westfall.",
             "turnin": "Salma Saldean"
           },

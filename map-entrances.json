@@ -1,0 +1,17 @@
+{
+  "note": "Beta-client world X/Y of listed instance entrances; not calibrated to the 1000x668 surface artwork and not interior quest coordinates.",
+  "stages": {
+    "hall-stage": [{"name":"Hall of Thanes entrance","worldXY":[-4842,-1058.3],"sourceUrl":"https://wowforever.wclbox.com/en/ditu/eastern-kingdoms"}],
+    "ruins-stage": [],
+    "deadmines-stage": [{"name":"Deadmines entrance","worldXY":[-11207.8,1681.2],"sourceUrl":"https://wowforever.wclbox.com/en/ditu/eastern-kingdoms"}],
+    "end-kalimdor": [{"name":"Dire Maul entrance","worldXY":[-3908,1130],"sourceUrl":"https://wowforever.wclbox.com/en/ditu/kalimdor"}],
+    "end-blackrock": [
+      {"name":"Blackrock Spire entrance","worldXY":[-7522.5,-1233],"sourceUrl":"https://wowforever.wclbox.com/en/ditu/eastern-kingdoms"},
+      {"name":"Blackrock Depths entrance","worldXY":[-7178.1,-928.6],"sourceUrl":"https://wowforever.wclbox.com/en/ditu/eastern-kingdoms"}
+    ],
+    "end-plague": [
+      {"name":"Scholomance entrance","worldXY":[1274.8,-2552.6],"sourceUrl":"https://wowforever.wclbox.com/en/ditu/eastern-kingdoms"},
+      {"name":"Stratholme entrance","worldXY":[3392.3,-3378.5],"sourceUrl":"https://wowforever.wclbox.com/en/ditu/eastern-kingdoms"}
+    ]
+  }
+}

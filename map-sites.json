@@ -1,0 +1,20 @@
+{
+  "note": "Named objective landmarks. Artwork x/y are manually checked map positions; reference zone percentages are inherited Classic-era waypoints, not verified Forever beta quest-object coordinates.",
+  "clusters": {
+    "human-elwynn:fargodeep-mine": [
+      {"name":"Fargodeep Mine entrance","map":"elwynn-forest","x":390,"y":548,"zonePercent":[39,82],"sourceUrl":"https://www.wowhead.com/forever/quest=62/the-fargodeep-mine","basis":"Classic-era player waypoint; check Forever terrain"}
+    ],
+    "human-elwynn:jasperlode-eastvale": [
+      {"name":"Jasperlode Mine entrance","map":"elwynn-forest","x":616,"y":361,"zonePercent":[61.6,54.1],"sourceUrl":"https://www.wowhead.com/forever/quest=76/the-jasperlode-mine","basis":"Classic-era player waypoint; check Forever terrain"}
+    ],
+    "westfall-prep:furlbrow-saldean": [
+      {"name":"The Jansen Stead","map":"westfall","x":580,"y":114,"zonePercent":[58,17],"sourceUrl":"https://www.wowhead.com/guide/the-explorers-guide-499","basis":"Classic landmark reference; beta recorder places Verna Furlbrow in this named area"},
+      {"name":"Furlbrow's Pumpkin Farm","map":"westfall","x":510,"y":140,"zonePercent":[51,21],"sourceUrl":"https://www.wowhead.com/guide/the-explorers-guide-499","basis":"Classic landmark reference; check Forever terrain"},
+      {"name":"Saldean's Farm","map":"westfall","x":550,"y":215,"zonePercent":[54,31],"sourceUrl":"https://www.wowhead.com/guide/the-explorers-guide-499","basis":"Classic landmark reference; check Forever terrain"}
+    ],
+    "westfall-prep:jangolode-coast": [
+      {"name":"Jangolode Mine","map":"westfall","x":440,"y":160,"zonePercent":[44,24],"sourceUrl":"https://www.wowhead.com/guide/the-explorers-guide-499","basis":"Classic landmark reference; check Forever terrain"},
+      {"name":"Gold Coast Quarry","map":"westfall","x":320,"y":287,"zonePercent":[32,43],"sourceUrl":"https://www.wowhead.com/wotlk/achievement=802/explore-westfall","basis":"Classic landmark reference; check Forever terrain"}
+    ]
+  }
+}
