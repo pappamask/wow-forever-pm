@@ -1228,9 +1228,31 @@
       ],
       "priest": "Keep Deepblaze or a comparable wand equipped. Use spell damage to soften enemies and wand to preserve mana.",
       "pvp": "Keep the northern transfer as a group journey. Do not walk into hostile territory merely to look for a group.",
-      "exit": "Head for Ruins at roughly 17–18; unfinished Defias preparation can be completed afterward.",
+      "exit": "Leave for the short Lakeshire breadcrumb visit, then Ruins at 17–18. Return to Sentinel Hill at 18–19 for unfinished Defias steps.",
       "alt": "Use Loch Modan quests if Westfall is too congested, but preserve the dungeon order.",
       "dungeon": "deadmines"
+    },
+    {
+      "id": "redridge-breadcrumb",
+      "range": [
+        16,
+        17
+      ],
+      "zone": "Redridge Mountains",
+      "title": "Redridge: a short Defias breadcrumb visit",
+      "hub": "Sentinel Hill → Lakeshire → Stormwind",
+      "goal": "Advance the Defias travel leg without attempting the higher-level Redridge camps.",
+      "steps": [
+        "Take the Lakeshire flight path and advance The Defias Brotherhood with Wiley the Black when that step is offered.",
+        "Complete only safe roadside errands while traveling; leave the lake and canyon quest circuits for the level-20 return.",
+        "Batch the Stormwind report and training stop, then regroup for Ruins of Lordaeron."
+      ],
+      "priest": "Short controlled pulls beat recovering from crowded camps. Save Psychic Scream for clear ground.",
+      "pvp": "Contested roads and town approaches can be busy. Leave a camp after repeated targeted deaths.",
+      "exit": "Leave once the report is ready. Return to Westfall after Ruins for the messenger and escort.",
+      "alt": "Use saved quest progress and actual level to skip finished objectives; preserve the required dungeon order.",
+      "visitOf": "redridge",
+      "routeSource": "https://www.sageguide.net/"
     },
     {
       "id": "ruins-stage",
@@ -1254,6 +1276,28 @@
       "exit": "Return south before Deadmines; do not swap the order because a group happens to be available.",
       "alt": "If the approach is camped, finish southern prerequisites and retry with the same planned dungeon order.",
       "dungeon": "ruins"
+    },
+    {
+      "id": "westfall-return",
+      "range": [
+        18,
+        19
+      ],
+      "zone": "Westfall",
+      "title": "Westfall: return for the Deadmines finale",
+      "hub": "Stormwind → Sentinel Hill → Moonbrook",
+      "goal": "Resume the Defias chain after the northern run and enter Deadmines with the full quest package.",
+      "steps": [
+        "Hearth to Stormwind after Ruins; turn in the crest and check the three Deadmines pickups.",
+        "Return to Gryan Stoutmantle and finish any pending report, Defias Messenger and Defias Traitor escort steps.",
+        "Collect the final Defias Brotherhood objective and Red Silk Bandanas. Clear useful nearby leftovers only if below a comfortable run level."
+      ],
+      "priest": "Keep Deepblaze or a comparable wand equipped. Use spell damage to soften enemies and wand to preserve mana.",
+      "pvp": "Keep the northern transfer as a group journey. Do not walk into hostile territory merely to look for a group.",
+      "exit": "Join the prepared Deadmines clear at 19–20. Keep the Lordaeron letter for Duskwood.",
+      "alt": "Use saved quest progress and actual level to skip finished objectives; preserve the required dungeon order.",
+      "visitOf": "westfall-prep",
+      "routeSource": "https://www.sageguide.net/"
     },
     {
       "id": "deadmines-stage",
@@ -1297,7 +1341,7 @@
       ],
       "priest": "Short controlled pulls beat recovering from crowded camps. Save Psychic Scream for clear ground.",
       "pvp": "Contested roads and town approaches can be busy. Leave a camp after repeated targeted deaths.",
-      "exit": "Move to Duskwood around 23–24 or earlier if only difficult quests remain.",
+      "exit": "Leave for Duskwood around 24. Save harder Render’s camp and Stonewatch finales for the explicit level-29 return.",
       "alt": "Early Duskwood or suitable remaining Loch Modan quests."
     },
     {
@@ -1319,7 +1363,7 @@
       ],
       "priest": "Undead control can be useful when available. Use it deliberately and keep DoTs off a controlled enemy.",
       "pvp": "Do not sit low on mana along a busy road or deep in the cemetery.",
-      "exit": "Move to Wetlands around 26–27 when local quests become travel-heavy.",
+      "exit": "Move to Wetlands around 27. Return at 29–30 for worthwhile Raven Hill and cemetery follow-ups.",
       "alt": "Wetlands, or remaining Redridge quests now within your level."
     },
     {
@@ -1341,8 +1385,52 @@
       ],
       "priest": "Be careful with underwater objectives: pull conservatively and surface before committing to another enemy.",
       "pvp": "Retreat toward a clear road, not into additional marsh enemies.",
-      "exit": "Around 30, choose northern Stranglethorn or Arathi based on available quests and pressure.",
+      "exit": "Finish the prepared Stockades and BFD circuit, then return to Duskwood and Redridge for useful southern follow-ups before Stranglethorn.",
       "alt": "Finish Duskwood chains or take one prepared dungeon run."
+    },
+    {
+      "id": "duskwood-return",
+      "range": [
+        29,
+        30
+      ],
+      "zone": "Duskwood",
+      "title": "Duskwood: return for the western chains",
+      "hub": "Stormwind → Darkshire → Raven Hill",
+      "goal": "Resume useful western chains after Wetlands and the prepared Stockades circuit.",
+      "steps": [
+        "Finish the Stockades turn-ins in Stormwind before flying to Darkshire. Review your saved Duskwood quest statuses and stage notes.",
+        "Resume the Raven Hill, embalmer and cemetery chains left pending on the first visit; batch western objectives before returning to Darkshire.",
+        "Finish the Lordaeron letter follow-up if still pending. Group for Mor’ladim or leave the elite objective blocked when no group is available."
+      ],
+      "priest": "Undead control can be useful when available. Use it deliberately and keep DoTs off a controlled enemy.",
+      "pvp": "Do not sit low on mana along a busy road or deep in the cemetery.",
+      "exit": "Return to Lakeshire for useful Redridge finales, then continue to northern Stranglethorn. Skip finished or low-value chains.",
+      "alt": "Use saved quest progress and actual level to skip finished objectives; preserve the required dungeon order.",
+      "visitOf": "duskwood",
+      "routeSource": "https://www.sageguide.net/"
+    },
+    {
+      "id": "redridge-return",
+      "range": [
+        29,
+        30
+      ],
+      "zone": "Redridge Mountains",
+      "title": "Redridge: return for deferred camp finales",
+      "hub": "Darkshire → Lakeshire → eastern Redridge",
+      "goal": "Revisit the harder camps only when their quests and a suitable group make the short southern loop worthwhile.",
+      "steps": [
+        "Fly to Lakeshire and resume accepted Render’s camp and Stonewatch chains from the earlier visit.",
+        "Combine ready eastern-camp objectives in one sweep. Group for elite finales; skip completed, grey or unavailable objectives.",
+        "Turn in at Lakeshire and travel toward Rebel Camp. Do not repeat Shadowfang Keep solely for XP."
+      ],
+      "priest": "Short controlled pulls beat recovering from crowded camps. Save Psychic Scream for clear ground.",
+      "pvp": "Contested roads and town approaches can be busy. Leave a camp after repeated targeted deaths.",
+      "exit": "Continue to northern Stranglethorn around 30; no forced cleanup if dungeon XP already puts you ahead.",
+      "alt": "Use saved quest progress and actual level to skip finished objectives; preserve the required dungeon order.",
+      "visitOf": "redridge",
+      "routeSource": "https://www.sageguide.net/"
     },
     {
       "id": "stvnorth",
@@ -1363,7 +1451,7 @@
       ],
       "priest": "DoTs are useful on enemies that survive enough ticks. Avoid mana-heavy multi-pulls in contested hunting areas.",
       "pvp": "This bracket can be volatile. Two deaths to the same group is the signal to switch areas.",
-      "exit": "Move to Arathi around 33, or sooner when contested objectives stall.",
+      "exit": "Leave for Arathi around 33. Return after the Desolace and Monastery block at 39–40 for the next useful hunting-chain steps.",
       "alt": "Arathi; remaining Wetlands quests; a prepared Scarlet Monastery run."
     },
     {
@@ -1407,8 +1495,30 @@
       ],
       "priest": "Revisit training and wand strength when kills slow down. Save gold for upcoming travel improvements.",
       "pvp": "A quieter zone can beat an optimal quest route interrupted by corpse runs.",
-      "exit": "Move into the 40–45 circuit when suitable quests thin out.",
+      "exit": "Finish the Monastery turn-ins, then return to northern Stranglethorn at 39–40 before the short Badlands/RFD block.",
       "alt": "Arathi cleanup or optional Riverglades. Do not add every option to the same route."
+    },
+    {
+      "id": "stvnorth-return",
+      "range": [
+        39,
+        40
+      ],
+      "zone": "Northern Stranglethorn",
+      "title": "Northern Stranglethorn: return to hunting chains",
+      "hub": "Southshore turn-ins → Rebel Camp / Nesingwary’s Expedition",
+      "goal": "Use the next hunting and Kurzen chain stages after the Desolace and Monastery circuit.",
+      "steps": [
+        "Complete the prepared Monastery block and its outside turn-ins before crossing back south.",
+        "Resume hunting or Kurzen objectives that were too difficult at 30–33; collect the next chain steps before starting one compact loop.",
+        "Batch expedition and Rebel Camp turn-ins. Avoid forcing elite finales or remote Booty Bay errands when the required RFD circuit is ready."
+      ],
+      "priest": "DoTs are useful on enemies that survive enough ticks. Avoid mana-heavy multi-pulls in contested hunting areas.",
+      "pvp": "This bracket can be volatile. Two deaths to the same group is the signal to switch areas.",
+      "exit": "Move to the short Badlands and RFD preparation block at 40. Dungeon XP can replace this bridge.",
+      "alt": "Use saved quest progress and actual level to skip finished objectives; preserve the required dungeon order.",
+      "visitOf": "stvnorth",
+      "routeSource": "https://www.sageguide.net/"
     },
     {
       "id": "badlands",
@@ -1451,7 +1561,7 @@
       ],
       "priest": "Carry sufficient water for long loops. Do not turn a crowded camp into a multi-target mana test.",
       "pvp": "Do not assume a neutral town prevents PvP trouble outside its guarded area.",
-      "exit": "Move to the Feralas / Zul’Farrak circuit around 47; the dungeon is required.",
+      "exit": "Leave for Feralas and the prepared Zul’Farrak run around 47. Return at 49–50 for turn-ins and Marvon’s temple preparation.",
       "alt": "Feralas or Hinterlands if the desert is heavily contested."
     },
     {
@@ -1473,8 +1583,30 @@
       ],
       "priest": "Maintain a small healing set without filling all bag slots. Sell between major circuits.",
       "pvp": "Trees and uneven terrain obscure players and additional enemies; keep your exit visible.",
-      "exit": "Move toward Un’Goro around 50–51, completing only useful remaining chains.",
+      "exit": "After Zul’Farrak, return to Tanaris at 49–50 for turn-ins and temple preparation before the level-50 circuit.",
       "alt": "Hinterlands or remaining Tanaris objectives."
+    },
+    {
+      "id": "tanaris-return",
+      "range": [
+        49,
+        50
+      ],
+      "zone": "Tanaris",
+      "title": "Tanaris: return for Zul’Farrak turn-ins and temple prep",
+      "hub": "Zul’Farrak → Gadgetzan / Steamwheedle → Marvon",
+      "goal": "Return after the Feralas and Zul’Farrak circuit to finish turn-ins and advance Sunken Temple preparation.",
+      "steps": [
+        "Turn in completed Zul’Farrak quests around Gadgetzan and Steamwheedle Port; advance Yeh’kinya’s follow-ups when offered.",
+        "Resume Marvon Rivetseeker’s temple chain and retain its outside travel prerequisites for the Sunken Temple block at 54–55.",
+        "Finish only productive desert or pirate leftovers, then travel toward the Maraudon and Un’Goro block. Do not repeat Zul’Farrak for filler XP."
+      ],
+      "priest": "Carry sufficient water for long loops. Do not turn a crowded camp into a multi-target mana test.",
+      "pvp": "Do not assume a neutral town prevents PvP trouble outside its guarded area.",
+      "exit": "Continue to the level-50 circuit with temple preparation recorded. Skip completed desert loops.",
+      "alt": "Use saved quest progress and actual level to skip finished objectives; preserve the required dungeon order.",
+      "visitOf": "tanaris",
+      "routeSource": "https://www.sageguide.net/"
     },
     {
       "id": "ungoro",
